@@ -1,0 +1,6 @@
+exclude: ["README.md", ".gitignore"]
+permalink: /:title/
+pygments: true
+title: leandroadacosta.com
+author:
+   name: Leandro A. da Costa
