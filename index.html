@@ -1,18 +1,17 @@
 ---
-layout: default
+layout: base
 title: Home
+description: Artigos sobre empreendedorismo, liderança educadora e desenvolvimento de software
 ---
-<h1>Blog do Leandro A. da Costa</h1>
-<p>Artigos sobre empreendedorismo, liderança educadora e desenvolvimento de software.</p>
-
+<h1>Blog Leandro Costa</h1>
+<p>Artigos sobre empreendedorismo, liderança educadora e desenvolvimento de software. Saiba mais <a href="./sobre">sobre mim</a>. Seja bem-vindo!</p>
 <h2>Últimos posts</h2>
-
-<ul class="posts">
+<ul>
   {% for post in site.posts %}
   	{% if post.draft != true %}
     	<li class="{{ post.class }}">
-          <a href="{{ post.url }}">{{ post.title }}</a> 
-          <span class="date">{{ post.date | date_to_string }}</span>
+        <a href="{{ post.url }}">{{ post.title }}</a> 
+        <span class="is-smooth-text is-small-text">{{ post.date | date_to_string }}</span>
       </li>
     {% endif %}
   {% endfor %}

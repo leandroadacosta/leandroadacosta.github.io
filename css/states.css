@@ -1,0 +1,7 @@
+.is-smooth-text {
+	color: #666;
+}
+
+.is-small-text {
+	font-size: 0.8125em; /* 13px ÷ 16px */
+}

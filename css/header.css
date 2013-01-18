@@ -1,0 +1,80 @@
+.header {
+	position: relative;
+	border-bottom: 2px solid #FFF;
+	padding: 0.3125em; /* 5px ÷ 16px */
+	margin-bottom: 1em;
+}
+
+.header__avatar {
+	-webkit-border-radius: 50%;
+	 -khtml-border-radius: 50%;
+ 	 	 -moz-border-radius: 50%;
+					border-radius: 50%;
+	width: 16%;
+	vertical-align: middle;
+}
+
+.header__box {
+	position: absolute;
+	top: 15%;
+	left: 20%;
+}
+
+.header__title {
+	font-family: "Helvetica Neue";
+	font-size: 1.125em;
+}
+
+.header__blog-name {
+	font-weight: bold;
+	text-decoration: none;
+	color: #060;
+}
+
+.header__desc {
+	display: none;
+	color: #666;
+}
+
+@media screen and (min-width:400px) {
+	.header__box {
+		top: 18%;
+	}
+	
+	.header__title {
+		font-size: 1.375em; /* 22px ÷ 16px */
+	}
+}
+
+@media screen and (min-width:600px) {
+	.header__title {
+		font-size: 1.625em; /* 26px ÷ 16px */
+	}
+}
+
+@media screen and (min-width:700px) {
+	.header__title {
+		font-size: 1.75em; /* 28px ÷ 16px */
+	}
+}
+
+@media screen and (min-width:850px) {
+	.header {
+		border-bottom: 3px solid #D7EDC6;
+		padding: 0.625em; /* 10px ÷ 16px */
+	}
+	
+	.header__box {
+		top: 10%;
+	}
+	
+	.header__title {
+		margin-bottom: 0;
+		font-size: 2em; /* 30px ÷ 16px */
+	}
+	
+	.header__desc {
+		display: inline-block;
+		margin-top: 0.5em; /* 5px ÷ 16px */
+	}
+}
