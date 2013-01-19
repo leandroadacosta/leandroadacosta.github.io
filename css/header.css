@@ -53,8 +53,18 @@
 }
 
 @media screen and (min-width:700px) {
+	.header__box {
+		top: 10%;
+	}
+	
 	.header__title {
+		margin-bottom: 0;
 		font-size: 1.75em; /* 28px ÷ 16px */
+	}
+	
+	.header__desc {
+		display: inline-block;
+		margin-top: 0.5em; /* 5px ÷ 16px */
 	}
 }
 
@@ -64,17 +74,7 @@
 		padding: 0.625em; /* 10px ÷ 16px */
 	}
 	
-	.header__box {
-		top: 10%;
-	}
-	
 	.header__title {
-		margin-bottom: 0;
 		font-size: 2em; /* 30px ÷ 16px */
-	}
-	
-	.header__desc {
-		display: inline-block;
-		margin-top: 0.5em; /* 5px ÷ 16px */
 	}
 }
