@@ -6,10 +6,7 @@
 }
 
 .header__avatar {
-	-webkit-border-radius: 50%;
-	 -khtml-border-radius: 50%;
- 	 	 -moz-border-radius: 50%;
-					border-radius: 50%;
+	border-radius: 50%;
 	width: 16%;
 	vertical-align: middle;
 }
@@ -47,6 +44,10 @@
 }
 
 @media screen and (min-width:600px) {
+	.header__avatar {
+		box-shadow: #999 0 3px 5px;
+	}
+	
 	.header__title {
 		font-size: 1.625em; /* 26px ÷ 16px */
 	}

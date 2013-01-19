@@ -1,0 +1,29 @@
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1024px;
+}
+
+.main {
+	padding: 0 0.625em 1em; /* 10px ÷ 16px */ /* 16px ÷ 16px */
+}
+
+.article-footer {
+	margin-top: 1.25em; /* 20px ÷ 16px */
+	border-top: 2px solid #DDD;
+}
+
+.btn {
+	border-radius: 0.3125em; /* 5px ÷ 16px */
+	display: inline-block;
+	padding: 0.375em 0.625em; /* 6px ÷ 16px */ /* 10px ÷ 16px */
+	background-color: #090;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #0B0;
+	color: #FFF;
+	text-decoration: underline;
+}
