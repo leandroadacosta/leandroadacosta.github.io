@@ -13,7 +13,8 @@
 	border-top: 2px solid #DDD;
 }
 
-.btn {
+.btn,
+.btn:link {
 	border-radius: 0.3125em; /* 5px ÷ 16px */
 	display: inline-block;
 	padding: 0.375em 0.625em; /* 6px ÷ 16px */ /* 10px ÷ 16px */
