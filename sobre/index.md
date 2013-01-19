@@ -17,7 +17,7 @@ title: Sobre
 ## Social
 * [Twitter](http://twitter.com/leandroadacosta)
 * [Facebook](http://www.facebook.com.br/leandroadacosta)
-* [Github](https://github.com/leandroadacosta)
+* [GitHub](https://github.com/leandroadacosta)
 * [LinkedIn](http://www.linkedin.com/in/leandroadacosta)
 
 ## Formação acadêmica
@@ -29,6 +29,9 @@ title: Sobre
 * Membro e organizador do GURU-Baixada (Grupo de Usuários Ruby On Rails da Baixada Santista)
 
 ## Este blog
+* Design responsivo
+* Desenvolvido baseado no [Jekyll](https://github.com/mojombo/jekyll)
+* Hospedado no [GitHub Pages](http://pages.github.com)
 * [Código fonte disponível](https://github.com/leandroadacosta/leandroadacosta.github.com) no GitHub
 * No ar desde **janeiro de 2013**
 * [Feed RSS]({{ site.url }}/atom.xml)
