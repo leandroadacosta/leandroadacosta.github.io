@@ -5,9 +5,13 @@
  <link href="http://leandroadacosta.com/atom.xml" rel="self"/>
  <link href="http://leandroadacosta.com"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  <updated>2013-01-19T19:27:53-02:00</updated>
 =======
  <updated>2013-01-19T19:46:35-02:00</updated>
+>>>>>>> Stashed changes
+=======
+ <updated>2013-01-19T19:51:30-02:00</updated>
 >>>>>>> Stashed changes
  <id>http://leandroadacosta.com</id>
  <author>
@@ -22,17 +26,23 @@
    <updated>2012-07-18T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//tdc-2012-sao-paulo-highlights</id>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
    <content type="html">&lt;a href='/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg'&gt;&lt;img alt='TDC 2012 São Paulo' src='/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg?w=300' style='max-width:640px' /&gt;&lt;/a&gt;
 &lt;p&gt;Sábado 07/07/2012 participei da conferência de desenvolvedores de software (&lt;a href='http://www.thedevelopersconference.com.br/tdc/2012/index.html' target='_blank'&gt;TDC 2012 São Paulo&lt;/a&gt;) na Universidade Anhembi Morumbi. Antes de falar sobre as palestras deixo um recado: ir a eventos é sempre muito bom, além do networking ser importante, vejo a troca de experiências como o maior benefício. O profissional de TI que não tem o senso de comunidade, está deixando de lado algo muito valioso.&lt;/p&gt;
 &lt;a href='/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg'&gt;&lt;img alt='TDC 2012 São Paulo' src='/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg?w=300' style='max-width:640px' /&gt;&lt;/a&gt;
 &lt;p&gt;O evento aconteceu de 4 a 8 de Julho. Consegui ir somente no Sábado (dia 07) na &lt;a href='http://www.thedevelopersconference.com.br/tdc/2012/saopaulo/trilha-ruby#programacao' target='_blank'&gt;trilha de Ruby&lt;/a&gt; - sim, somente a linguagem Ruby, sem falar do framework &lt;a href='http://rubyonrails.com.br/' target='_blank'&gt;Rails&lt;/a&gt;. Das palestras, que por sinal foram muito boas, consegui tirar alguns pontos importantes que gostaria de compartilhá-los.&lt;/p&gt;
 &lt;a href='/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg'&gt;&lt;img alt='Ricardo Valeriano - TDC 2012 São Paulo' src='/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg?w=300' style='max-width:640px' /&gt;&lt;/a&gt;
 =======
+=======
+>>>>>>> Stashed changes
    <content type="html">&lt;a href='/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg'&gt;&lt;img alt='TDC 2012 São Paulo' src='/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg' style='max-width:640px' /&gt;&lt;/a&gt;
 &lt;p&gt;Sábado 07/07/2012 participei da conferência de desenvolvedores de software (&lt;a href='http://www.thedevelopersconference.com.br/tdc/2012/index.html' target='_blank'&gt;TDC 2012 São Paulo&lt;/a&gt;) na Universidade Anhembi Morumbi. Antes de falar sobre as palestras deixo um recado: ir a eventos é sempre muito bom, além do networking ser importante, vejo a troca de experiências como o maior benefício. O profissional de TI que não tem o senso de comunidade, está deixando de lado algo muito valioso.&lt;/p&gt;
 &lt;a href='/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg'&gt;&lt;img alt='TDC 2012 São Paulo' src='/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg' style='max-width:640px' /&gt;&lt;/a&gt;
 &lt;p&gt;O evento aconteceu de 4 a 8 de Julho. Consegui ir somente no Sábado (dia 07) na &lt;a href='http://www.thedevelopersconference.com.br/tdc/2012/saopaulo/trilha-ruby#programacao' target='_blank'&gt;trilha de Ruby&lt;/a&gt; - sim, somente a linguagem Ruby, sem falar do framework &lt;a href='http://rubyonrails.com.br/' target='_blank'&gt;Rails&lt;/a&gt;. Das palestras, que por sinal foram muito boas, consegui tirar alguns pontos importantes que gostaria de compartilhá-los.&lt;/p&gt;
 &lt;a href='/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg'&gt;&lt;img alt='Ricardo Valeriano - TDC 2012 São Paulo' src='/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg' style='max-width:640px' /&gt;&lt;/a&gt;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 &lt;p&gt;O dia começou com a palestra do grande &lt;a href='http://blog.ricardovaleriano.com/' target='_blank'&gt;Ricardo Valeriano&lt;/a&gt; sobre &amp;#8221;&lt;strong&gt;A ferramenta ideal: uma questão de perspectiva.&lt;/strong&gt;&amp;#8220; e, como sempre, deu um show de dinamismo, descontraindo bastante a galera com seus slides cheios de &lt;em&gt;memes&lt;/em&gt;, gostei bastante. Seguem os &lt;em&gt;highlights&lt;/em&gt;: &lt;ul&gt;
 	&lt;li&gt;Desenvolver software é muito complexo, em sua maioria criasse um legado a longo prazo que não é sustentável. No começo e durante o desenvolvimento os profissionais tomam decisões sobre quais ferramentas vão usar - seja lá qual for, seja uma api específica, um framework, a linguagem a utilizar, ou etc. - sem entender completamente o porque, sem saber criticar as suas escolhas. Se preocupar sempre com o legado é essencial, no futuro pode ser outra pessoa ou equipe que vai encontrar um monstro ou um projeto bem estruturado, pense nisso. O projeto tem que se manter sustentável ao longo do tempo. Tenha em mente e entenda sempre as desvantagens da decisão tomada, assim você conseguirá evoluir o software com qualidade.&lt;/li&gt;
@@ -183,6 +193,7 @@ Um abraço.&lt;/p&gt;</content>
    <updated>2011-11-12T00:00:00-02:00</updated>
    <id>http://leandroadacosta.com//cultura-de-conquista-parte-1</id>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
    <content type="html">&lt;p style=&quot;text-align:justify;&quot;&gt;Dando sequência ao post anterior, sobre o &lt;a title=&quot;Perigo na Zona de Conforto&quot; href=&quot;/perigo-na-zona-de-conforto&quot; target=&quot;_blank&quot;&gt;Perigo na Zona de Conforto&lt;/a&gt; do hábito do &lt;strong&gt;Direito Adquirido&lt;/strong&gt;. Falaremos da &lt;strong&gt;cultura de conquista&lt;/strong&gt;. A conquista tem seu fator psicológico, poderíamos dizer que seria o estado de conquista em vez de cultura.&lt;/p&gt;
 &lt;!--more--&gt;
 &lt;h2 style=&quot;text-align:justify;&quot;&gt;Terras altas da &quot;Conquista&quot;&lt;/h2&gt;
@@ -208,6 +219,9 @@ Um abraço.&lt;/p&gt;
 =======
    <content type="html">&lt;p&gt;Dando sequência ao post anterior, sobre o &lt;a href='/perigo-na-zona-de-conforto' target='_blank' title='Perigo na Zona de Conforto'&gt;Perigo na Zona de Conforto&lt;/a&gt; do hábito do &lt;strong&gt;Direito Adquirido&lt;/strong&gt;. Falaremos da &lt;strong&gt;cultura de conquista&lt;/strong&gt;. A conquista tem seu fator psicológico, poderíamos dizer que seria o estado de conquista em vez de cultura.&lt;/p&gt;&lt;h2&gt;Terras altas da &quot;Conquista&quot;&lt;/h2&gt;&lt;p&gt;Os gestores que lideram colocando as pessoas em um &lt;strong&gt;ambiente&lt;/strong&gt; de &lt;strong&gt;não-hierarquia&lt;/strong&gt; onde produzem mais, &lt;strong&gt;pensam criativamente&lt;/strong&gt;, trabalham junto &lt;strong&gt;como uma equipe&lt;/strong&gt; e são levadas a desenvolverem suas &lt;strong&gt;competências, &lt;/strong&gt;fazem com que suas organizações saiam da areia movediça do&lt;strong&gt; direito &quot;Adquirido&quot; &lt;/strong&gt;às terras altas da&lt;strong&gt; &quot;&lt;strong&gt;Conquista&lt;/strong&gt;&quot;&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Um ambiente de conquista fornece &lt;strong&gt;oportunidades de conseguir&lt;/strong&gt; e requer trabalhadores para fazer isso. Os empregados não têm medo de agir - porque se sentem importantes - e a pressão para serem bem sucedidos torna o trabalho estimulante.&lt;/p&gt;&lt;h2&gt;Produtividade&lt;/h2&gt;&lt;p&gt;O fato de fazer as pessoas trabalharem e esperar que façam o melhor desenvolve a &lt;strong&gt;confiança&lt;/strong&gt; e a &lt;strong&gt;independência&lt;/strong&gt;. A confiança e a coragem resultante da conquista do próprio caminho produzem grandes &lt;strong&gt;solucionadores de problemas&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Quando se leva os empregados a desenvolver um conceito de conquista, &lt;em&gt;dá-se-lhes poder para conseguir, para resolver problemas, para progredir, para mudar e se adaptar&lt;/em&gt;. Enrolar-se em um cobertor de segurança burocrática nunca resolveu problema ou reduziu a ansiedade.&lt;/p&gt;&lt;h2&gt;Criatividade e Violação das Normas Estabelecidas&lt;/h2&gt;&lt;p&gt;A ligação entre a &lt;strong&gt;conquista&lt;/strong&gt; e a &lt;strong&gt;inovação&lt;/strong&gt; é especialmente importante no cenário competitivo do fazer-ou-morrer de hoje. Conquistas e concessão de poder são pré requisitos para a &lt;strong&gt;criatividade&lt;/strong&gt;, especialmente onde avanços maiores estão envolvidos. A criatividade exige aquilo que os psicólogos chamam de &lt;em&gt;&quot;violação das normas estabelecidas&quot;&lt;/em&gt; - ver as coisas de &lt;strong&gt;modo diferente&lt;/strong&gt; de como têm sido vistas antes. A &lt;strong&gt;violação das normas&lt;/strong&gt; envolve &lt;strong&gt;riscos&lt;/strong&gt;, porque ser diferente geralmente é visto - pelo menos no início - como estar errado.&lt;/p&gt;&lt;h2&gt;Equipe de trabalho&lt;/h2&gt;&lt;p&gt;A equipe de trabalho falha sob a psicologia do direito &quot;Adquirido&quot; porque as pessoas se preocupam demais em &lt;strong&gt;se proteger&lt;/strong&gt;. Liderar ou treinar as pessoas para trabalhar como equipe é algo que entra por uma orelha e sai por outra, pois as pessoas estão &lt;strong&gt;inseguras&lt;/strong&gt; demais para &lt;strong&gt;contribuir&lt;/strong&gt; para o &lt;strong&gt;bem-estar&lt;/strong&gt; dos &lt;strong&gt;colegas&lt;/strong&gt;, que poderiam acabar bem melhores que eles.&lt;/p&gt;&lt;p&gt;Por outro lado, as pessoas que trabalham em um ambiente de &quot;Conquista&quot; são membros de equipe com autoridade - e competidores também. Ninguém quer deixar a equipe cair. Há uma atmosfera de tensão criativa, uma certa mistura de cooperação e competição que leva a um risco criativo, erradica a complacência e assegura melhores decisões.&lt;/p&gt;&lt;p&gt;--&lt;/p&gt;&lt;p&gt;Resumo retirado do texto: O Hábito do “Direito Adquirido”: Ele está nos matando por Judith M. Bardwick.&lt;/p&gt;&lt;p&gt;Aqui no trabalho estamos constantemente buscando o estado/cultura de conquista.&lt;/p&gt;&lt;p&gt;A &lt;a href='/cultura-de-conquista-parte-2/' target='_blank' title='Cultura de Conquista – Parte 2'&gt;&lt;strong&gt;segunda parte&lt;/strong&gt; deste post&lt;/a&gt; falo mais da busca de uma &lt;strong&gt;organização vitoriosa&lt;/strong&gt; da cultura de conquista, aspectos como: &lt;strong&gt;pressão&lt;/strong&gt;, &lt;strong&gt;desempenho&lt;/strong&gt;, &lt;strong&gt;medo&lt;/strong&gt; e &lt;strong&gt;estilo de liderança&lt;/strong&gt;. Um abraço.&lt;/p&gt;</content>
 >>>>>>> Stashed changes
+=======
+   <content type="html">&lt;p&gt;Dando sequência ao post anterior, sobre o &lt;a href='/perigo-na-zona-de-conforto' target='_blank' title='Perigo na Zona de Conforto'&gt;Perigo na Zona de Conforto&lt;/a&gt; do hábito do &lt;strong&gt;Direito Adquirido&lt;/strong&gt;. Falaremos da &lt;strong&gt;cultura de conquista&lt;/strong&gt;. A conquista tem seu fator psicológico, poderíamos dizer que seria o estado de conquista em vez de cultura.&lt;/p&gt;&lt;h2&gt;Terras altas da &quot;Conquista&quot;&lt;/h2&gt;&lt;p&gt;Os gestores que lideram colocando as pessoas em um &lt;strong&gt;ambiente&lt;/strong&gt; de &lt;strong&gt;não-hierarquia&lt;/strong&gt; onde produzem mais, &lt;strong&gt;pensam criativamente&lt;/strong&gt;, trabalham junto &lt;strong&gt;como uma equipe&lt;/strong&gt; e são levadas a desenvolverem suas &lt;strong&gt;competências, &lt;/strong&gt;fazem com que suas organizações saiam da areia movediça do&lt;strong&gt; direito &quot;Adquirido&quot; &lt;/strong&gt;às terras altas da&lt;strong&gt; &quot;&lt;strong&gt;Conquista&lt;/strong&gt;&quot;&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Um ambiente de conquista fornece &lt;strong&gt;oportunidades de conseguir&lt;/strong&gt; e requer trabalhadores para fazer isso. Os empregados não têm medo de agir - porque se sentem importantes - e a pressão para serem bem sucedidos torna o trabalho estimulante.&lt;/p&gt;&lt;h2&gt;Produtividade&lt;/h2&gt;&lt;p&gt;O fato de fazer as pessoas trabalharem e esperar que façam o melhor desenvolve a &lt;strong&gt;confiança&lt;/strong&gt; e a &lt;strong&gt;independência&lt;/strong&gt;. A confiança e a coragem resultante da conquista do próprio caminho produzem grandes &lt;strong&gt;solucionadores de problemas&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Quando se leva os empregados a desenvolver um conceito de conquista, &lt;em&gt;dá-se-lhes poder para conseguir, para resolver problemas, para progredir, para mudar e se adaptar&lt;/em&gt;. Enrolar-se em um cobertor de segurança burocrática nunca resolveu problema ou reduziu a ansiedade.&lt;/p&gt;&lt;h2&gt;Criatividade e Violação das Normas Estabelecidas&lt;/h2&gt;&lt;p&gt;A ligação entre a &lt;strong&gt;conquista&lt;/strong&gt; e a &lt;strong&gt;inovação&lt;/strong&gt; é especialmente importante no cenário competitivo do fazer-ou-morrer de hoje. Conquistas e concessão de poder são pré requisitos para a &lt;strong&gt;criatividade&lt;/strong&gt;, especialmente onde avanços maiores estão envolvidos. A criatividade exige aquilo que os psicólogos chamam de &lt;em&gt;&quot;violação das normas estabelecidas&quot;&lt;/em&gt; - ver as coisas de &lt;strong&gt;modo diferente&lt;/strong&gt; de como têm sido vistas antes. A &lt;strong&gt;violação das normas&lt;/strong&gt; envolve &lt;strong&gt;riscos&lt;/strong&gt;, porque ser diferente geralmente é visto - pelo menos no início - como estar errado.&lt;/p&gt;&lt;h2&gt;Equipe de trabalho&lt;/h2&gt;&lt;p&gt;A equipe de trabalho falha sob a psicologia do direito &quot;Adquirido&quot; porque as pessoas se preocupam demais em &lt;strong&gt;se proteger&lt;/strong&gt;. Liderar ou treinar as pessoas para trabalhar como equipe é algo que entra por uma orelha e sai por outra, pois as pessoas estão &lt;strong&gt;inseguras&lt;/strong&gt; demais para &lt;strong&gt;contribuir&lt;/strong&gt; para o &lt;strong&gt;bem-estar&lt;/strong&gt; dos &lt;strong&gt;colegas&lt;/strong&gt;, que poderiam acabar bem melhores que eles.&lt;/p&gt;&lt;p&gt;Por outro lado, as pessoas que trabalham em um ambiente de &quot;Conquista&quot; são membros de equipe com autoridade - e competidores também. Ninguém quer deixar a equipe cair. Há uma atmosfera de tensão criativa, uma certa mistura de cooperação e competição que leva a um risco criativo, erradica a complacência e assegura melhores decisões.&lt;/p&gt;&lt;p&gt;--&lt;/p&gt;&lt;p&gt;Resumo retirado do texto: O Hábito do “Direito Adquirido”: Ele está nos matando por Judith M. Bardwick.&lt;/p&gt;&lt;p&gt;Aqui no trabalho estamos constantemente buscando o estado/cultura de conquista.&lt;/p&gt;&lt;p&gt;A &lt;a href='/cultura-de-conquista-parte-2/' target='_blank' title='Cultura de Conquista – Parte 2'&gt;&lt;strong&gt;segunda parte&lt;/strong&gt; deste post&lt;/a&gt; falo mais da busca de uma &lt;strong&gt;organização vitoriosa&lt;/strong&gt; da cultura de conquista, aspectos como: &lt;strong&gt;pressão&lt;/strong&gt;, &lt;strong&gt;desempenho&lt;/strong&gt;, &lt;strong&gt;medo&lt;/strong&gt; e &lt;strong&gt;estilo de liderança&lt;/strong&gt;. Um abraço.&lt;/p&gt;</content>
+>>>>>>> Stashed changes
  </entry>
  
  <entry>
@@ -215,6 +229,7 @@ Um abraço.&lt;/p&gt;
    <link href="http://leandroadacosta.com/perigo-na-zona-de-conforto/"/>
    <updated>2011-10-25T00:00:00-02:00</updated>
    <id>http://leandroadacosta.com//perigo-na-zona-de-conforto</id>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
    <content type="html">&lt;p style=&quot;text-align:justify;&quot;&gt;Este post é um resumo - com minhas considerações - do oficial resumo chamado: &lt;em&gt;&lt;strong&gt;O Hábito do &quot;Direito Adquirido&quot;: Ele está nos matando&lt;/strong&gt; por Judith M. Bardwick&lt;/em&gt;.&lt;/p&gt;
 &lt;p style=&quot;text-align:justify;&quot;&gt;Retrata um &lt;strong&gt;problema&lt;/strong&gt; desconcertante que poucas &lt;strong&gt;organizações&lt;/strong&gt; têm coragem de enfrentar de cabeça erguida. Para entendermos melhor, vamos a nascente do conceito &quot;Direito Adquirido&quot;, descrito pela autora.&lt;/p&gt;
@@ -243,10 +258,15 @@ Espero ter contribuído de alguma forma.
 Um abraço.
 </content>
 =======
+=======
+>>>>>>> Stashed changes
    <content type="html">&lt;p&gt;Este post é um resumo - com minhas considerações - do oficial resumo chamado: &lt;em&gt;&lt;strong&gt;O Hábito do &quot;Direito Adquirido&quot;: Ele está nos matando&lt;/strong&gt; por Judith M. Bardwick&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Retrata um &lt;strong&gt;problema&lt;/strong&gt; desconcertante que poucas &lt;strong&gt;organizações&lt;/strong&gt; têm coragem de enfrentar de cabeça erguida. Para entendermos melhor, vamos a nascente do conceito &quot;Direito Adquirido&quot;, descrito pela autora.&lt;/p&gt;&lt;h2&gt;Não tolere trabalho não-produtivo&lt;/h2&gt;&lt;p&gt;Judith explica que o que &lt;strong&gt;deteriorou o caráter&lt;/strong&gt; dos empregados e das organizações americanas foi a prosperidade dos EUA. Graças a prosperidade do após-guerra, quase todos os trabalhadores americanos recebiam &lt;strong&gt;promoções&lt;/strong&gt; e &lt;strong&gt;aumentos&lt;/strong&gt; regulares - &lt;strong&gt;independentemente&lt;/strong&gt; da &lt;strong&gt;qualidade&lt;/strong&gt; do seu &lt;strong&gt;trabalho&lt;/strong&gt;. É a herança arruinada dos tempos de prosperidade posteriores à Segunda Guerra Mundial. E onde não há qualquer senso de urgência, a motivação decai e a vitalidade evapora, deixando atrás de si um resíduo de complacência e apatia. Mesmo os bons perdem o estímulo quando vêem &lt;strong&gt;trabalho não-produtivo tolerado&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;É preciso entender que as &lt;strong&gt;condições&lt;/strong&gt; da rígida economia de hoje &lt;strong&gt;demandam mudança&lt;/strong&gt;. O &lt;strong&gt;desafio&lt;/strong&gt; como executivo deve ser o de &lt;strong&gt;levar&lt;/strong&gt; os &lt;strong&gt;colaboradores&lt;/strong&gt; da psicologia do &quot;Direito Adquirido&quot; para a de &quot;&lt;strong&gt;Conquista&lt;/strong&gt;&quot;.&lt;/p&gt;&lt;blockquote&gt;Eu quero pessoas que desafiem seus chefes todo dia: Por que você me manda fazer essas coisas inúteis? Vai ser normal a pessoa dizer: Droga, não estamos chegando lá. Vamos tratar de fazer isto.&lt;/blockquote&gt;&lt;p&gt;Isto é poder. Eis como Jack Welch, Diretor da General Electric e um campeão de trabalhadores conquistadores os vê como empregados conquistadores.&lt;/p&gt;&lt;h2&gt;Não proteja-os do risco&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Proteja-os do risco&lt;/strong&gt; e estará &lt;strong&gt;destruindo&lt;/strong&gt; sua auto-estima e roubando-lhes a oportunidade de serem &lt;strong&gt;pessoas fortes e competentes&lt;/strong&gt;. A confiança vem do fato de vencer o desafio. Sem confiança, ninguém corre riscos. Sem correr riscos ninguém desenvolve a coragem.&lt;/p&gt;&lt;p&gt;Embora saibamos que a produtividade sofre quando a ansiedade - por causa do risco - é alta, esquecemos de ver o efeito destrutivo da ansiedade muito baixa. Os empregados que recebem mas não produzem, perdem seus parâmetros.&lt;/p&gt;&lt;p&gt;Falando claramente, &lt;strong&gt;tolerância&lt;/strong&gt; demais &lt;strong&gt;cria fraco desempenho&lt;/strong&gt;. As pessoas produzem precariamente quando não são consideradas responsáveis. Elas se tornam &lt;strong&gt;acomodadas&lt;/strong&gt; e &lt;strong&gt;indiferentes&lt;/strong&gt; (&quot;Se o resultado não faz diferença, porque tentar?&quot;).&lt;/p&gt;&lt;h2&gt;Quebre os padrões&lt;/h2&gt;&lt;p&gt;As &lt;strong&gt;organizações&lt;/strong&gt; precisam de &lt;strong&gt;pessoas confiantes&lt;/strong&gt; o suficiente para &lt;strong&gt;enfrentar&lt;/strong&gt; os &lt;strong&gt;problemas&lt;/strong&gt; ecléticos de amanhã, &lt;strong&gt;capazes&lt;/strong&gt; de se &lt;strong&gt;adaptar às mudanças&lt;/strong&gt;, de &lt;strong&gt;ter disciplina&lt;/strong&gt; para &lt;strong&gt;perseverar&lt;/strong&gt; e de ter &lt;strong&gt;coragem&lt;/strong&gt; para iniciar e &lt;strong&gt;inovar&lt;/strong&gt;. Alcançar um estado no qual as pessoas são revigoradas pelo &lt;strong&gt;desafio&lt;/strong&gt; e a conscientização de que seu trabalho será premiado com base no trabalho executado que, por sua vez, implica na apresentação de competências humanas importantes.&lt;/p&gt;&lt;p&gt;Necessário frisar-lhes que não se pode levar os empregados diretamente de um extremo ao outro. Pode-se primeiro induzi-los a uma permanência no estado do medo, o medo do risco, ou seja, o risco da mudança.&lt;/p&gt;&lt;p&gt;É difícil destroçar o conceito do &quot;Direito Adquirido&quot;, por que geralmente está codificado nas regras e políticas da companhia, tornando a mudança para a psicologia da &quot;Conquista&quot; um choque maior na escala Richter da corporação.&lt;/p&gt;&lt;h2&gt;Buscar o estado de &quot;Conquista&quot;&lt;/h2&gt;
 &lt;p&gt;Temos uma dura tarefa pela frente. Deveríamos trocar o nome &amp;#8220;zona de conforto&amp;#8221; para &amp;#8220;zona de perigo&amp;#8221;. No post &lt;a href='/cultura-de-conquista-parte-1/' title='Cultura de Conquista – Parte 1'&gt;Cultura de Conquista&lt;/a&gt; descrevo o posto à cultura do Direito Adquirido.&lt;/p&gt;
 
 &lt;p&gt;Espero ter contribuído de alguma forma. Um abraço.&lt;/p&gt;</content>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
  </entry>
  
@@ -255,6 +275,7 @@ Um abraço.
    <link href="http://leandroadacosta.com/pratica-do-sentimento-de-produtividade/"/>
    <updated>2011-10-14T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//pratica-do-sentimento-de-produtividade</id>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
    <content type="html">&lt;h2&gt;Uma questão corriqueira&lt;/h2&gt;
 &lt;p style=&quot;text-align:justify;&quot;&gt;Em todas as equipes de desenvolvimento de software conversamos sobre &lt;strong&gt;produtividade&lt;/strong&gt;. Nunca passava despercebida em nosso dia a dia. Ela era, e é, motivo de discussão - sempre saudável - em todas as &lt;a href=&quot;http://www.flickr.com/photos/cocento/5404128051/in/set-72157625920297498&quot; target=&quot;_blank&quot;&gt;reuniões diárias&lt;/a&gt; e &lt;a href=&quot;http://www.flickr.com/photos/cocento/5540468736/in/photostream&quot; target=&quot;_blank&quot;&gt;retrospectivas&lt;/a&gt; dos sprints. Sempre algum membro da equipe perguntava como foi a produtividade no dia ou no sprint.&lt;/p&gt;
@@ -295,6 +316,8 @@ Espero que tenham gostado.
 E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe? Conte sua experiência :)
 </content>
 =======
+=======
+>>>>>>> Stashed changes
    <content type="html">&lt;h2&gt;Uma questão corriqueira&lt;/h2&gt;&lt;p&gt;Em todas as equipes de desenvolvimento de software conversamos sobre &lt;strong&gt;produtividade&lt;/strong&gt;. Nunca passava despercebida em nosso dia a dia. Ela era, e é, motivo de discussão - sempre saudável - em todas as &lt;a href='http://www.flickr.com/photos/cocento/5404128051/in/set-72157625920297498' target='_blank'&gt;reuniões diárias&lt;/a&gt; e &lt;a href='http://www.flickr.com/photos/cocento/5540468736/in/photostream' target='_blank'&gt;retrospectivas&lt;/a&gt; dos sprints. Sempre algum membro da equipe perguntava como foi a produtividade no dia ou no sprint.&lt;/p&gt;&lt;!--more--&gt;&lt;h2&gt;Uma forma diferente&lt;/h2&gt;&lt;p&gt;Todos sabem a importância de serem produtivos e que a &lt;strong&gt;produtividade não quer dizer trabalhar mais horas&lt;/strong&gt;. Produtividade está muitas vezes relacionada ao foco, entendimento do que é preciso ser feito, ambiente de trabalho e também ao processo da gestão do projeto. Uma prática que vem ajudando bastante à &lt;strong&gt;identificar os pontos&lt;/strong&gt; que influenciam na produtividade é a &lt;strong&gt;reunião diária&lt;/strong&gt; e - com muito mais importância - a &lt;strong&gt;retrospectiva&lt;/strong&gt; do sprint. Havia um problema de que uns influenciavam os outros na hora de falar. Como produtividade é um assunto permanente em nossas reuniões, dentro de mim ecoava um sentimento de que algo poderia ser melhorado neste sentido.&lt;/p&gt;&lt;p&gt;Achei uma &lt;strong&gt;forma diferente&lt;/strong&gt; de falarmos de produtividade quando assisti a &lt;strong&gt;palestra &quot;Melhorando um ambiente ágil.&quot;&lt;/strong&gt; da &lt;a href='http://twitter.com/cecifernandes' target='_blank'&gt;Cecília Fernandez&lt;/a&gt; no evento da &lt;a href='http://www.qcon.com.br/' target='_blank'&gt;QCon São Paulo 2011&lt;/a&gt;. A cultura da &lt;a href='http://www.caelum.com.br' target='_blank'&gt;Caelum&lt;/a&gt; propicia a melhoria contínua e a Cecília apresentou várias práticas diferentes para promover um ambiente agradável de trabalho. Uma delas era relacionada a produtividade, com essa dica em mãos tive a oportunidade de praticar com a nossa equipe. Na retrospectiva de hoje colhemos alguns &lt;strong&gt;feedbacks&lt;/strong&gt; legais, gostaria de compartilhá-los com vocês. Bom, &lt;strong&gt;vamos a prática&lt;/strong&gt;, explicarei de forma simples e objetiva.&lt;/p&gt;&lt;h2&gt;Prática do sentimento de produtividade&lt;/h2&gt;&lt;p&gt;É muito simples! Colamos do lado da porta de saída um quadrinho como este:&lt;/p&gt;&lt;a href='/img/posts/sentimento-produtividade.jpg'&gt;&lt;img alt='Sentimento de Produtividade' src='/img/posts/sentimento-produtividade.jpg' style='max-width:400px' /&gt;&lt;/a&gt;&lt;p&gt;Cada &lt;strong&gt;pessoa&lt;/strong&gt; que saia, riscava - de forma muito &lt;strong&gt;sincera&lt;/strong&gt; - como estava se &lt;strong&gt;sentindo&lt;/strong&gt; em relação a sua &lt;strong&gt;própria produtividade&lt;/strong&gt; (baixa, normal ou alta). Foi bem &lt;strong&gt;interessante a experiência&lt;/strong&gt;, no primeiro e segundo dia achamos &lt;strong&gt;um pouco estranho&lt;/strong&gt;, mas logo no final da semana e começo da segunda semana, &lt;strong&gt;enxergamos alguns benefícios&lt;/strong&gt;. Sentimos mudanças no lado &lt;strong&gt;psicológico&lt;/strong&gt; e no lado &lt;strong&gt;comportamental&lt;/strong&gt;.&lt;/p&gt;&lt;h3&gt;Lado psicológico:&lt;/h3&gt;&lt;ul&gt;
 	&lt;li&gt;Bem estar ao sair de um dia produtivo em equipe.&lt;/li&gt;
 	&lt;li&gt;Equipe mais preocupada com o resultado.&lt;/li&gt;
@@ -313,6 +336,9 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
 &lt;p&gt;Ainda estamos experimentando esta prática, enquanto tivermos efeitos positivos, continuaremos aprimorando.&lt;/p&gt;
 
 &lt;p&gt;Espero que tenham gostado. E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe? Conte sua experiência :)&lt;/p&gt;</content>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
  </entry>
  
@@ -321,6 +347,7 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
    <link href="http://leandroadacosta.com/a-arte-de-ser-mensch/"/>
    <updated>2011-10-12T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//a-arte-de-ser-mensch</id>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
    <content type="html">Este post foi embasado no livro &lt;a href=&quot;http://www.submarino.com.br/produto/1/1470751/arte+do+comeco:+o+guia+definitivo+para+iniciar+o+seu+projeto,+a&quot; target=&quot;_blank&quot;&gt;A arte do começo por Guy Kawazaki&lt;/a&gt;. Como esta mencionado no livro: &lt;em&gt;Mensch&lt;/em&gt; é o termo em &lt;em&gt;&lt;a href=&quot;http://pt.wikipedia.org/wiki/L%C3%ADngua_i%C3%ADdiche&quot; target=&quot;_blank&quot;&gt;iídiche&lt;/a&gt;&lt;/em&gt; que designa uma pessoa ética, íntegra e admirável. O oposto de um &lt;em&gt;Mensch - ser humano -&lt;/em&gt; é um &lt;em&gt;Unmensch&lt;/em&gt;, que significa uma pessoa absolutamente cruel ou para o mal. A chave para ser um &lt;em&gt;Mensch&lt;/em&gt; é ter caráter, dignidade e um senso do que é certo.
 &lt;!--more--&gt;
@@ -343,12 +370,17 @@ São &lt;strong&gt;três&lt;/strong&gt; os &lt;strong&gt;fundamentos&lt;/strong&
 E você? Se considera um &lt;em&gt;Mensch&lt;/em&gt;? Envie comentários :)
 </content>
 =======
+=======
+>>>>>>> Stashed changes
    <content type="html">&lt;p&gt;Este post foi embasado no livro &lt;a href='http://www.submarino.com.br/produto/1/1470751/arte+do+comeco:+o+guia+definitivo+para+iniciar+o+seu+projeto,+a' target='_blank'&gt;A arte do começo por Guy Kawazaki&lt;/a&gt;. Como esta mencionado no livro: &lt;em&gt;Mensch&lt;/em&gt; é o termo em &lt;em&gt;&lt;a href='http://pt.wikipedia.org/wiki/L%C3%ADngua_i%C3%ADdiche' target='_blank'&gt;iídiche&lt;/a&gt;&lt;/em&gt; que designa uma pessoa ética, íntegra e admirável. O oposto de um &lt;em&gt;Mensch - ser humano -&lt;/em&gt; é um &lt;em&gt;Unmensch&lt;/em&gt;, que significa uma pessoa absolutamente cruel ou para o mal. A chave para ser um &lt;em&gt;Mensch&lt;/em&gt; é ter caráter, dignidade e um senso do que é certo.&lt;/p&gt;&lt;blockquote&gt;&quot;A verdadeira medida de um homem é a maneira como ele trata alguém que não lhe pode ser útil.&quot; SAMUEL JOHNSON&lt;/blockquote&gt;
 &lt;p&gt;O autor Guy Kawazaki incluiu este tópico no livro por dois motivos: &lt;ol&gt;
 	&lt;li&gt;Agir de modo que beneficie você e sua empresa em detrimento do restante da sociedade não o tornará melhor.&lt;/li&gt;
 	&lt;li&gt;Se você quiser constituir uma empresa grandiosa e duradoura, precisará estabelecer os mais altos padrões éticos e morais para o seus funcionários.&lt;/li&gt;
 &lt;/ol&gt; &lt;p&gt;São &lt;strong&gt;três&lt;/strong&gt; os &lt;strong&gt;fundamentos&lt;/strong&gt; do modo &lt;em&gt;Mensch&lt;/em&gt;:&lt;/p&gt;&lt;/p&gt;
 &lt;strong&gt;AJUDAR MUITA GENTE&lt;/strong&gt;&lt;p&gt;Você precisa somar pontos em seu comportamento durante o tempo que passa neste mundo, e a melhor forma de somar esses pontos é ajudar as pessoas. Não é puro ajudar aquelas pessoas de que você vai precisar um dia. As ajudas que valem mais são: ajudar pessoas em que nunca se sabe se elas possam ajudá-lo um dia; sentir alegria interior em ajudar o próximo; e querer somar pontos cármicos só por via das dúvidas, caso esta teoria esteja correta.&lt;/p&gt;&lt;strong&gt;FAÇA O QUE É CORRETO&lt;/strong&gt;&lt;p&gt;Fazer o que é correto - não o que é fácil, conveniente, que economiza dinheiro ou que o permita sair ileso. Certo é certo, errado é errado. Sem dúvida, existem verdades absolutas na vida, e os &lt;em&gt;Mensches&lt;/em&gt; valorizam e colocam em prática essa verdade.&lt;/p&gt;&lt;strong&gt;RETRIBUIR À SOCIEDADE O QUE ELA LHE DÁ&lt;/strong&gt;&lt;p&gt;Há muitas &quot;moedas&quot; com que se pode pagar à sociedade esses favores. Fazer doações em dinheiro é apenas uma delas - outras incluem doar tempo, conhecimento e apoio emocional. Os &lt;em&gt;Mensches&lt;/em&gt; usam essas moedas para se doar aos outros. O conceito-chave é que o Mensch retribui - ou seja, por algo de bom já recebido -, em vez de estar &quot;pagando adiantado&quot; pelo que espera receber depois.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;O autor recomenda um exercício para reflexão:&lt;/strong&gt; O fim de sua vida chegou. Relacione as três coisas pelas quais você quer que as pessoas se recordem de você.&lt;/p&gt;&lt;p&gt;E você? Se considera um &lt;em&gt;Mensch&lt;/em&gt;? Envie comentários :)&lt;/p&gt;</content>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
  </entry>
  
@@ -357,6 +389,7 @@ E você? Se considera um &lt;em&gt;Mensch&lt;/em&gt;? Envie comentários :)
    <link href="http://leandroadacosta.com/ideia-inovadora-startup/"/>
    <updated>2011-10-06T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//ideia-inovadora-startup</id>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
    <content type="html">Surgiu uma &lt;strong&gt;idéia inovadora&lt;/strong&gt;, então logo nasce uma &lt;strong&gt;startup&lt;/strong&gt;!
 
@@ -380,6 +413,8 @@ Falarei mais sobre Startup e novos conceitos em outros posts.
 E você? Conte um pouco da sua experiência com startups também ;)
 </content>
 =======
+=======
+>>>>>>> Stashed changes
    <content type="html">&lt;p&gt;Surgiu uma &lt;strong&gt;idéia inovadora&lt;/strong&gt;, então logo nasce uma &lt;strong&gt;startup&lt;/strong&gt;!&lt;/p&gt;
 
 &lt;p&gt;Para quem não sabe o termo startup se refere as empresas recém-criadas, em fase de desenvolvimento e evolução do modelo de negócio - aquelas que surgem na garagem, no fundo de quintal de casa, no próprio escritório ou através de projetos investidos por grandes empresas ou incubadoras.&lt;/p&gt;
@@ -397,6 +432,9 @@ E você? Conte um pouco da sua experiência com startups também ;)
 &lt;p&gt;Falarei mais sobre Startup e novos conceitos em outros posts.&lt;/p&gt;
 
 &lt;p&gt;E você? Conte um pouco da sua experiência com startups também ;)&lt;/p&gt;</content>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
  </entry>
  
@@ -405,6 +443,7 @@ E você? Conte um pouco da sua experiência com startups também ;)
    <link href="http://leandroadacosta.com/jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor/"/>
    <updated>2011-03-16T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor</id>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
    <content type="html">&lt;!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica} p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px} span.s1 {letter-spacing: 0.0px} --&gt;Piada? Não! Pelo contrário, tenho essa fase da minha vida como um &lt;strong&gt;aprendizado incrível que me acrescentou muito, tanto no lado pessoal quanto no profissional.&lt;/strong&gt; Importou tanto para mim que eu cheguei ao ponto de colocar no meu currículo que joguei um tal jogo de computador chamado &lt;a href=&quot;http://pt.wikipedia.org/wiki/Counter-Strike&quot; target=&quot;_blank&quot;&gt;Counter-Strike&lt;/a&gt;. Este jogo para aqueles que nunca escutaram, é o jogo de tiro em primeira pessoa mais conhecido e disseminado do mundo, até ai, não importa, o que eu quero é mostrar o porque do aprendizado no final dessa história.
 &lt;!--more--&gt;
@@ -425,6 +464,8 @@ Fomos para o quarto campeonato, onde obtivemos a  melhor colocação da históri
 Alguém já jogou algum jogo que o ajudou ser um profissional melhor? Enviem seus comentários :)
 </content>
 =======
+=======
+>>>>>>> Stashed changes
    <content type="html">&lt;p&gt;Piada? Não! Pelo contrário, tenho essa fase da minha vida como um &lt;strong&gt;aprendizado incrível que me acrescentou muito, tanto no lado pessoal quanto no profissional.&lt;/strong&gt; Importou tanto para mim que eu cheguei ao ponto de colocar no meu currículo que joguei um tal jogo de computador chamado &lt;a href='http://pt.wikipedia.org/wiki/Counter-Strike' target='_blank'&gt;Counter-Strike&lt;/a&gt;. Este jogo para aqueles que nunca escutaram, é o jogo de tiro em primeira pessoa mais conhecido e disseminado do mundo, até ai, não importa, o que eu quero é mostrar o porque do aprendizado no final dessa história.&lt;/p&gt;
 
 &lt;p&gt;Muitas qualidades eu adquiri logo cedo, dado que joguei este jogo praticamente 3 anos da minha vida, dos 15 aos 18 anos de idade. Quando comecei a jogar, eu era o chamado &amp;#8220;newbie&amp;#8221; ou seja, principiante. Não queria ser um newbie, acho que ninguém quer ser um newbie no que faz, por isso queria mais, &lt;strong&gt;queria evoluir&lt;/strong&gt;. Chegou um certo momento, depois de muitas horas por dia de dedicação jogando em casa e nas quase &amp;#8220;falecidas&amp;#8221; lanhouses, que peguei jeito na coisa. Isso me fez enxergar &lt;strong&gt;novas possibilidades&lt;/strong&gt; de evolução, consegui quebrar as &lt;strong&gt;crenças limitantes&lt;/strong&gt; do meu potencial, queria sempre mais, foi quando&lt;a href='http://www.livrariasaraiva.com.br/produto/400448/a-aguia-e-a-galinha/' target='_blank'&gt; descobri que não era apenas uma galinha e poderia ser uma águia&lt;/a&gt;, em um encontro numa &lt;em&gt;lanhouse&lt;/em&gt;, vi que existiam times e campeonatos na cidade onde morava - Santos / SP, foi daí que surgiu minha motivação.&lt;/p&gt;
@@ -438,6 +479,9 @@ Alguém já jogou algum jogo que o ajudou ser um profissional melhor? Enviem seu
 &lt;p&gt;Fomos para o quarto campeonato, onde obtivemos a melhor colocação da história do time, &lt;strong&gt;ficamos entre os 3 melhores do Brasil&lt;/strong&gt; - pra quem lembra, foi em 2004, os times eram: 1º MiBR, em 2º G3X e a gente em 3º The@Game -, ficamos por um &amp;#8220;round&amp;#8221; ou &amp;#8220;ponto&amp;#8221; de ir pra Dallas no Texas jogar o campeonato mundial - isso ainda está entalado na garganta, mas tudo bem, mérito deles. O que importa é que alcançamos a meta e não queríamos mais jogar CS depois disso. Acabou por ai, conseguimos chegar ao nosso objetivo.&lt;/p&gt;
 &lt;strong&gt;Conclusão&lt;/strong&gt;&lt;strong&gt;Aprendi a ser persistente e não desistir nunca&lt;/strong&gt;
 &lt;p&gt;Alguém já jogou algum jogo que o ajudou ser um profissional melhor? Enviem seus comentários :)&lt;/p&gt;</content>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
  </entry>
  
