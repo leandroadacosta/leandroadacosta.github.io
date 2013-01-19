@@ -5,3 +5,19 @@
 .is-small-text {
 	font-size: 0.8125em; /* 13px ÷ 16px */
 }
+
+.is-featured:before {
+	-webkit-border-radius: 0.25em; /* 4px ÷ 16px */
+	 -khtml-border-radius: 0.25em;
+ 	 	 -moz-border-radius: 0.25em;
+					border-radius: 0.25em;
+	display: inline-block;
+	margin-right: 0.5em; /* 8px ÷ 16px */
+	padding: 0.25em; /* 4px ÷ 16px */
+	color: #FFF;
+	background-color: #090;
+	font-size: 0.625em; /* 11px ÷ 16px */
+	text-decoration: none;
+	line-height: 1;
+	content: 'DESTAQUE';
+}

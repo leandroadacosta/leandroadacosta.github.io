@@ -4,16 +4,17 @@ layout: base
 <article>
   <h1>{{ page.title }}</h1>
   {{ content }}
+  <br>
+  <p class="is-smooth-text">
+    Escrito em
+    {% if page.originalDate %}
+    	{{ page.originalDate | date_to_string }} <span class="is-smooth-text is-small-text">(atualizado em {{ page.date | date_to_string }}</span>
+    {% else %}
+      {{ page.date | date_to_string }}
+    {% endif %}
+    por <a href="http://twitter.com/leandroadacosta" target="_blank">Leandro A. da Costa</a>
+  </p>
   <footer class="article-footer">
-    <p>
-      {% if page.originalDate %}
-      	{{ page.originalDate | date_to_string }} <span class="is-smooth-text is-small-text">(atualizado em {{ page.date | date_to_string }}</span>
-      {% else %}
-        {{ page.date | date_to_string }}
-      {% endif %}
-      <br>
-      Por <a href="http://twitter.com/leandroadacosta" target="_blank"><strong>Leandro</strong> A. da <strong>Costa</strong></a>
-    </p>
     <p>
       <a href="{{ site.url }}/">&lt; Ver mais posts</a>
     </p>
