@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Sobre
+description: Empreendedor e desenvolvedor web com foco no front-end. MBA c/ ênfase Gestão de Pessoas. Praticante do desenvolvimento ágil de software e Lean Startup.
 ---
 # Sobre mim
 * Leandro Alvares da Costa
