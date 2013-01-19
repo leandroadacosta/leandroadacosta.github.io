@@ -21,8 +21,8 @@ title: Sobre
 * [LinkedIn](http://www.linkedin.com/in/leandroadacosta)
 
 ## Formação acadêmica
-* Graduação, Tecnologia em Análise e Desenvolvimento de Sistemas ([FIAP](http://www.fiap.com.br))
-* MBA, Executivo em Gestão Empresarial com ênfase em Desenvolvimento e Gestão de Pessoas ([FGV](http://portal.fgv.br))
+* MBA, Executivo em Gestão Empresarial com ênfase em Desenvolvimento e Gestão de Pessoas ([FGV](http://portal.fgv.br)) <span class="is-smooth-text">de 2010 a 2012</span>
+* Graduação, Tecnologia em Análise e Desenvolvimento de Sistemas ([FIAP](http://www.fiap.com.br)) <span class="is-smooth-text">de 2008 a 2009</span>
 
 ## Comunidade
 * Membro e organizador do Grupo de Desenvolvedores de Software em Santos ([DevInSantos](http://meetup.com/devinsantos))
