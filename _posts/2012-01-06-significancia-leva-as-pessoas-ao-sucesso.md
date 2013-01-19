@@ -19,7 +19,6 @@ Veja como Dardwick comenta o caminho para o sucesso das pessoas, onde eu concord
 <blockquote>As pessoas bem sucedidas, se sentem desafiadas, com poder significante.</blockquote>
 O que significa isto? Eis as definições, com as palavras dos próprios empregados:
 
-<!--more-->
 <h2>Desafio</h2>
 <ul>
 	<li>Quero continuar aprendendo.</li>
@@ -38,6 +37,7 @@ O que significa isto? Eis as definições, com as palavras dos próprios emprega
 	<li>Quero ser responsável e que as pessoas confiem em mim.</li>
 	<li>Realmente me preocupo com esta coisa e sou uma das pessoas que estão brigando por ela.</li>
 </ul>
+
 <h2>Significância</h2>
 <ul>
 	<li>Quero sentir que eu conto.</li>
@@ -47,6 +47,8 @@ O que significa isto? Eis as definições, com as palavras dos próprios emprega
 	<li>Estou fazendo algo que os outros realmente gostam.</li>
 	<li>O que estou fazendo é significativo. Isto faz uma diferença. Eu faço falta aqui.</li>
 </ul>
-<div>Como podemos observar, o lado humano da gestão de pessoas também é extremamente importante para o sucesso das pessoas e para os resultados da organização.</div>
-<div>E como você se sente ao trabalhar no dia a dia?</div>
-<div>Espero ter ajudado. Um abraço.</div>
+
+Como podemos observar, o lado humano da gestão de pessoas também é extremamente importante para o sucesso das pessoas e para os resultados da organização.
+
+E como você se sente ao trabalhar no dia a dia?
+Espero ter ajudado. Um abraço.
