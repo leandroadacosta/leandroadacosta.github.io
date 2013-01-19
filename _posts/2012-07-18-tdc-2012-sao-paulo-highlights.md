@@ -17,15 +17,15 @@ meta:
   _wpas_done_twitter: '1'
   _wpas_skip_linkedin: '1'
 ---
-<a href="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg"><img src="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg?w=300" alt="TDC 2012 São Paulo" style="max-width:640px"></a>
+<a href="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg"><img src="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg" alt="TDC 2012 São Paulo" style="max-width:640px"></a>
 
 Sábado 07/07/2012 participei da conferência de desenvolvedores de software (<a href="http://www.thedevelopersconference.com.br/tdc/2012/index.html" target="_blank">TDC 2012 São Paulo</a>) na Universidade Anhembi Morumbi. Antes de falar sobre as palestras deixo um recado: ir a eventos é sempre muito bom, além do networking ser importante, vejo a troca de experiências como o maior benefício. O profissional de TI que não tem o senso de comunidade, está deixando de lado algo muito valioso.
 
-<a href="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg"><img src="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg?w=300" alt="TDC 2012 São Paulo" style="max-width:640px"></a>
+<a href="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg"><img src="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg" alt="TDC 2012 São Paulo" style="max-width:640px"></a>
 
 O evento aconteceu de 4 a 8 de Julho. Consegui ir somente no Sábado (dia 07) na <a href="http://www.thedevelopersconference.com.br/tdc/2012/saopaulo/trilha-ruby#programacao" target="_blank">trilha de Ruby</a> - sim, somente a linguagem Ruby, sem falar do framework <a href="http://rubyonrails.com.br/" target="_blank">Rails</a>. Das palestras, que por sinal foram muito boas, consegui tirar alguns pontos importantes que gostaria de compartilhá-los.
 
-<a href="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg"><img src="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg?w=300" alt="Ricardo Valeriano - TDC 2012 São Paulo" style="max-width:640px"></a>
+<a href="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg"><img src="{{ site.url }}/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg" alt="Ricardo Valeriano - TDC 2012 São Paulo" style="max-width:640px"></a>
 
 O dia começou com a palestra do grande <a href="http://blog.ricardovaleriano.com/" target="_blank">Ricardo Valeriano</a> sobre "<strong>A ferramenta ideal: uma questão de perspectiva.</strong>" e, como sempre, deu um show de dinamismo, descontraindo bastante a galera com seus slides cheios de <em>memes</em>, gostei bastante. Seguem os <em>highlights</em>:
 <ul>
