@@ -9,6 +9,12 @@
     <title>{{ page.title }} | Leandro A. da Costa</title>
     <meta name="description" content="{{ page.description | escape }}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <meta property="og:image" content="{{ site.production_url }}/img/leandro-alvares-da-costa.png">
+    {% if page.type == 'post' %}
+      <meta property="og:url" content="{{ site.production_url }}{{ page.url }}">
+      <meta property="og:type" content="article">
+    {% endif %}
 
     <link rel="icon" href="{{ site.url }}/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/favicon-apple-touch-icon-57.png">
