@@ -53,6 +53,15 @@ article img {
 	width: 100%;
 }
 
+blockquote {
+	border-left: 0.5em solid #D7EDC6;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: .5em 0 .5em 1em;
+	font-style: italic;
+	color: #666;
+}
+
 @media screen and (min-width:640px) {
 	body {
 		font-size: 120%;
