@@ -28,7 +28,7 @@ p {
 	margin-bottom: 1.125em; /* 18px ÷ 16px */
 }
 
-p, li {
+p, li, blockquote {
 	line-height: 1.375em; /* 22px ÷ 16px */
 }
 

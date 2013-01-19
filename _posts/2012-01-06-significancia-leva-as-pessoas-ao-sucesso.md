@@ -16,7 +16,9 @@ meta:
 Compartilho com vocês um texto escrito por <a href="http://www.judithmbardwick.com/" target="_blank">Judith M. Dardwick</a>, a autora aborda o lado humano da gestão de pessoas, onde a significância leva às pessoas ao sucesso.
 
 Veja como Dardwick comenta o caminho para o sucesso das pessoas, onde eu concordo plenamente.
+
 <blockquote>As pessoas bem sucedidas, se sentem desafiadas, com poder significante.</blockquote>
+
 O que significa isto? Eis as definições, com as palavras dos próprios empregados:
 
 <h2>Desafio</h2>
