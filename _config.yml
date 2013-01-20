@@ -4,7 +4,7 @@ server: true
 exclude: ["README.md", ".gitignore"]
 pygments: true
 permalink: /:title/
-production_url: http://leandroadacosta.github.com
+production_url: http://leandroadacosta.com
 
 title: leandroadacosta.com
 author:
