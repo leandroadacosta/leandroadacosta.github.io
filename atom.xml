@@ -4,13 +4,94 @@
  <title>Blog do Leandro A. da Costa</title>
  <link href="http://leandroadacosta.com/atom.xml" rel="self"/>
  <link href="http://leandroadacosta.com"/>
- <updated>2013-01-19T22:45:10-02:00</updated>
+ <updated>2013-03-06T01:38:03-03:00</updated>
  <id>http://leandroadacosta.com</id>
  <author>
    <name>Leandro A. da Costa</name>
    <email>leandroadacosta@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Usando Jekyll + Plugins com GitHub Pages</title>
+   <link href="http://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/"/>
+   <updated>2013-03-05T00:00:00-03:00</updated>
+   <id>http://leandroadacosta.com//usando-jekyll-plugins-com-github-pages</id>
+   <content type="html">&lt;p&gt;Usar &lt;strong&gt;Jekyll&lt;/strong&gt; com &lt;strong&gt;GitHub Pages&lt;/strong&gt;, funciona muito bem, mas se for adicionar algum &lt;strong&gt;plugin do Jekyll&lt;/strong&gt;, não funciona, o &lt;strong&gt;GitHub Pages&lt;/strong&gt; não dá suporte. Depois de pesquisar um pouco, achei uma &lt;strong&gt;abordagem simples&lt;/strong&gt; e fácil de solucionar isso. Como eu quis usar plugins - no seu caso isso pode ser opcional - aqui neste meu &lt;a href='/novo-blog-no-ar'&gt;novo blog&lt;/a&gt; eu desenvolvi usando &lt;strong&gt;Jekyll + Plugins&lt;/strong&gt; e hospedadei no &lt;strong&gt;GitHub Pages&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id='breve_introduo'&gt;Breve introdução&lt;/h2&gt;
+
+&lt;p&gt;Leia caso não saiba do que se trata.&lt;/p&gt;
+
+&lt;h3 id='o_que__github_pages'&gt;O que é GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;É um caminho fácil, simples e de graça para &lt;strong&gt;hospedar o site&lt;/strong&gt; do seu projeto ou por exemplo seu blog pessoal. No site do &lt;a href='http://pages.github.com'&gt;GitHub Pages&lt;/a&gt; explica tudo como funciona.&lt;/p&gt;
+
+&lt;h3 id='o_que__jekyll'&gt;O que é Jekyll&lt;/h3&gt;
+
+&lt;p&gt;É uma forma simples de &lt;strong&gt;gerar sites estáticos&lt;/strong&gt; em &lt;strong&gt;Ruby&lt;/strong&gt;. Tem várias vantagens. O mais legal é que o &lt;strong&gt;GitHub Pages&lt;/strong&gt; oferece &lt;strong&gt;suporte&lt;/strong&gt; para usar &lt;strong&gt;Jekyll&lt;/strong&gt;. As coisas funcionam como mágica :). Só acessar o repositório do &lt;a href='https://github.com/mojombo/jekyll'&gt;Jekyll&lt;/a&gt; no &lt;strong&gt;GitHub&lt;/strong&gt; e ler a documentação para colocar seu primeiro site no ar.&lt;/p&gt;
+
+&lt;h3 id='o_que__jekyll_plugin'&gt;O que é Jekyll plugin&lt;/h3&gt;
+
+&lt;p&gt;O &lt;strong&gt;Jekyll plugin&lt;/strong&gt; permite criar &lt;strong&gt;conteúdos específicos&lt;/strong&gt; e &lt;strong&gt;customizados&lt;/strong&gt; no site. Por exemplo, neste blog eu usei um plugin que dei o nome de &lt;a href='https://github.com/leandroadacosta/leandroadacosta.github.com/blob/source/_plugins/code_tag.rb'&gt;code_tag.rb&lt;/a&gt; para facilitar a leitura de trechos de código que escrevo nos posts ao usuário. Basicamente o plugin faz o &lt;em&gt;highlight&lt;/em&gt; automático do texto - gerando HTML e CSS - de acordo com o tipo de linguagem que desejar, seja Ruby, HTML, CSS, etc.&lt;/p&gt;
+
+&lt;h2 id='soluo'&gt;Solução&lt;/h2&gt;
+
+&lt;p&gt;Para usar &lt;strong&gt;plugins customizados + GitHub Pages&lt;/strong&gt; é preciso de começo separar em duas branchs:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;branch source&lt;/code&gt; onde está o &lt;strong&gt;código fonte&lt;/strong&gt;.&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;branch master&lt;/code&gt; onde está o &lt;strong&gt;código final gerado pelo Jekyll&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Adicionar no &lt;code&gt;.gitignore&lt;/code&gt; a pasta &lt;code&gt;/_site&lt;/code&gt; que é gerada pelo &lt;strong&gt;Jekyll&lt;/strong&gt;. Este simples detalhe permite trocar da &lt;strong&gt;branch source&lt;/strong&gt; para &lt;strong&gt;master&lt;/strong&gt; e ainda manter os arquivos gerados na pasta &lt;code&gt;/_site&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Para acontecer a mágica, é preciso mover os arquivos finais de dentro da pasta &lt;code&gt;/_site&lt;/code&gt; para a pasta raiz da &lt;strong&gt;branch master&lt;/strong&gt; e comitar na master esses arquivos gerados antes de dar push pro &lt;strong&gt;GitHub&lt;/strong&gt;. Para entender melhor, veja abaixo:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;git checkout &lt;span class='nb'&gt;source&lt;/span&gt;
+// seja lá qualquer alteração feita
+git status &amp;amp; git add &amp;amp; git commit
+jekyll
+git checkout master
+cp -r _site/* . &lt;span class='o'&gt;&amp;amp;&amp;amp;&lt;/span&gt; rm -rf _site/ &lt;span class='o'&gt;&amp;amp;&amp;amp;&lt;/span&gt; touch .nojekyll
+git status &amp;amp; git add &amp;amp; git commit
+git push -all origin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Pronto. A parte chata é que você move e comita na &lt;strong&gt;branch master&lt;/strong&gt; os códigos gerados pelo &lt;strong&gt;Jekyll&lt;/strong&gt;. A parte boa é que você tem a &lt;strong&gt;branch source&lt;/strong&gt; pra trabalhar tranquilamente no seu site e, o melhor de tudo, funciona com &lt;strong&gt;Jekyll plugins&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pra facilitar a tarefa de copiar, criei um alias no meu bash:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;&lt;span class='nb'&gt;alias &lt;/span&gt;jekyll-copy&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;cp -r _site/* . &amp;amp;&amp;amp; rm -rf _site/ &amp;amp;&amp;amp; touch .nojekyll&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Veja todo o código dessa abordagem de duas branchs no &lt;a href='https://github.com/leandroadacosta/leandroadacosta.github.com'&gt;repositório deste blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Espero ter ajudado.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Novo blog no ar</title>
+   <link href="http://leandroadacosta.com/novo-blog-no-ar/"/>
+   <updated>2013-01-28T00:00:00-02:00</updated>
+   <id>http://leandroadacosta.com//novo-blog-no-ar</id>
+   <content type="html">&lt;p&gt;Olá pessoal, meu novo blog está no ar depois de algum tempo com o antigo blog em WordPress e sem postar novidades.&lt;/p&gt;
+
+&lt;p&gt;Além de posts novos, as principais novidades são:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Design responsivo&lt;/li&gt;
+
+&lt;li&gt;Desenvolvido com &lt;a href='https://github.com/mojombo/jekyll'&gt;Jekyll&lt;/a&gt; em vez de WordPress.&lt;/li&gt;
+
+&lt;li&gt;Hospedado por &lt;a href='http://pages.github.com'&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://github.com/leandroadacosta/leandroadacosta.github.com'&gt;Código fonte disponível&lt;/a&gt; no &lt;strong&gt;GitHub&lt;/strong&gt;. Pull requests são bem-vindos também :)&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='/atom.xml'&gt;Feed RSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para entender melhor porque desenvolvi este novo blog usando &lt;strong&gt;Jekyll&lt;/strong&gt;, fiz um post explicando como &lt;a href='/usando-jekyll-plugins-com-github-pages'&gt;usar Jekyll + Plugins com GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mais coisas estão por vir. &lt;br /&gt; Grande abraço.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>TDC 2012 São Paulo Highlights</title>

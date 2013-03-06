@@ -4,6 +4,8 @@ http://leandroadacosta.com/index.html
 http://leandroadacosta.com/sitemap.txt
 http://leandroadacosta.com/sobre/index.html
 
+http://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/
+http://leandroadacosta.com/novo-blog-no-ar/
 http://leandroadacosta.com/tdc-2012-sao-paulo-highlights/
 http://leandroadacosta.com/o-que-os-lideres-empreendedores-devem-fazer-parte-1/
 http://leandroadacosta.com/scrum-8-erros-comuns-da-reuniao-diaria/

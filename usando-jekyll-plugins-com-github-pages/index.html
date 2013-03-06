@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt" dir="ltr"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Usando Jekyll + Plugins com GitHub Pages | Leandro Alvares da Costa</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <link rel="canonical" href="http://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/">
+    
+    <meta property="og:image" content="http://leandroadacosta.com/img/leandro-alvares-da-costa.png">
+    
+
+    <link rel="icon" href="/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/favicon-apple-touch-icon-57.png">
+    
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/states.css">
+    <link rel="stylesheet" href="/css/code.css">
+    
+    <!-- feed -->
+    <link rel="alternate" type="application/atom+xml" title="Blog do Leandro A. da Costa" href="http://leandroadacosta.com/atom.xml">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="/"><img src="/img/leandro-alvares-da-costa.png" alt="Leandro Alvares da Costa" class="header__avatar"></a>
+        <div class="header__box">
+          <h1 class="header__title">BLOG <a href="/" class="header__blog-name">LEANDRO COSTA</a></h1>
+          <p class="header__desc">Empreendedor, desenvolvedor web, especialista em <abbr title="User Experience" lang="en-US">UX</abbr></p>
+        </div>
+      </header>
+      <main class="main" role="main">
+        <article>
+  <h1>Usando Jekyll + Plugins com GitHub Pages</h1>
+  <p>Usar <strong>Jekyll</strong> com <strong>GitHub Pages</strong>, funciona muito bem, mas se for adicionar algum <strong>plugin do Jekyll</strong>, não funciona, o <strong>GitHub Pages</strong> não dá suporte. Depois de pesquisar um pouco, achei uma <strong>abordagem simples</strong> e fácil de solucionar isso. Como eu quis usar plugins - no seu caso isso pode ser opcional - aqui neste meu <a href='/novo-blog-no-ar'>novo blog</a> eu desenvolvi usando <strong>Jekyll + Plugins</strong> e hospedadei no <strong>GitHub Pages</strong>.</p>
+
+<h2 id='breve_introduo'>Breve introdução</h2>
+
+<p>Leia caso não saiba do que se trata.</p>
+
+<h3 id='o_que__github_pages'>O que é GitHub Pages</h3>
+
+<p>É um caminho fácil, simples e de graça para <strong>hospedar o site</strong> do seu projeto ou por exemplo seu blog pessoal. No site do <a href='http://pages.github.com'>GitHub Pages</a> explica tudo como funciona.</p>
+
+<h3 id='o_que__jekyll'>O que é Jekyll</h3>
+
+<p>É uma forma simples de <strong>gerar sites estáticos</strong> em <strong>Ruby</strong>. Tem várias vantagens. O mais legal é que o <strong>GitHub Pages</strong> oferece <strong>suporte</strong> para usar <strong>Jekyll</strong>. As coisas funcionam como mágica :). Só acessar o repositório do <a href='https://github.com/mojombo/jekyll'>Jekyll</a> no <strong>GitHub</strong> e ler a documentação para colocar seu primeiro site no ar.</p>
+
+<h3 id='o_que__jekyll_plugin'>O que é Jekyll plugin</h3>
+
+<p>O <strong>Jekyll plugin</strong> permite criar <strong>conteúdos específicos</strong> e <strong>customizados</strong> no site. Por exemplo, neste blog eu usei um plugin que dei o nome de <a href='https://github.com/leandroadacosta/leandroadacosta.github.com/blob/source/_plugins/code_tag.rb'>code_tag.rb</a> para facilitar a leitura de trechos de código que escrevo nos posts ao usuário. Basicamente o plugin faz o <em>highlight</em> automático do texto - gerando HTML e CSS - de acordo com o tipo de linguagem que desejar, seja Ruby, HTML, CSS, etc.</p>
+
+<h2 id='soluo'>Solução</h2>
+
+<p>Para usar <strong>plugins customizados + GitHub Pages</strong> é preciso de começo separar em duas branchs:</p>
+
+<ul>
+<li><code>branch source</code> onde está o <strong>código fonte</strong>.</li>
+
+<li><code>branch master</code> onde está o <strong>código final gerado pelo Jekyll</strong>.</li>
+</ul>
+
+<p>Adicionar no <code>.gitignore</code> a pasta <code>/_site</code> que é gerada pelo <strong>Jekyll</strong>. Este simples detalhe permite trocar da <strong>branch source</strong> para <strong>master</strong> e ainda manter os arquivos gerados na pasta <code>/_site</code>.</p>
+
+<p>Para acontecer a mágica, é preciso mover os arquivos finais de dentro da pasta <code>/_site</code> para a pasta raiz da <strong>branch master</strong> e comitar na master esses arquivos gerados antes de dar push pro <strong>GitHub</strong>. Para entender melhor, veja abaixo:</p>
+<div class='highlight'><pre><code class='bash'>git checkout <span class='nb'>source</span>
+// seja lá qualquer alteração feita
+git status &amp; git add &amp; git commit
+jekyll
+git checkout master
+cp -r _site/* . <span class='o'>&amp;&amp;</span> rm -rf _site/ <span class='o'>&amp;&amp;</span> touch .nojekyll
+git status &amp; git add &amp; git commit
+git push -all origin
+</code></pre></div>
+<p>Pronto. A parte chata é que você move e comita na <strong>branch master</strong> os códigos gerados pelo <strong>Jekyll</strong>. A parte boa é que você tem a <strong>branch source</strong> pra trabalhar tranquilamente no seu site e, o melhor de tudo, funciona com <strong>Jekyll plugins</strong>.</p>
+
+<p>Pra facilitar a tarefa de copiar, criei um alias no meu bash:</p>
+<div class='highlight'><pre><code class='bash'><span class='nb'>alias </span>jekyll-copy<span class='o'>=</span><span class='s2'>&quot;cp -r _site/* . &amp;&amp; rm -rf _site/ &amp;&amp; touch .nojekyll&quot;</span>
+</code></pre></div>
+<p>Veja todo o código dessa abordagem de duas branchs no <a href='https://github.com/leandroadacosta/leandroadacosta.github.com'>repositório deste blog</a>.</p>
+
+<p>Espero ter ajudado.</p>
+  <br>
+  <p class="is-smooth-text">
+    Escrito em
+    
+      <strong><time datetime="2013-03-05" pubdate>05 Mar 2013</time></strong>
+    
+    por <a href="http://twitter.com/leandroadacosta" target="_blank">Leandro Alvares da Costa</a>
+  </p>
+  <footer class="article-footer">
+    <p>
+      <a href="/" class="btn">Ver mais posts</a>
+    </p>
+  </footer>
+</article>
+      </main>
+    </div>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34366023-2']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
