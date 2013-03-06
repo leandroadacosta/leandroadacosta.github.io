@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Novo blog no ar
+description: Principais novidades são design responsivo, desenvolvido com Jekyll + Plugins e hospedado por GitHub Pages.
 ---
 Olá pessoal, meu novo blog está no ar depois de algum tempo com o antigo blog em WordPress e sem postar novidades.
 

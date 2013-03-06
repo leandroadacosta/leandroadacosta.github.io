@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Usando Jekyll + Plugins com GitHub Pages
+description: Depois de pesquisar um pouco, achei uma abordagem simples e fácil de solucionar isso.
 ---
 Usar **Jekyll** com **GitHub Pages**, funciona muito bem, mas se for adicionar algum **plugin do Jekyll**, não funciona, o **GitHub Pages** não dá suporte. Depois de pesquisar um pouco, achei uma **abordagem simples** e fácil de solucionar isso. Como eu quis usar plugins - no seu caso isso pode ser opcional - aqui neste meu [novo blog]({{ site.url }}/novo-blog-no-ar) eu desenvolvi usando **Jekyll + Plugins** e hospedadei no **GitHub Pages**.
 
