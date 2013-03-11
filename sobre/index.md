@@ -33,6 +33,6 @@ description: Empreendedor e desenvolvedor web com foco no front-end. MBA c/ ênf
 * Design responsivo
 * Desenvolvido com [Jekyll](https://github.com/mojombo/jekyll)
 * Hospedado por [GitHub Pages](http://pages.github.com)
-* [Código fonte disponível](https://github.com/leandroadacosta/leandroadacosta.github.com) no GitHub
+* [Código fonte disponível](https://github.com/leandroadacosta/leandroadacosta.github.com/tree/source) no GitHub
 * No ar desde **janeiro de 2013**
 * [Feed RSS]({{ site.url }}/atom.xml)
