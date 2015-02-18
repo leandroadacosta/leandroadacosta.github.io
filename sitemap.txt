@@ -1,8 +1,8 @@
 
 http://leandroadacosta.com/atom.xml
 http://leandroadacosta.com/index.html
-http://leandroadacosta.com/sitemap.txt
 http://leandroadacosta.com/sobre/index.html
+http://leandroadacosta.com/sitemap.txt
 
 http://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/
 http://leandroadacosta.com/novo-blog-no-ar/

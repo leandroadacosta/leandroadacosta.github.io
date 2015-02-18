@@ -4,7 +4,7 @@
  <title>Blog do Leandro A. da Costa</title>
  <link href="http://leandroadacosta.com/atom.xml" rel="self"/>
  <link href="http://leandroadacosta.com"/>
- <updated>2013-04-13T10:30:21-03:00</updated>
+ <updated>2015-02-18T21:06:28+00:00</updated>
  <id>http://leandroadacosta.com</id>
  <author>
    <name>Leandro A. da Costa</name>
@@ -15,110 +15,142 @@
  <entry>
    <title>Usando Jekyll + Plugins com GitHub Pages</title>
    <link href="http://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/"/>
-   <updated>2013-03-05T00:00:00-03:00</updated>
+   <updated>2013-03-05T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//usando-jekyll-plugins-com-github-pages</id>
-   <content type="html">&lt;p&gt;Usar &lt;strong&gt;Jekyll&lt;/strong&gt; com &lt;strong&gt;GitHub Pages&lt;/strong&gt;, funciona muito bem, mas se for adicionar algum &lt;strong&gt;plugin do Jekyll&lt;/strong&gt;, não funciona, o &lt;strong&gt;GitHub Pages&lt;/strong&gt; não dá suporte. Depois de pesquisar um pouco, achei uma &lt;strong&gt;abordagem simples&lt;/strong&gt; e fácil de solucionar isso. Como eu quis usar plugins - no seu caso isso pode ser opcional - aqui neste meu &lt;a href='/novo-blog-no-ar'&gt;novo blog&lt;/a&gt; eu desenvolvi usando &lt;strong&gt;Jekyll + Plugins&lt;/strong&gt; e hospedadei no &lt;strong&gt;GitHub Pages&lt;/strong&gt;.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Usar &lt;strong&gt;Jekyll&lt;/strong&gt; com &lt;strong&gt;GitHub Pages&lt;/strong&gt;, funciona muito bem, mas se for adicionar algum &lt;strong&gt;plugin do Jekyll&lt;/strong&gt;, não funciona, o &lt;strong&gt;GitHub Pages&lt;/strong&gt; não dá suporte. Depois de pesquisar um pouco, achei uma &lt;strong&gt;abordagem simples&lt;/strong&gt; e fácil de solucionar isso. Como eu quis usar plugins - no seu caso isso pode ser opcional - aqui neste meu &lt;a href=&quot;/novo-blog-no-ar&quot;&gt;novo blog&lt;/a&gt; eu desenvolvi usando &lt;strong&gt;Jekyll + Plugins&lt;/strong&gt; e hospedadei no &lt;strong&gt;GitHub Pages&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h2 id='breve_introduo'&gt;Breve introdução&lt;/h2&gt;
-
+&lt;h2 id=&quot;breve-introduo&quot;&gt;Breve introdução&lt;/h2&gt;
 &lt;p&gt;Leia caso não saiba do que se trata.&lt;/p&gt;
 
-&lt;h3 id='o_que__github_pages'&gt;O que é GitHub Pages&lt;/h3&gt;
+&lt;h3 id=&quot;o-que--github-pages&quot;&gt;O que é GitHub Pages&lt;/h3&gt;
 
-&lt;p&gt;É um caminho fácil, simples e de graça para &lt;strong&gt;hospedar o site&lt;/strong&gt; do seu projeto ou por exemplo seu blog pessoal. No site do &lt;a href='http://pages.github.com'&gt;GitHub Pages&lt;/a&gt; explica tudo como funciona.&lt;/p&gt;
+&lt;p&gt;É um caminho fácil, simples e de graça para &lt;strong&gt;hospedar o site&lt;/strong&gt; do seu projeto ou por exemplo seu blog pessoal. No site do &lt;a href=&quot;http://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt; explica tudo como funciona.&lt;/p&gt;
 
-&lt;h3 id='o_que__jekyll'&gt;O que é Jekyll&lt;/h3&gt;
+&lt;h3 id=&quot;o-que--jekyll&quot;&gt;O que é Jekyll&lt;/h3&gt;
 
-&lt;p&gt;É uma forma simples de &lt;strong&gt;gerar sites estáticos&lt;/strong&gt; em &lt;strong&gt;Ruby&lt;/strong&gt;. Tem várias vantagens. O mais legal é que o &lt;strong&gt;GitHub Pages&lt;/strong&gt; oferece &lt;strong&gt;suporte&lt;/strong&gt; para usar &lt;strong&gt;Jekyll&lt;/strong&gt;. As coisas funcionam como mágica :). Só acessar o repositório do &lt;a href='https://github.com/mojombo/jekyll'&gt;Jekyll&lt;/a&gt; no &lt;strong&gt;GitHub&lt;/strong&gt; e ler a documentação para colocar seu primeiro site no ar.&lt;/p&gt;
+&lt;p&gt;É uma forma simples de &lt;strong&gt;gerar sites estáticos&lt;/strong&gt; em &lt;strong&gt;Ruby&lt;/strong&gt;. Tem várias vantagens. O mais legal é que o &lt;strong&gt;GitHub Pages&lt;/strong&gt; oferece &lt;strong&gt;suporte&lt;/strong&gt; para usar &lt;strong&gt;Jekyll&lt;/strong&gt;. As coisas funcionam como mágica :). Só acessar o repositório do &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; no &lt;strong&gt;GitHub&lt;/strong&gt; e ler a documentação para colocar seu primeiro site no ar.&lt;/p&gt;
 
-&lt;h3 id='o_que__jekyll_plugin'&gt;O que é Jekyll plugin&lt;/h3&gt;
+&lt;h3 id=&quot;o-que--jekyll-plugin&quot;&gt;O que é Jekyll plugin&lt;/h3&gt;
+&lt;p&gt;O &lt;strong&gt;Jekyll plugin&lt;/strong&gt; permite criar &lt;strong&gt;conteúdos específicos&lt;/strong&gt; e &lt;strong&gt;customizados&lt;/strong&gt; no site. Por exemplo, neste blog eu usei um plugin que dei o nome de &lt;a href=&quot;https://github.com/leandroadacosta/leandroadacosta.github.com/blob/source/_plugins/code_tag.rb&quot;&gt;code_tag.rb&lt;/a&gt; para facilitar a leitura de trechos de código que escrevo nos posts ao usuário. Basicamente o plugin faz o &lt;em&gt;highlight&lt;/em&gt; automático do texto - gerando HTML e CSS - de acordo com o tipo de linguagem que desejar, seja Ruby, HTML, CSS, etc.&lt;/p&gt;
 
-&lt;p&gt;O &lt;strong&gt;Jekyll plugin&lt;/strong&gt; permite criar &lt;strong&gt;conteúdos específicos&lt;/strong&gt; e &lt;strong&gt;customizados&lt;/strong&gt; no site. Por exemplo, neste blog eu usei um plugin que dei o nome de &lt;a href='https://github.com/leandroadacosta/leandroadacosta.github.com/blob/source/_plugins/code_tag.rb'&gt;code_tag.rb&lt;/a&gt; para facilitar a leitura de trechos de código que escrevo nos posts ao usuário. Basicamente o plugin faz o &lt;em&gt;highlight&lt;/em&gt; automático do texto - gerando HTML e CSS - de acordo com o tipo de linguagem que desejar, seja Ruby, HTML, CSS, etc.&lt;/p&gt;
-
-&lt;h2 id='soluo'&gt;Solução&lt;/h2&gt;
-
+&lt;h2 id=&quot;soluo&quot;&gt;Solução&lt;/h2&gt;
 &lt;p&gt;Para usar &lt;strong&gt;plugins customizados + GitHub Pages&lt;/strong&gt; é preciso de começo separar em duas branchs:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;branch source&lt;/code&gt; onde está o &lt;strong&gt;código fonte&lt;/strong&gt;.&lt;/li&gt;
-
-&lt;li&gt;&lt;code&gt;branch master&lt;/code&gt; onde está o &lt;strong&gt;código final gerado pelo Jekyll&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;branch source&lt;/code&gt; onde está o &lt;strong&gt;código fonte&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;branch master&lt;/code&gt; onde está o &lt;strong&gt;código final gerado pelo   Jekyll&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Adicionar no &lt;code&gt;.gitignore&lt;/code&gt; a pasta &lt;code&gt;/_site&lt;/code&gt; que é gerada pelo &lt;strong&gt;Jekyll&lt;/strong&gt;. Este simples detalhe permite trocar da &lt;strong&gt;branch source&lt;/strong&gt; para &lt;strong&gt;master&lt;/strong&gt; e ainda manter os arquivos gerados na pasta &lt;code&gt;/_site&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Para acontecer a mágica, é preciso mover os arquivos finais de dentro da pasta &lt;code&gt;/_site&lt;/code&gt; para a pasta raiz da &lt;strong&gt;branch master&lt;/strong&gt; e comitar na master esses arquivos gerados antes de dar push pro &lt;strong&gt;GitHub&lt;/strong&gt;. Para entender melhor, veja abaixo:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;git checkout &lt;span class='nb'&gt;source&lt;/span&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git checkout &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt;
 // seja lá qualquer alteração feita
-git status &amp;amp; git add &amp;amp; git commit
+git status &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; git add &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; git commit
 jekyll
 git checkout master
-cp -r _site/* . &lt;span class='o'&gt;&amp;amp;&amp;amp;&lt;/span&gt; rm -rf _site/ &lt;span class='o'&gt;&amp;amp;&amp;amp;&lt;/span&gt; touch .nojekyll
-git status &amp;amp; git add &amp;amp; git commit
-git push -all origin
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+cp -r _site/* . &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; rm -rf _site/ &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; touch .nojekyll
+git status &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; git add &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; git commit
+git push -all origin&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;Pronto. A parte chata é que você move e comita na &lt;strong&gt;branch master&lt;/strong&gt; os códigos gerados pelo &lt;strong&gt;Jekyll&lt;/strong&gt;. A parte boa é que você tem a &lt;strong&gt;branch source&lt;/strong&gt; pra trabalhar tranquilamente no seu site e, o melhor de tudo, funciona com &lt;strong&gt;Jekyll plugins&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Pra facilitar a tarefa de copiar, criei um alias no meu bash:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;&lt;span class='nb'&gt;alias &lt;/span&gt;jekyll-copy&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;cp -r _site/* . &amp;amp;&amp;amp; rm -rf _site/ &amp;amp;&amp;amp; touch .nojekyll&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Veja todo o código dessa abordagem de duas branchs no &lt;a href='https://github.com/leandroadacosta/leandroadacosta.github.com'&gt;repositório deste blog&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Espero ter ajudado.&lt;/p&gt;</content>
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;jekyll-copy&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;cp -r _site/* . &amp;amp;&amp;amp; rm -rf _site/ &amp;amp;&amp;amp; touch .nojekyll&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Veja todo o código dessa abordagem de duas branchs no &lt;a href=&quot;https://github.com/leandroadacosta/leandroadacosta.github.com&quot;&gt;repositório deste blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Espero ter ajudado.&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>Novo blog no ar</title>
    <link href="http://leandroadacosta.com/novo-blog-no-ar/"/>
-   <updated>2013-01-28T00:00:00-02:00</updated>
+   <updated>2013-01-28T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//novo-blog-no-ar</id>
    <content type="html">&lt;p&gt;Olá pessoal, meu novo blog está no ar depois de algum tempo com o antigo blog em WordPress e sem postar novidades.&lt;/p&gt;
 
 &lt;p&gt;Além de posts novos, as principais novidades são:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Design responsivo&lt;/li&gt;
-
-&lt;li&gt;Desenvolvido com &lt;a href='https://github.com/mojombo/jekyll'&gt;Jekyll&lt;/a&gt; em vez de WordPress.&lt;/li&gt;
-
-&lt;li&gt;Hospedado por &lt;a href='http://pages.github.com'&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='https://github.com/leandroadacosta/leandroadacosta.github.com'&gt;Código fonte disponível&lt;/a&gt; no &lt;strong&gt;GitHub&lt;/strong&gt;. Pull requests são bem-vindos também :)&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='/atom.xml'&gt;Feed RSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Design responsivo&lt;/li&gt;
+  &lt;li&gt;Desenvolvido com &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; em vez de WordPress.&lt;/li&gt;
+  &lt;li&gt;Hospedado por &lt;a href=&quot;http://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/leandroadacosta/leandroadacosta.github.com&quot;&gt;Código fonte disponível&lt;/a&gt; no &lt;strong&gt;GitHub&lt;/strong&gt;. Pull requests são bem-vindos também :)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/atom.xml&quot;&gt;Feed RSS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Para entender melhor porque desenvolvi este novo blog usando &lt;strong&gt;Jekyll&lt;/strong&gt;, fiz um post explicando como &lt;a href='/usando-jekyll-plugins-com-github-pages'&gt;usar Jekyll + Plugins com GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para entender melhor porque desenvolvi este novo blog usando &lt;strong&gt;Jekyll&lt;/strong&gt;, fiz um post explicando como &lt;a href=&quot;/usando-jekyll-plugins-com-github-pages&quot;&gt;usar Jekyll + Plugins com GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Mais coisas estão por vir. &lt;br /&gt; Grande abraço.&lt;/p&gt;</content>
+&lt;p&gt;Mais coisas estão por vir.
+&lt;br /&gt;
+Grande abraço.&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>TDC 2012 São Paulo Highlights</title>
    <link href="http://leandroadacosta.com/tdc-2012-sao-paulo-highlights/"/>
-   <updated>2012-07-18T00:00:00-03:00</updated>
+   <updated>2012-07-18T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//tdc-2012-sao-paulo-highlights</id>
-   <content type="html">&lt;p&gt;&lt;a href='/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg'&gt;&lt;img alt='TDC 2012 São Paulo' src='/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg' style='max-width:640px' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Sábado 07/07/2012 participei da conferência de desenvolvedores de software (&lt;a href='http://www.thedevelopersconference.com.br/tdc/2012/index.html' target='_blank'&gt;TDC 2012 São Paulo&lt;/a&gt;) na Universidade Anhembi Morumbi. Antes de falar sobre as palestras deixo um recado: ir a eventos é sempre muito bom, além do networking ser importante, vejo a troca de experiências como o maior benefício. O profissional de TI que não tem o senso de comunidade, está deixando de lado algo muito valioso.&lt;/p&gt;&lt;p&gt;&lt;a href='/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg'&gt;&lt;img alt='TDC 2012 São Paulo' src='/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg' style='max-width:640px' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;O evento aconteceu de 4 a 8 de Julho. Consegui ir somente no Sábado (dia 07) na &lt;a href='http://www.thedevelopersconference.com.br/tdc/2012/saopaulo/trilha-ruby#programacao' target='_blank'&gt;trilha de Ruby&lt;/a&gt; - sim, somente a linguagem Ruby, sem falar do framework &lt;a href='http://rubyonrails.com.br/' target='_blank'&gt;Rails&lt;/a&gt;. Das palestras, que por sinal foram muito boas, consegui tirar alguns pontos importantes que gostaria de compartilhá-los.&lt;/p&gt;&lt;p&gt;&lt;a href='/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg'&gt;&lt;img alt='Ricardo Valeriano - TDC 2012 São Paulo' src='/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg' style='max-width:640px' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;O dia começou com a palestra do grande &lt;a href='http://blog.ricardovaleriano.com/' target='_blank'&gt;Ricardo Valeriano&lt;/a&gt; sobre &quot;&lt;strong&gt;A ferramenta ideal: uma questão de perspectiva.&lt;/strong&gt;&quot; e, como sempre, deu um show de dinamismo, descontraindo bastante a galera com seus slides cheios de &lt;em&gt;memes&lt;/em&gt;, gostei bastante. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;&lt;ul&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg&quot;&gt;&lt;img src=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg&quot; alt=&quot;TDC 2012 São Paulo&quot; style=&quot;max-width:640px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sábado 07/07/2012 participei da conferência de desenvolvedores de software (&lt;a href=&quot;http://www.thedevelopersconference.com.br/tdc/2012/index.html&quot; target=&quot;_blank&quot;&gt;TDC 2012 São Paulo&lt;/a&gt;) na Universidade Anhembi Morumbi. Antes de falar sobre as palestras deixo um recado: ir a eventos é sempre muito bom, além do networking ser importante, vejo a troca de experiências como o maior benefício. O profissional de TI que não tem o senso de comunidade, está deixando de lado algo muito valioso.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg&quot;&gt;&lt;img src=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg&quot; alt=&quot;TDC 2012 São Paulo&quot; style=&quot;max-width:640px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;O evento aconteceu de 4 a 8 de Julho. Consegui ir somente no Sábado (dia 07) na &lt;a href=&quot;http://www.thedevelopersconference.com.br/tdc/2012/saopaulo/trilha-ruby#programacao&quot; target=&quot;_blank&quot;&gt;trilha de Ruby&lt;/a&gt; - sim, somente a linguagem Ruby, sem falar do framework &lt;a href=&quot;http://rubyonrails.com.br/&quot; target=&quot;_blank&quot;&gt;Rails&lt;/a&gt;. Das palestras, que por sinal foram muito boas, consegui tirar alguns pontos importantes que gostaria de compartilhá-los.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg&quot;&gt;&lt;img src=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg&quot; alt=&quot;Ricardo Valeriano - TDC 2012 São Paulo&quot; style=&quot;max-width:640px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;O dia começou com a palestra do grande &lt;a href=&quot;http://blog.ricardovaleriano.com/&quot; target=&quot;_blank&quot;&gt;Ricardo Valeriano&lt;/a&gt; sobre &quot;&lt;strong&gt;A ferramenta ideal: uma questão de perspectiva.&lt;/strong&gt;&quot; e, como sempre, deu um show de dinamismo, descontraindo bastante a galera com seus slides cheios de &lt;em&gt;memes&lt;/em&gt;, gostei bastante. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
 	&lt;li&gt;Desenvolver software é muito complexo, em sua maioria criasse um legado a longo prazo que não é sustentável. No começo e durante o desenvolvimento os profissionais tomam decisões sobre quais ferramentas vão usar - seja lá qual for, seja uma api específica, um framework, a linguagem a utilizar, ou etc. - sem entender completamente o porque, sem saber criticar as suas escolhas. Se preocupar sempre com o legado é essencial, no futuro pode ser outra pessoa ou equipe que vai encontrar um monstro ou um projeto bem estruturado, pense nisso. O projeto tem que se manter sustentável ao longo do tempo. Tenha em mente e entenda sempre as desvantagens da decisão tomada, assim você conseguirá evoluir o software com qualidade.&lt;/li&gt;
 	&lt;li&gt;Domine a linguagem ao ponto de criticar os pontos negativos. Não existe tecnologia ruim, a decisão depende do contexto, depende da pessoa e do momento.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;a href='http://cassiomarques.wordpress.com/' target='_blank'&gt;Cassio Marques&lt;/a&gt; foi o único que falou de Rails além de Ruby. Cassio palestrou sobre &quot;&lt;strong&gt;Porque você não deve usar os callbacks do ActiveRecord&lt;/strong&gt;&quot; (&lt;a href='https://speakerdeck.com/u/cassiomarques/p/porque-voce-nao-deve-usar-os-callbacks-do-activerecord' target='_blank' title='Porque você não deve usar os callbacks do ActiveRecord'&gt;slides da palestra&lt;/a&gt;), achei muito interessante os pontos abordados. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;&lt;ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cassiomarques.wordpress.com/&quot; target=&quot;_blank&quot;&gt;Cassio Marques&lt;/a&gt; foi o único que falou de Rails além de Ruby. Cassio palestrou sobre &quot;&lt;strong&gt;Porque você não deve usar os callbacks do ActiveRecord&lt;/strong&gt;&quot; (&lt;a title=&quot;Porque você não deve usar os callbacks do ActiveRecord&quot; href=&quot;https://speakerdeck.com/u/cassiomarques/p/porque-voce-nao-deve-usar-os-callbacks-do-activerecord&quot; target=&quot;_blank&quot;&gt;slides da palestra&lt;/a&gt;), achei muito interessante os pontos abordados. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
 	&lt;li&gt;O teste está lento? Não sabe porque? Cuidado! Lembre-se que os callbacks do ActiveRecord nos seus modelos são executados quando você persiste objetos durante a execução dos testes.&lt;/li&gt;
 	&lt;li&gt;Não coloque regras de negócio nos callbacks pois será difícil de manter. Sendo assim, não tenha medo de isolar essa lógica criando outras classes se você está desenvolvendo orientado a objetos. Lembre-se que cada objeto deve fazer o mínimo possível e tem que fazer isso bem. Cuidado com convenções, elas são boas para criar um framework, mas não necessariamente para o contexto necessário para seu código.&lt;/li&gt;
-	&lt;li&gt;Ao codificar tenha em mente a clareza ao invés de não concisão. Como assim? É quando você acha que é o expert por escrever seu código de um jeito bonitinho, por exemplo, deixando o código com tudo inline só porque no Ruby é legal. Na verdade isso pode ser ruim, pois bonito é muitas vezes diferente de um código com &lt;a href='http://blog.caelum.com.br/codigo-conciso-claro-e-breve/' target='_blank'&gt;clareza e concisão&lt;/a&gt;, cuidado.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;a href='http://blog.qmx.me' target='_blank'&gt;Douglas 'qmx' Campos&lt;/a&gt; palestrou sobre &quot;&lt;strong&gt;Ruby é lento?&lt;/strong&gt;&quot;, ele abordou alguns pontos fortes e fracos da linguagem e a comparou com outras linguagens também, foi bem interessante. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;&lt;ul&gt;
-	&lt;li&gt;Ruby não é lento, mas pode ser lento, tudo depende de como foi usado. Ruby foi feito para deixar o programador feliz, quero dizer que tem muitas formas legais de programar as coisas e justamente por causa disso pode ser que fique lento. O desenvolvedor tem que saber que quanto mais poder e flexibilidade ele tem em mãos com a linguagem, maior é a responsabilidade dele em não fazer cagada com a performance.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;E por fim uma dica, essa foi dada por &lt;a href='http://nandovieira.com.br' target='_blank'&gt;Nando Vieira&lt;/a&gt;:&lt;/p&gt;&lt;ul&gt;
-	&lt;li&gt;Você perde muito tempo configurando ambientes desde o zero para o desenvolvedor novo na equipe ou empresa? Dê uma olhada nisso: &lt;a href='http://vagrantup.com/' target='_blank'&gt;http://vagrantup.com&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;Ao codificar tenha em mente a clareza ao invés de não concisão. Como assim? É quando você acha que é o expert por escrever seu código de um jeito bonitinho, por exemplo, deixando o código com tudo inline só porque no Ruby é legal. Na verdade isso pode ser ruim, pois bonito é muitas vezes diferente de um código com &lt;a href=&quot;http://blog.caelum.com.br/codigo-conciso-claro-e-breve/&quot; target=&quot;_blank&quot;&gt;clareza e concisão&lt;/a&gt;, cuidado.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Bom, foi o que consegui resumir das palestras. Espero ter ajudado. Um abraço.&lt;/p&gt;</content>
+
+&lt;p&gt;&lt;a href=&quot;http://blog.qmx.me&quot; target=&quot;_blank&quot;&gt;Douglas &#39;qmx&#39; Campos&lt;/a&gt; palestrou sobre &quot;&lt;strong&gt;Ruby é lento?&lt;/strong&gt;&quot;, ele abordou alguns pontos fortes e fracos da linguagem e a comparou com outras linguagens também, foi bem interessante. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Ruby não é lento, mas pode ser lento, tudo depende de como foi usado. Ruby foi feito para deixar o programador feliz, quero dizer que tem muitas formas legais de programar as coisas e justamente por causa disso pode ser que fique lento. O desenvolvedor tem que saber que quanto mais poder e flexibilidade ele tem em mãos com a linguagem, maior é a responsabilidade dele em não fazer cagada com a performance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;E por fim uma dica, essa foi dada por &lt;a href=&quot;http://nandovieira.com.br&quot; target=&quot;_blank&quot;&gt;Nando Vieira&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Você perde muito tempo configurando ambientes desde o zero para o desenvolvedor novo na equipe ou empresa? Dê uma olhada nisso: &lt;a href=&quot;http://vagrantup.com/&quot; target=&quot;_blank&quot;&gt;http://vagrantup.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bom, foi o que consegui resumir das palestras. Espero ter ajudado.
+Um abraço.&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>O que os líderes empreendedores devem fazer - Parte 1</title>
    <link href="http://leandroadacosta.com/o-que-os-lideres-empreendedores-devem-fazer-parte-1/"/>
-   <updated>2012-03-13T00:00:00-03:00</updated>
+   <updated>2012-03-13T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//o-que-os-lideres-empreendedores-devem-fazer-parte-1</id>
-   <content type="html">&lt;p&gt;Compartilho com vocês um texto retirado do livro da série &lt;strong&gt;Harvard Business Essentials&lt;/strong&gt; de 2005 chamado &lt;strong&gt;Ferramentas para empreendedores&lt;/strong&gt; escrito por Richard Luecke.&lt;/p&gt;&lt;h2&gt;Conselhos práticos&lt;/h2&gt;&lt;p&gt;Felizmente, o sucesso e o crescimento são compatíveis com o espírito empreendedor. Mas o que a liderança pode fazer para garantir a vitalidade contínua desse espírito quando o negócio começa a se estabelecer e crescer? Este é o primeiro post de outros que farei contendo conselhos práticos para permanecer agressivo, inovador e com capacidade de resposta às condições de mercado. Vamos ao primeiro:&lt;/p&gt;&lt;h2&gt;Preserve uma cultura favorável à inovação&lt;/h2&gt;&lt;p&gt;Compreende-se bem o impacto da cultura organizacional na criatividade e na geração de idéias. Na ausência de uma cultura que dê este apoio, a criatividade e a inovação não germinarão nem crescerão.&lt;/p&gt;&lt;p&gt;Um exemplo de cultura infértil é uma cultura caracterizada por um foco para dentro, procedimentos extensos para resolver questões por consenso e 'rejeição', arrogância criada pelo sucesso anterior e um senso de direito, por parte de alguns funcionários, a ter os cargos garantidos sem uma contrapartida. Se a cultura de sua empresa está assumindo estas características, então é pouco provável que a criatividade e a inovação floresçam. Pior ainda, as pessoas mais inventivas ficarão desestimuladas e deprimidas, e procurarão trabalho em outro lugar.&lt;/p&gt;&lt;p&gt;Estas perguntas o ajudarão a determinar se sua empresa está perdendo o espírito criativo:&lt;/p&gt;&lt;ul&gt;
+   <content type="html">&lt;p&gt;Compartilho com vocês um texto retirado do livro da série &lt;strong&gt;Harvard Business Essentials&lt;/strong&gt; de 2005 chamado &lt;strong&gt;Ferramentas para empreendedores&lt;/strong&gt; escrito por Richard Luecke.&lt;/p&gt;
+&lt;h2&gt;Conselhos práticos&lt;/h2&gt;
+&lt;p&gt;Felizmente, o sucesso e o crescimento são compatíveis com o espírito empreendedor. Mas o que a liderança pode fazer para garantir a vitalidade contínua desse espírito quando o negócio começa a se estabelecer e crescer? Este é o primeiro post de outros que farei contendo conselhos práticos para permanecer agressivo, inovador e com capacidade de resposta às condições de mercado. Vamos ao primeiro:&lt;/p&gt;
+&lt;h2&gt;Preserve uma cultura favorável à inovação&lt;/h2&gt;
+&lt;p&gt;Compreende-se bem o impacto da cultura organizacional na criatividade e na geração de idéias. Na ausência de uma cultura que dê este apoio, a criatividade e a inovação não germinarão nem crescerão.&lt;/p&gt;
+&lt;p&gt;Um exemplo de cultura infértil é uma cultura caracterizada por um foco para dentro, procedimentos extensos para resolver questões por consenso e &#39;rejeição&#39;, arrogância criada pelo sucesso anterior e um senso de direito, por parte de alguns funcionários, a ter os cargos garantidos sem uma contrapartida. Se a cultura de sua empresa está assumindo estas características, então é pouco provável que a criatividade e a inovação floresçam. Pior ainda, as pessoas mais inventivas ficarão desestimuladas e deprimidas, e procurarão trabalho em outro lugar.&lt;/p&gt;
+&lt;p&gt;Estas perguntas o ajudarão a determinar se sua empresa está perdendo o espírito criativo:&lt;/p&gt;
+&lt;ul&gt;
 	&lt;li&gt;Nosso sucesso está nos deixando convencidos e complacentes?&lt;/li&gt;
 	&lt;li&gt;Nós somos focalizados para dentro?&lt;/li&gt;
 	&lt;li&gt;Nós castigamos os que falham ao assumir riscos?&lt;/li&gt;
@@ -126,19 +158,27 @@ git push -all origin
 	&lt;li&gt;Nós não recompensamos atos de criatividade?&lt;/li&gt;
 	&lt;li&gt;Somos burocráticos na forma como lidamos com as novas idéias?&lt;/li&gt;
 	&lt;li&gt;A hierarquia e seus símbolos se insinuam por nossa cultura?&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Se você respondeu sim a qualquer uma destas perguntas, é preciso fazer uma avaliação séria e um ajuste em sua cultura organizacional.
+&lt;/ul&gt;
+&lt;p&gt;Se você respondeu sim a qualquer uma destas perguntas, é preciso fazer uma avaliação séria e um ajuste em sua cultura organizacional.
 Nos outros posts escreverei outras dicas do que os empreendedores devem fazer para manter vivo o espírito empreendedor.
-Um grande abraço!&lt;/p&gt;</content>
+Um grande abraço!&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>Scrum, 8 erros comuns da reunião diária</title>
    <link href="http://leandroadacosta.com/scrum-8-erros-comuns-da-reuniao-diaria/"/>
-   <updated>2012-01-17T00:00:00-02:00</updated>
+   <updated>2012-01-17T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//scrum-8-erros-comuns-da-reuniao-diaria</id>
-   <content type="html">&lt;p&gt;Texto retirado e resumido do original publicado na revista &lt;a href='http://www.mundoj.com.br/' target='_blank'&gt;MundoJ&lt;/a&gt; por Dairton Bassi (&lt;a href='http://twitter.com/dbassi' target='_blank' title='Twitter de Dairton Bassi'&gt;@dbassi&lt;/a&gt;): &quot;Você é Ágil Mesmo? Erros Comuns de Equipes que Pensam ser Ágeis. Detalhes que podem fazer a diferença para a sua equipe&quot;.&lt;/p&gt;
-&lt;h2 id='reunies_dirias'&gt;Reuniões diárias&lt;/h2&gt;
-&lt;p&gt;As reuniões diárias, em Scrum chamadas de daily scrum, e em XP, de stand up meetings, devem acontecer em pé e diariamente, em local e horário determinados pela equipe, com duração máxima de 15 minutos. Essa prática é fundamental para equipes ágeis, pois é ela quem demarca um ciclo diário de trabalho. A reunião serve para manter todos sincronizados sobre novidades, dificuldades e avanços recentes no projeto e também para fazer um planejamento do dia.&lt;/p&gt;&lt;p&gt;Erros e implicações comuns:&lt;/p&gt;&lt;ol&gt;
+   <content type="html">&lt;p&gt;Texto retirado e resumido do original publicado na revista &lt;a href=&quot;http://www.mundoj.com.br/&quot; target=&quot;_blank&quot;&gt;MundoJ&lt;/a&gt; por Dairton Bassi (&lt;a title=&quot;Twitter de Dairton Bassi&quot; href=&quot;http://twitter.com/dbassi&quot; target=&quot;_blank&quot;&gt;@dbassi&lt;/a&gt;): &quot;Você é Ágil Mesmo? Erros Comuns de Equipes que Pensam ser Ágeis. Detalhes que podem fazer a diferença para a sua equipe&quot;.&lt;/p&gt;
+
+&lt;h2 id=&quot;reunies-dirias&quot;&gt;Reuniões diárias&lt;/h2&gt;
+
+&lt;p&gt;As reuniões diárias, em Scrum chamadas de daily scrum, e em XP, de stand up meetings, devem acontecer em pé e diariamente, em local e horário determinados pela equipe, com duração máxima de 15 minutos. Essa prática é fundamental para equipes ágeis, pois é ela quem demarca um ciclo diário de trabalho. A reunião serve para manter todos sincronizados sobre novidades, dificuldades e avanços recentes no projeto e também para fazer um planejamento do dia.&lt;/p&gt;
+
+&lt;p&gt;Erros e implicações comuns:&lt;/p&gt;
+
+&lt;ol&gt;
 	&lt;li&gt;&lt;strong&gt;Reunião diária a cada três dias:&lt;/strong&gt; Se não ocorrem todos os dias, prejudicam a comunicação dentro da equipe. A ausência da reunião diária também impacta no planejamento porque quando o intervalo entre as reuniões aumenta, a equipe passa a ter ciclos de trabalho maiores, o que faz com que a equipe tenha menos visibilidade sobre a evolução do seu trabalho no decorrer da iteração.&lt;/li&gt;
 	&lt;li&gt;&lt;strong&gt;Reuniões com longa duração (mais de 15 minutos):&lt;/strong&gt; É um sintoma de que a equipe não está se comunicando o suficiente durante o resto do dia. Podem causar a ausência de reuniões nos próximos dias, pois, por falar bastante, a equipe pode ficar com a falsa sensação de que não há assuntos novos no outro dia. Também incentivam que a conversa deixe de acontecer em pé. Em geral, o papo começa em pé, mas os participantes vão se sentando à medida que a conversa de alonga.&lt;/li&gt;
 	&lt;li&gt;&lt;strong&gt;Na sala de reuniões:&lt;/strong&gt; Cria um ambiente propício para que a conversa se prolongue e que os participantes se sentem. A conversa deve ser feita com praticidade e objetividade, preferencialmente em frente ao quadro de tarefas, assim a equipe pode visualizar o que tem pra fazer e atualizar o quadro.&lt;/li&gt;
@@ -148,26 +188,34 @@ Um grande abraço!&lt;/p&gt;</content>
 	&lt;li&gt;&lt;strong&gt;Horário flutuante:&lt;/strong&gt; É interessante que a equipe defina a hora exata, por exemplo, às 10h, assim todos se organizam para estarem disponíveis. Quando combinado um horário aproximado, como, por exemplo, pela manhã, ou após o almoço, é difícil encontrar um momento em que todos estão livres para fazer a reunião. Neste caso a reunião sempre é procrastinada. Com freqüência esse adiamento se torna um cancelamento.&lt;/li&gt;
 	&lt;li&gt;&lt;strong&gt;Participação parcial na reunião:&lt;/strong&gt; Não deve ser feita em paralelo com outras atividades, ou seja, sem foco na reunião. Isso acontece, por exemplo, quando alguém diz: &quot;podem começar a reunião que estou meio ocupado, qualquer coisa eu falo aqui do meu lugar mesmo&quot;. Os bons modos para reuniões diárias incluem chegar no horário, não ficar mexendo no celular, não manter conversas paralelas e não interromper a reunião diária de outra equipe.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Alguém já caiu em algum desses erros? Nós aqui da Cocento já e conseguimos ajustar e nos corrigir. Ótimas dicas do Dairton Bassi. Espero ter ajudado compartilhando também no blog.&lt;/p&gt;</content>
+&lt;p&gt;Alguém já caiu em algum desses erros? Nós aqui da Cocento já e conseguimos ajustar e nos corrigir.
+Ótimas dicas do Dairton Bassi. Espero ter ajudado compartilhando também no blog.&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>Significância leva às pessoas ao sucesso</title>
    <link href="http://leandroadacosta.com/significancia-leva-as-pessoas-ao-sucesso/"/>
-   <updated>2012-01-06T00:00:00-02:00</updated>
+   <updated>2012-01-06T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//significancia-leva-as-pessoas-ao-sucesso</id>
-   <content type="html">&lt;p&gt;Compartilho com vocês um texto escrito por &lt;a href='http://www.judithmbardwick.com/' target='_blank'&gt;Judith M. Dardwick&lt;/a&gt;, a autora aborda o lado humano da gestão de pessoas, onde a significância leva às pessoas ao sucesso.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Compartilho com vocês um texto escrito por &lt;a href=&quot;http://www.judithmbardwick.com/&quot; target=&quot;_blank&quot;&gt;Judith M. Dardwick&lt;/a&gt;, a autora aborda o lado humano da gestão de pessoas, onde a significância leva às pessoas ao sucesso.&lt;/p&gt;
 
 &lt;p&gt;Veja como Dardwick comenta o caminho para o sucesso das pessoas, onde eu concordo plenamente.&lt;/p&gt;
+
 &lt;blockquote&gt;As pessoas bem sucedidas, se sentem desafiadas, com poder significante.&lt;/blockquote&gt;
+
 &lt;p&gt;O que significa isto? Eis as definições, com as palavras dos próprios empregados:&lt;/p&gt;
-&lt;h2&gt;Desafio&lt;/h2&gt;&lt;ul&gt;
+
+&lt;h2&gt;Desafio&lt;/h2&gt;
+&lt;ul&gt;
 	&lt;li&gt;Quero continuar aprendendo.&lt;/li&gt;
 	&lt;li&gt;Quero responsabilidades diferentes.&lt;/li&gt;
 	&lt;li&gt;Quero correr algum risco.&lt;/li&gt;
 	&lt;li&gt;Quero cada dia diferente do outro.&lt;/li&gt;
 	&lt;li&gt;Quero que meu trabalho seja divertido.&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;Busca de Poder&lt;/h2&gt;&lt;ul&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Busca de Poder&lt;/h2&gt;
+&lt;ul&gt;
 	&lt;li&gt;Quero tomar decisões importantes.&lt;/li&gt;
 	&lt;li&gt;Quero a oportunidade de ser criativo.&lt;/li&gt;
 	&lt;li&gt;Quero que as pessoas me respeitem.&lt;/li&gt;
@@ -175,7 +223,10 @@ Um grande abraço!&lt;/p&gt;</content>
 	&lt;li&gt;Não quero ter de fazer as coisas rotineiramente.&lt;/li&gt;
 	&lt;li&gt;Quero ser responsável e que as pessoas confiem em mim.&lt;/li&gt;
 	&lt;li&gt;Realmente me preocupo com esta coisa e sou uma das pessoas que estão brigando por ela.&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;Significância&lt;/h2&gt;&lt;ul&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Significância&lt;/h2&gt;
+&lt;ul&gt;
 	&lt;li&gt;Quero sentir que eu conto.&lt;/li&gt;
 	&lt;li&gt;Quero crer que o meu trabalho é importante.&lt;/li&gt;
 	&lt;li&gt;Quero fazer mais do que juntar papéis e ir a reuniões.&lt;/li&gt;
@@ -183,48 +234,95 @@ Um grande abraço!&lt;/p&gt;</content>
 	&lt;li&gt;Estou fazendo algo que os outros realmente gostam.&lt;/li&gt;
 	&lt;li&gt;O que estou fazendo é significativo. Isto faz uma diferença. Eu faço falta aqui.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Como podemos observar, o lado humano da gestão de pessoas também é extremamente importante para o sucesso das pessoas e para os resultados da organização.&lt;/p&gt;
 
-&lt;p&gt;E como você se sente ao trabalhar no dia a dia? Espero ter ajudado. Um abraço.&lt;/p&gt;</content>
+&lt;p&gt;E como você se sente ao trabalhar no dia a dia?
+Espero ter ajudado. Um abraço.&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>Cultura de Conquista - Parte 2</title>
    <link href="http://leandroadacosta.com/cultura-de-conquista-parte-2/"/>
-   <updated>2011-11-28T00:00:00-02:00</updated>
+   <updated>2011-11-28T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//cultura-de-conquista-parte-2</id>
-   <content type="html">&lt;p&gt;Na &lt;a href='/cultura-de-conquista-parte-1/' target='_blank' title='Cultura de Conquista – Parte 1'&gt;primeira parte deste post&lt;/a&gt; foram abordados aspectos relacionados ao estado de conquista, são eles: terras altas da “Conquista”, produtividade, criatividade, violação das normas estabelecidas e equipes de trabalho. Daremos continuidade a &lt;strong&gt;segunda e última parte&lt;/strong&gt; da cultura de conquista.&lt;/p&gt;&lt;h2&gt;Por que é tão difícil?&lt;/h2&gt;&lt;p&gt;É importante lembrar que, em princípio, onde existe &quot;&lt;a href='/perigo-na-zona-de-conforto/' target='_blank' title='Perigo na Zona de Conforto'&gt;zona de conforto&lt;/a&gt;&quot;, qualquer movimento conquistado gera medo, por isso é tão difícil.&lt;/p&gt;&lt;p&gt;Pesquisas psicológicas confirmam que a &lt;strong&gt;motivação&lt;/strong&gt; é maior quando as probabilidades de sucesso são de 50%. As pessoas não se sentem realmente estimuladas para desenvolver trabalhos difíceis demais. Então, para criar uma conquista psicológica, deve-se levar as pessoas à uma faixa média de risco. O objetivo é criar &lt;strong&gt;medo&lt;/strong&gt; mas, principalmente, criar &lt;strong&gt;ansiedade&lt;/strong&gt; alta o bastante para estimular a &lt;strong&gt;conquista&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Você vai precisar de &lt;strong&gt;coragem&lt;/strong&gt; e força para manter a &lt;strong&gt;pressão&lt;/strong&gt; por tempo o suficiente para convencer as pessoas que a festa finalmente acabou. Durante esse tempo, o moral vai declinar. Haverá protestos, atrasos e resistências. Medidas drásticas podem ser imprescindíveis. A visão, somente, não vai levar as pessoas até a &quot;Conquista&quot; - &lt;em&gt;você vai precisar de uma vara mais do que de uma cenoura&lt;/em&gt;. Todavia, a pressão é apenas a metade da prescrição. &lt;em&gt;A outra metade é o apoio&lt;/em&gt;. Enquanto estiver fazendo pressão você deve também fornecer informação, conselho e as ferramentas para judar as pessoas a alcançar os níveis requeridos de realização sob este novo regime. Simultaneamente, &lt;em&gt;não aplique tanta pressão que as pessoas passem do medo ao pânico&lt;/em&gt;.&lt;/p&gt;&lt;h2&gt;Crie oportunidades para desafio e risco&lt;/h2&gt;&lt;p&gt;Para aumentar a pressão, você tem de, primeiro, &lt;strong&gt;identificar&lt;/strong&gt; o que constitui &lt;strong&gt;trabalho real&lt;/strong&gt;, decidir como &lt;strong&gt;avaliá-lo&lt;/strong&gt; e, então, reforçar suas avaliações encorajando riscos e tentando pagar pelo &lt;strong&gt;desempenho&lt;/strong&gt; das &lt;strong&gt;competências&lt;/strong&gt;. Avalie o desempenho real das competências apresentadas (&lt;strong&gt;conheça nosso produto&lt;/strong&gt; para &lt;a href='http://www.chamaster.com/' target='_blank' title='CHA Master'&gt;Avaliação de Desempenho por Competência&lt;/a&gt;). Crie oportunidades para desafio e risco, liberando as pessoas para fazer tarefas específicas e rotação de tarefas - &lt;em&gt;job rotation&lt;/em&gt;. A cada ano, 25% da tarefa de uma pessoa deve ser novidade. E não puna quem corre riscos. Inove. Faça!&lt;/p&gt;&lt;h2&gt;Diminua a hierarquia e aumente a visibilidade dos colegas&lt;/h2&gt;&lt;p&gt;Você pode aumentar a visibilidade do empregado diminuindo a hierarquia. &lt;strong&gt;Organizações&lt;/strong&gt; mais &lt;strong&gt;enxutas&lt;/strong&gt;, mais estáveis, oferecem poucos nichos onde as pessoas possam se esconder.&lt;/p&gt;&lt;p&gt;Muito interessante, a &lt;a href='http://www.nissan.com.br/' target='_blank' title='Nissan'&gt;Nissan&lt;/a&gt; - uma empresa japonesa fabricante de automóveis -, não usando relógios de ponto, se gaba de ter o melhor nível de comparecimento ao trabalho dos Estados Unidos. Pelo menos duas coisas provocam isso:&lt;/p&gt;&lt;ol&gt;
+   <content type="html">&lt;p&gt;Na &lt;a title=&quot;Cultura de Conquista – Parte 1&quot; href=&quot;/cultura-de-conquista-parte-1/&quot; target=&quot;_blank&quot;&gt;primeira parte deste post&lt;/a&gt; foram abordados aspectos relacionados ao estado de conquista, são eles: terras altas da “Conquista”, produtividade, criatividade, violação das normas estabelecidas e equipes de trabalho. Daremos continuidade a &lt;strong&gt;segunda e última parte&lt;/strong&gt; da cultura de conquista.&lt;/p&gt;
+
+&lt;h2&gt;Por que é tão difícil?&lt;/h2&gt;
+&lt;p&gt;É importante lembrar que, em princípio, onde existe &quot;&lt;a title=&quot;Perigo na Zona de Conforto&quot; href=&quot;/perigo-na-zona-de-conforto/&quot; target=&quot;_blank&quot;&gt;zona de conforto&lt;/a&gt;&quot;, qualquer movimento conquistado gera medo, por isso é tão difícil.&lt;/p&gt;
+&lt;p&gt;Pesquisas psicológicas confirmam que a &lt;strong&gt;motivação&lt;/strong&gt; é maior quando as probabilidades de sucesso são de 50%. As pessoas não se sentem realmente estimuladas para desenvolver trabalhos difíceis demais. Então, para criar uma conquista psicológica, deve-se levar as pessoas à uma faixa média de risco. O objetivo é criar &lt;strong&gt;medo&lt;/strong&gt; mas, principalmente, criar &lt;strong&gt;ansiedade&lt;/strong&gt; alta o bastante para estimular a &lt;strong&gt;conquista&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Você vai precisar de &lt;strong&gt;coragem&lt;/strong&gt; e força para manter a &lt;strong&gt;pressão&lt;/strong&gt; por tempo o suficiente para convencer as pessoas que a festa finalmente acabou. Durante esse tempo, o moral vai declinar. Haverá protestos, atrasos e resistências. Medidas drásticas podem ser imprescindíveis. A visão, somente, não vai levar as pessoas até a &quot;Conquista&quot; - &lt;em&gt;você vai precisar de uma vara mais do que de uma cenoura&lt;/em&gt;. Todavia, a pressão é apenas a metade da prescrição. &lt;em&gt;A outra metade é o apoio&lt;/em&gt;. Enquanto estiver fazendo pressão você deve também fornecer informação, conselho e as ferramentas para judar as pessoas a alcançar os níveis requeridos de realização sob este novo regime. Simultaneamente, &lt;em&gt;não aplique tanta pressão que as pessoas passem do medo ao pânico&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Crie oportunidades para desafio e risco&lt;/h2&gt;
+&lt;p&gt;Para aumentar a pressão, você tem de, primeiro, &lt;strong&gt;identificar&lt;/strong&gt; o que constitui &lt;strong&gt;trabalho real&lt;/strong&gt;, decidir como &lt;strong&gt;avaliá-lo&lt;/strong&gt; e, então, reforçar suas avaliações encorajando riscos e tentando pagar pelo &lt;strong&gt;desempenho&lt;/strong&gt; das &lt;strong&gt;competências&lt;/strong&gt;. Avalie o desempenho real das competências apresentadas (&lt;strong&gt;conheça nosso produto&lt;/strong&gt; para &lt;a title=&quot;CHA Master&quot; href=&quot;http://www.chamaster.com/&quot; target=&quot;_blank&quot;&gt;Avaliação de Desempenho por Competência&lt;/a&gt;). Crie oportunidades para desafio e risco, liberando as pessoas para fazer tarefas específicas e rotação de tarefas - &lt;em&gt;job rotation&lt;/em&gt;. A cada ano, 25% da tarefa de uma pessoa deve ser novidade. E não puna quem corre riscos. Inove. Faça!&lt;/p&gt;
+
+&lt;h2&gt;Diminua a hierarquia e aumente a visibilidade dos colegas&lt;/h2&gt;
+&lt;p&gt;Você pode aumentar a visibilidade do empregado diminuindo a hierarquia. &lt;strong&gt;Organizações&lt;/strong&gt; mais &lt;strong&gt;enxutas&lt;/strong&gt;, mais estáveis, oferecem poucos nichos onde as pessoas possam se esconder.&lt;/p&gt;
+&lt;p&gt;Muito interessante, a &lt;a title=&quot;Nissan&quot; href=&quot;http://www.nissan.com.br/&quot; target=&quot;_blank&quot;&gt;Nissan&lt;/a&gt; - uma empresa japonesa fabricante de automóveis -, não usando relógios de ponto, se gaba de ter o melhor nível de comparecimento ao trabalho dos Estados Unidos. Pelo menos duas coisas provocam isso:&lt;/p&gt;
+
+&lt;ol&gt;
 	&lt;li&gt;As pessoas trabalham em equipes de mais ou menos vinte membros, assim os ausentes são realmente notados.&lt;/li&gt;
 	&lt;li&gt;Os japoneses auto-suficientes, ao contrário de seus parceiros americanos, não usam trabalhadores substitutos para cobrir o espaço dos ausentes. Os membros da equipe têm de tapar a brecha eles mesmos.&lt;/li&gt;
-&lt;/ol&gt;&lt;h2&gt;Demissão por não-desempenho&lt;/h2&gt;&lt;p&gt;Você pode ter de demitir os ociosos para conseguir a crença dos céticos. Se a demissão for necessária, deixe bem claro que os demitidos eram subprodutores que receberam ampla avaliação, orientação e apoio para ajudá-los a ter um desempenho em níveis aceitáveis.&lt;/p&gt;&lt;h2&gt;Acabe com a Zona de Conforto&lt;/h2&gt;&lt;p&gt;Após toda mudança os sobreviventes tendem a cair novamente na armadilha da zona de conforto - psicologia do direito &quot;Adquirido&quot;. A liderança terá e fazê-los voltarem ao estado de &quot;Conquista&quot;, com uma ligeira passagem pelo &lt;strong&gt;medo&lt;/strong&gt;, mais uma vez - e talvez outra e outra vez, até que a lição seja aprendida.&lt;/p&gt;&lt;p&gt;Para banir a zona de conforto, você terá de fazer as pessoas trabalharem como &lt;strong&gt;equipes&lt;/strong&gt; de colaboradores permanentes enquanto você estabelece a direção, motiva e explora as &lt;strong&gt;energias coletivas&lt;/strong&gt; e &lt;strong&gt;criativas&lt;/strong&gt; de todos os envolvidos.&lt;/p&gt;&lt;p&gt;--&lt;/p&gt;&lt;p&gt;Resumo retirado do texto: O Hábito do “Direito Adquirido”: Ele está nos matando por Judith M. Bardwick.&lt;/p&gt;&lt;p&gt;Espero ter contribuído positivamente. Um abraço.&lt;/p&gt;</content>
+&lt;/ol&gt;
+&lt;h2&gt;Demissão por não-desempenho&lt;/h2&gt;
+&lt;p&gt;Você pode ter de demitir os ociosos para conseguir a crença dos céticos. Se a demissão for necessária, deixe bem claro que os demitidos eram subprodutores que receberam ampla avaliação, orientação e apoio para ajudá-los a ter um desempenho em níveis aceitáveis.&lt;/p&gt;
+
+&lt;h2&gt;Acabe com a Zona de Conforto&lt;/h2&gt;
+&lt;p&gt;Após toda mudança os sobreviventes tendem a cair novamente na armadilha da zona de conforto - psicologia do direito &quot;Adquirido&quot;. A liderança terá e fazê-los voltarem ao estado de &quot;Conquista&quot;, com uma ligeira passagem pelo &lt;strong&gt;medo&lt;/strong&gt;, mais uma vez - e talvez outra e outra vez, até que a lição seja aprendida.&lt;/p&gt;
+&lt;p&gt;Para banir a zona de conforto, você terá de fazer as pessoas trabalharem como &lt;strong&gt;equipes&lt;/strong&gt; de colaboradores permanentes enquanto você estabelece a direção, motiva e explora as &lt;strong&gt;energias coletivas&lt;/strong&gt; e &lt;strong&gt;criativas&lt;/strong&gt; de todos os envolvidos.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;Resumo retirado do texto: O Hábito do “Direito Adquirido”: Ele está nos matando por Judith M. Bardwick.&lt;/p&gt;
+&lt;p&gt;Espero ter contribuído positivamente. Um abraço.&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>Validando a solução junto ao cliente com Mockups</title>
    <link href="http://leandroadacosta.com/validando-a-solucao-junto-ao-cliente-com-mockups/"/>
-   <updated>2011-11-17T00:00:00-02:00</updated>
+   <updated>2011-11-17T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//validando-a-solucao-junto-ao-cliente-com-mockups</id>
-   <content type="html">&lt;p&gt;Compartilho com vocês uma experiência na prática que tivemos recentemente em um cliente, sobre como nos ajudou, e muito, iniciar o desenvolvimento do software &lt;strong&gt;centrado na usabilidade do usuário&lt;/strong&gt;.&lt;/p&gt;&lt;h2&gt;Primeira reunião&lt;/h2&gt;&lt;p&gt;Fizemos uma reunião presencial - na parte da manhã - de 2 horas no cliente para entender a necessidade de negócio. Parece simples, mas, tem uma questão muito importante nesta fase, que é &lt;strong&gt;separar o problema da solução&lt;/strong&gt;. Pensando desta forma, conseguimos focar e entender os problemas atuais, suas causas e efeitos.&lt;/p&gt;&lt;p&gt;Após ter definido parte do conceito, achamos que, para validar o entendimento, seria legal rabiscar naquele momento alguns pré-protótipos frente ao cliente. Foi bem interessante pois conseguimos - além de verbalizar - mostrar no papel nosso entendimento, foi mais fácil para ambos, onde saímos mais confiantes.&lt;/p&gt;&lt;h2&gt;Lição de casa&lt;/h2&gt;&lt;p&gt;No mesmo dia, após o almoço - &lt;strong&gt;sem burocracia&lt;/strong&gt; - voltamos e começamos um &lt;em&gt;brainstorm&lt;/em&gt; com somente 2 pessoas, onde desenhamos na lousa e rabiscamos os primeiros &lt;strong&gt;protótipos&lt;/strong&gt; no papel. O interessante neste processo, é que fizemos várias &lt;strong&gt;dramatizações&lt;/strong&gt; - isso acontece direto, cada um encenando vários papeis relacionados ao negócio que estávamos resolvendo. Chega a ser engraçado, mas é muito &lt;strong&gt;produtivo&lt;/strong&gt; e &lt;strong&gt;importante&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Ao final do dia, tínhamos em mãos toda uma visão da solução - centrada no usuário. Veja, fizemos tudo isso, em apenas um dia. Há, espera aí, você está me dizendo que desenho em lousa e papel é solução? E ainda tem mais, como já é solução se nem foi validada junto ao cliente. Direi como agimos para resolver esses fatos.&lt;/p&gt;&lt;h2&gt;Validando junto ao cliente&lt;/h2&gt;&lt;p&gt;No outro dia, logo cedo, estávamos conversando sobre a forma menos burocrática possível e &lt;strong&gt;ágil&lt;/strong&gt; de validar a solução junto ao cliente. A forma que fazíamos em outros projetos era marcar outra reunião para levar todos os protótipos em papel e demonstrar ao cliente. Sempre foi muito ágil e produtivo. Neste caso, em praticamente 2 dias conseguiríamos validar toda uma visão de proposta de solução. Mas! Como sempre, queria &lt;a href='http://leandroadacosta.com/2011/10/25/perigo-na-zona-de-conforto/' target='_blank' title='Perigo na Zona de Conforto'&gt;conquistar&lt;/a&gt; algo diferente. Tinha na manga &lt;strong&gt;um jeito novo&lt;/strong&gt; para testar.&lt;/p&gt;&lt;p&gt;Fui ao evento &lt;a href='http://rubyconf2011.akitaonrails.com/' target='_blank' title='RubyConf 2011 '&gt;Ruby Conf 2011&lt;/a&gt; nos dias 03 e 04 de novembro e assisti a palestra &lt;strong&gt;&lt;a href='http://www.eventials.com/rubyconfbr/recorded/M2UzZTJkMzY2MzdiNTg2NTUxNWM1MzI3NWY1YjRhMzYjIzQwMw_3D_3D' target='_blank' title='Melhores Softwares através da Interface'&gt;&quot;Melhores Softwares através da Interface&quot;&lt;/a&gt;&lt;/strong&gt; do &lt;strong&gt;&lt;a href='http://twitter.com/danielvlopes' target='_blank'&gt;Daniel Lopes&lt;/a&gt;&lt;/strong&gt;. Por sinal, &lt;strong&gt;excelente palestra&lt;/strong&gt;. Ele enfatizou a importância do Designer de Interface saber programar, dos benefícios de começar o software pela interface, e uma forma diferente de validar propostas de solução - protótipos - junto ao cliente.&lt;/p&gt;&lt;p&gt;O que o Daniel passou de diferente do que já trabalhamos aqui na Cocento Tecnologia - e que achei muito legal - foi o &lt;strong&gt;jeito pragmático de validar junto ao cliente&lt;/strong&gt;.&lt;/p&gt;&lt;h2&gt;Validando a proposta de solução com Mockups&lt;/h2&gt;&lt;p&gt;A idéia passada pelo &lt;strong&gt;Daniel Lopes&lt;/strong&gt; é, em vez de validar os protótipos em papel ou photoshop/fireworks, é validar direto em &lt;strong&gt;protótipos funcionais&lt;/strong&gt; - com fluxo entre as telas - já &lt;strong&gt;implementados em código&lt;/strong&gt; - ruby/java/php/etc e html, css e js. E foi o que fizemos, logo na parte da manhã do segundo dia, criamos o projeto no GitHub implementamos as telas já em Ruby on Rails. Para isto, segue o conceito de &lt;strong&gt;Mockups&lt;/strong&gt; apresentada pelo Daniel:&lt;/p&gt;
+   <content type="html">&lt;p&gt;Compartilho com vocês uma experiência na prática que tivemos recentemente em um cliente, sobre como nos ajudou, e muito, iniciar o desenvolvimento do software &lt;strong&gt;centrado na usabilidade do usuário&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Primeira reunião&lt;/h2&gt;
+&lt;p&gt;Fizemos uma reunião presencial - na parte da manhã - de 2 horas no cliente para entender a necessidade de negócio. Parece simples, mas, tem uma questão muito importante nesta fase, que é &lt;strong&gt;separar o problema da solução&lt;/strong&gt;. Pensando desta forma, conseguimos focar e entender os problemas atuais, suas causas e efeitos.&lt;/p&gt;
+&lt;p&gt;Após ter definido parte do conceito, achamos que, para validar o entendimento, seria legal rabiscar naquele momento alguns pré-protótipos frente ao cliente. Foi bem interessante pois conseguimos - além de verbalizar - mostrar no papel nosso entendimento, foi mais fácil para ambos, onde saímos mais confiantes.&lt;/p&gt;
+
+&lt;h2&gt;Lição de casa&lt;/h2&gt;
+&lt;p&gt;No mesmo dia, após o almoço - &lt;strong&gt;sem burocracia&lt;/strong&gt; - voltamos e começamos um &lt;em&gt;brainstorm&lt;/em&gt; com somente 2 pessoas, onde desenhamos na lousa e rabiscamos os primeiros &lt;strong&gt;protótipos&lt;/strong&gt; no papel. O interessante neste processo, é que fizemos várias &lt;strong&gt;dramatizações&lt;/strong&gt; - isso acontece direto, cada um encenando vários papeis relacionados ao negócio que estávamos resolvendo. Chega a ser engraçado, mas é muito &lt;strong&gt;produtivo&lt;/strong&gt; e &lt;strong&gt;importante&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ao final do dia, tínhamos em mãos toda uma visão da solução - centrada no usuário. Veja, fizemos tudo isso, em apenas um dia. Há, espera aí, você está me dizendo que desenho em lousa e papel é solução? E ainda tem mais, como já é solução se nem foi validada junto ao cliente. Direi como agimos para resolver esses fatos.&lt;/p&gt;
+
+&lt;h2&gt;Validando junto ao cliente&lt;/h2&gt;
+&lt;p&gt;No outro dia, logo cedo, estávamos conversando sobre a forma menos burocrática possível e &lt;strong&gt;ágil&lt;/strong&gt; de validar a solução junto ao cliente. A forma que fazíamos em outros projetos era marcar outra reunião para levar todos os protótipos em papel e demonstrar ao cliente. Sempre foi muito ágil e produtivo. Neste caso, em praticamente 2 dias conseguiríamos validar toda uma visão de proposta de solução. Mas! Como sempre, queria &lt;a title=&quot;Perigo na Zona de Conforto&quot; href=&quot;http://leandroadacosta.com/2011/10/25/perigo-na-zona-de-conforto/&quot; target=&quot;_blank&quot;&gt;conquistar&lt;/a&gt; algo diferente. Tinha na manga &lt;strong&gt;um jeito novo&lt;/strong&gt; para testar.&lt;/p&gt;
+&lt;p&gt;Fui ao evento &lt;a title=&quot;RubyConf 2011 &quot; href=&quot;http://rubyconf2011.akitaonrails.com/&quot; target=&quot;_blank&quot;&gt;Ruby Conf 2011&lt;/a&gt; nos dias 03 e 04 de novembro e assisti a palestra &lt;strong&gt;&lt;a title=&quot;Melhores Softwares através da Interface&quot; href=&quot;http://www.eventials.com/rubyconfbr/recorded/M2UzZTJkMzY2MzdiNTg2NTUxNWM1MzI3NWY1YjRhMzYjIzQwMw_3D_3D&quot; target=&quot;_blank&quot;&gt;&quot;Melhores Softwares através da Interface&quot;&lt;/a&gt;&lt;/strong&gt; do &lt;strong&gt;&lt;a href=&quot;http://twitter.com/danielvlopes&quot; target=&quot;_blank&quot;&gt;Daniel Lopes&lt;/a&gt;&lt;/strong&gt;. Por sinal, &lt;strong&gt;excelente palestra&lt;/strong&gt;. Ele enfatizou a importância do Designer de Interface saber programar, dos benefícios de começar o software pela interface, e uma forma diferente de validar propostas de solução - protótipos - junto ao cliente.&lt;/p&gt;
+&lt;p&gt;O que o Daniel passou de diferente do que já trabalhamos aqui na Cocento Tecnologia - e que achei muito legal - foi o &lt;strong&gt;jeito pragmático de validar junto ao cliente&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Validando a proposta de solução com Mockups&lt;/h2&gt;
+&lt;p&gt;A idéia passada pelo &lt;strong&gt;Daniel Lopes&lt;/strong&gt; é, em vez de validar os protótipos em papel ou photoshop/fireworks, é validar direto em &lt;strong&gt;protótipos funcionais&lt;/strong&gt; - com fluxo entre as telas - já &lt;strong&gt;implementados em código&lt;/strong&gt; - ruby/java/php/etc e html, css e js. E foi o que fizemos, logo na parte da manhã do segundo dia, criamos o projeto no GitHub implementamos as telas já em Ruby on Rails. Para isto, segue o conceito de &lt;strong&gt;Mockups&lt;/strong&gt; apresentada pelo Daniel:&lt;/p&gt;
+
 &lt;p&gt;Definimos a rota:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='ss'&gt;Example&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;&lt;span class='ss'&gt;:Application&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;routes&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;draw&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
 
-  &lt;span class='n'&gt;scope&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;/mockups&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='ss'&gt;:constraints&lt;/span&gt; &lt;span class='o'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='nb'&gt;lambda&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='o'&gt;|&lt;/span&gt;&lt;span class='n'&gt;e&lt;/span&gt;&lt;span class='o'&gt;|&lt;/span&gt; &lt;span class='ow'&gt;not&lt;/span&gt; &lt;span class='no'&gt;Rails&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;env&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;production?&lt;/span&gt; &lt;span class='p'&gt;}&lt;/span&gt; &lt;span class='k'&gt;do&lt;/span&gt;
-    &lt;span class='n'&gt;match&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;/:action&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='ss'&gt;:controller&lt;/span&gt; &lt;span class='o'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;mockups&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='ss'&gt;:actions&lt;/span&gt; &lt;span class='o'&gt;=&amp;gt;&lt;/span&gt; &lt;span class='sr'&gt;/[^/&lt;/span&gt;&lt;span class='o'&gt;]+/&lt;/span&gt;
-  &lt;span class='k'&gt;end&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Application&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;draw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
 
-&lt;span class='k'&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&quot;n&quot;&gt;scope&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/mockups&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:constraints&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;production?&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/:action&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:controller&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;mockups&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:actions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/[^/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]+/&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;Criamos o controller:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='k'&gt;class&lt;/span&gt; &lt;span class='nc'&gt;MockupsController&lt;/span&gt; &lt;span class='o'&gt;&amp;lt;&lt;/span&gt; &lt;span class='no'&gt;ApplicationController&lt;/span&gt;
-  &lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;books_list&lt;/span&gt;
-  &lt;span class='k'&gt;end&lt;/span&gt;
 
-  &lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;new_book&lt;/span&gt;
-  &lt;span class='k'&gt;end&lt;/span&gt;
-&lt;span class='k'&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MockupsController&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ApplicationController&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;books_list&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;new_book&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;Para cada método do controller implementamos a view em HTML, CSS e JS para simular alguns comportamentos, por fim, linkamos os fluxos entre elas:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='text'&gt;|~app/
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;|~app/
 | |+assets/
 | |~controllers/
 | | |-application_controller.rb
@@ -237,79 +335,169 @@ Um grande abraço!&lt;/p&gt;</content>
 |   | `-application.html.erb
 |   `~mockups/
 |     |-books_list.html.erb
-|     `-new_book.html.erb
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2&gt;Resultado final&lt;/h2&gt;&lt;p&gt;Tínhamos no final do segundo dia um &lt;strong&gt;protótipo&lt;/strong&gt; totalmente &lt;strong&gt;funcional&lt;/strong&gt; e &lt;strong&gt;bonito&lt;/strong&gt;. Pera aí, como em um dia conseguiram deixar o layout bonito? Vou abrir o segredo com vocês :). Para agilizar o processo, usamos todo um padrão para o front-end do &lt;a href='http://twitter.github.com/bootstrap/' target='_blank' title='Twitter Bootstrap'&gt;Twitter Bootstrap&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Fizemos a reunião no terceiro dia e o &lt;strong&gt;feedback&lt;/strong&gt; foi &lt;strong&gt;excelente&lt;/strong&gt;. &lt;strong&gt;Cliente&lt;/strong&gt; muitíssimo &lt;strong&gt;satisfeito&lt;/strong&gt; e a nossa equipe também. O importante é frisar que fizemos a primeira reunião de entendimento da necessidade até a codificação e validação em apenas 3 dias.&lt;/p&gt;&lt;p&gt;--&lt;/p&gt;&lt;p&gt;E você? Como faz para agilizar, diminuir os riscos e ser produtivo nas validações de proposta de solução junto ao cliente lá na sua empresa e/ou equipe?
-Um abraço.&lt;/p&gt;</content>
+|     `-new_book.html.erb&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Resultado final&lt;/h2&gt;
+&lt;p&gt;Tínhamos no final do segundo dia um &lt;strong&gt;protótipo&lt;/strong&gt; totalmente &lt;strong&gt;funcional&lt;/strong&gt; e &lt;strong&gt;bonito&lt;/strong&gt;. Pera aí, como em um dia conseguiram deixar o layout bonito? Vou abrir o segredo com vocês :). Para agilizar o processo, usamos todo um padrão para o front-end do &lt;a title=&quot;Twitter Bootstrap&quot; href=&quot;http://twitter.github.com/bootstrap/&quot; target=&quot;_blank&quot;&gt;Twitter Bootstrap&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Fizemos a reunião no terceiro dia e o &lt;strong&gt;feedback&lt;/strong&gt; foi &lt;strong&gt;excelente&lt;/strong&gt;. &lt;strong&gt;Cliente&lt;/strong&gt; muitíssimo &lt;strong&gt;satisfeito&lt;/strong&gt; e a nossa equipe também. O importante é frisar que fizemos a primeira reunião de entendimento da necessidade até a codificação e validação em apenas 3 dias.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;E você? Como faz para agilizar, diminuir os riscos e ser produtivo nas validações de proposta de solução junto ao cliente lá na sua empresa e/ou equipe?
+Um abraço.&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>Cultura de Conquista - Parte 1</title>
    <link href="http://leandroadacosta.com/cultura-de-conquista-parte-1/"/>
-   <updated>2011-11-12T00:00:00-02:00</updated>
+   <updated>2011-11-12T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//cultura-de-conquista-parte-1</id>
-   <content type="html">&lt;p&gt;Dando sequência ao post anterior, sobre o &lt;a href='/perigo-na-zona-de-conforto' target='_blank' title='Perigo na Zona de Conforto'&gt;Perigo na Zona de Conforto&lt;/a&gt; do hábito do &lt;strong&gt;Direito Adquirido&lt;/strong&gt;. Falaremos da &lt;strong&gt;cultura de conquista&lt;/strong&gt;. A conquista tem seu fator psicológico, poderíamos dizer que seria o estado de conquista em vez de cultura.&lt;/p&gt;&lt;h2&gt;Terras altas da &quot;Conquista&quot;&lt;/h2&gt;&lt;p&gt;Os gestores que lideram colocando as pessoas em um &lt;strong&gt;ambiente&lt;/strong&gt; de &lt;strong&gt;não-hierarquia&lt;/strong&gt; onde produzem mais, &lt;strong&gt;pensam criativamente&lt;/strong&gt;, trabalham junto &lt;strong&gt;como uma equipe&lt;/strong&gt; e são levadas a desenvolverem suas &lt;strong&gt;competências, &lt;/strong&gt;fazem com que suas organizações saiam da areia movediça do&lt;strong&gt; direito &quot;Adquirido&quot; &lt;/strong&gt;às terras altas da&lt;strong&gt; &quot;&lt;strong&gt;Conquista&lt;/strong&gt;&quot;&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Um ambiente de conquista fornece &lt;strong&gt;oportunidades de conseguir&lt;/strong&gt; e requer trabalhadores para fazer isso. Os empregados não têm medo de agir - porque se sentem importantes - e a pressão para serem bem sucedidos torna o trabalho estimulante.&lt;/p&gt;&lt;h2&gt;Produtividade&lt;/h2&gt;&lt;p&gt;O fato de fazer as pessoas trabalharem e esperar que façam o melhor desenvolve a &lt;strong&gt;confiança&lt;/strong&gt; e a &lt;strong&gt;independência&lt;/strong&gt;. A confiança e a coragem resultante da conquista do próprio caminho produzem grandes &lt;strong&gt;solucionadores de problemas&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Quando se leva os empregados a desenvolver um conceito de conquista, &lt;em&gt;dá-se-lhes poder para conseguir, para resolver problemas, para progredir, para mudar e se adaptar&lt;/em&gt;. Enrolar-se em um cobertor de segurança burocrática nunca resolveu problema ou reduziu a ansiedade.&lt;/p&gt;&lt;h2&gt;Criatividade e Violação das Normas Estabelecidas&lt;/h2&gt;&lt;p&gt;A ligação entre a &lt;strong&gt;conquista&lt;/strong&gt; e a &lt;strong&gt;inovação&lt;/strong&gt; é especialmente importante no cenário competitivo do fazer-ou-morrer de hoje. Conquistas e concessão de poder são pré requisitos para a &lt;strong&gt;criatividade&lt;/strong&gt;, especialmente onde avanços maiores estão envolvidos. A criatividade exige aquilo que os psicólogos chamam de &lt;em&gt;&quot;violação das normas estabelecidas&quot;&lt;/em&gt; - ver as coisas de &lt;strong&gt;modo diferente&lt;/strong&gt; de como têm sido vistas antes. A &lt;strong&gt;violação das normas&lt;/strong&gt; envolve &lt;strong&gt;riscos&lt;/strong&gt;, porque ser diferente geralmente é visto - pelo menos no início - como estar errado.&lt;/p&gt;&lt;h2&gt;Equipe de trabalho&lt;/h2&gt;&lt;p&gt;A equipe de trabalho falha sob a psicologia do direito &quot;Adquirido&quot; porque as pessoas se preocupam demais em &lt;strong&gt;se proteger&lt;/strong&gt;. Liderar ou treinar as pessoas para trabalhar como equipe é algo que entra por uma orelha e sai por outra, pois as pessoas estão &lt;strong&gt;inseguras&lt;/strong&gt; demais para &lt;strong&gt;contribuir&lt;/strong&gt; para o &lt;strong&gt;bem-estar&lt;/strong&gt; dos &lt;strong&gt;colegas&lt;/strong&gt;, que poderiam acabar bem melhores que eles.&lt;/p&gt;&lt;p&gt;Por outro lado, as pessoas que trabalham em um ambiente de &quot;Conquista&quot; são membros de equipe com autoridade - e competidores também. Ninguém quer deixar a equipe cair. Há uma atmosfera de tensão criativa, uma certa mistura de cooperação e competição que leva a um risco criativo, erradica a complacência e assegura melhores decisões.&lt;/p&gt;&lt;p&gt;--&lt;/p&gt;&lt;p&gt;Resumo retirado do texto: O Hábito do “Direito Adquirido”: Ele está nos matando por Judith M. Bardwick.&lt;/p&gt;&lt;p&gt;Aqui no trabalho estamos constantemente buscando o estado/cultura de conquista.&lt;/p&gt;&lt;p&gt;A &lt;a href='/cultura-de-conquista-parte-2/' target='_blank' title='Cultura de Conquista – Parte 2'&gt;&lt;strong&gt;segunda parte&lt;/strong&gt; deste post&lt;/a&gt; falo mais da busca de uma &lt;strong&gt;organização vitoriosa&lt;/strong&gt; da cultura de conquista, aspectos como: &lt;strong&gt;pressão&lt;/strong&gt;, &lt;strong&gt;desempenho&lt;/strong&gt;, &lt;strong&gt;medo&lt;/strong&gt; e &lt;strong&gt;estilo de liderança&lt;/strong&gt;. Um abraço.&lt;/p&gt;</content>
+   <content type="html">&lt;p&gt;Dando sequência ao post anterior, sobre o &lt;a title=&quot;Perigo na Zona de Conforto&quot; href=&quot;/perigo-na-zona-de-conforto&quot; target=&quot;_blank&quot;&gt;Perigo na Zona de Conforto&lt;/a&gt; do hábito do &lt;strong&gt;Direito Adquirido&lt;/strong&gt;. Falaremos da &lt;strong&gt;cultura de conquista&lt;/strong&gt;. A conquista tem seu fator psicológico, poderíamos dizer que seria o estado de conquista em vez de cultura.&lt;/p&gt;
+
+&lt;h2&gt;Terras altas da &quot;Conquista&quot;&lt;/h2&gt;
+&lt;p&gt;Os gestores que lideram colocando as pessoas em um &lt;strong&gt;ambiente&lt;/strong&gt; de &lt;strong&gt;não-hierarquia&lt;/strong&gt; onde produzem mais, &lt;strong&gt;pensam criativamente&lt;/strong&gt;, trabalham junto &lt;strong&gt;como uma equipe&lt;/strong&gt; e são levadas a desenvolverem suas &lt;strong&gt;competências, &lt;/strong&gt;fazem com que suas organizações saiam da areia movediça do&lt;strong&gt; direito &quot;Adquirido&quot; &lt;/strong&gt;às terras altas da&lt;strong&gt; &quot;&lt;strong&gt;Conquista&lt;/strong&gt;&quot;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Um ambiente de conquista fornece &lt;strong&gt;oportunidades de conseguir&lt;/strong&gt; e requer trabalhadores para fazer isso. Os empregados não têm medo de agir - porque se sentem importantes - e a pressão para serem bem sucedidos torna o trabalho estimulante.&lt;/p&gt;
+
+&lt;h2&gt;Produtividade&lt;/h2&gt;
+&lt;p&gt;O fato de fazer as pessoas trabalharem e esperar que façam o melhor desenvolve a &lt;strong&gt;confiança&lt;/strong&gt; e a &lt;strong&gt;independência&lt;/strong&gt;. A confiança e a coragem resultante da conquista do próprio caminho produzem grandes &lt;strong&gt;solucionadores de problemas&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Quando se leva os empregados a desenvolver um conceito de conquista, &lt;em&gt;dá-se-lhes poder para conseguir, para resolver problemas, para progredir, para mudar e se adaptar&lt;/em&gt;. Enrolar-se em um cobertor de segurança burocrática nunca resolveu problema ou reduziu a ansiedade.&lt;/p&gt;
+
+&lt;h2&gt;Criatividade e Violação das Normas Estabelecidas&lt;/h2&gt;
+&lt;p&gt;A ligação entre a &lt;strong&gt;conquista&lt;/strong&gt; e a &lt;strong&gt;inovação&lt;/strong&gt; é especialmente importante no cenário competitivo do fazer-ou-morrer de hoje. Conquistas e concessão de poder são pré requisitos para a &lt;strong&gt;criatividade&lt;/strong&gt;, especialmente onde avanços maiores estão envolvidos. A criatividade exige aquilo que os psicólogos chamam de &lt;em&gt;&quot;violação das normas estabelecidas&quot;&lt;/em&gt; - ver as coisas de &lt;strong&gt;modo diferente&lt;/strong&gt; de como têm sido vistas antes. A &lt;strong&gt;violação das normas&lt;/strong&gt; envolve &lt;strong&gt;riscos&lt;/strong&gt;, porque ser diferente geralmente é visto - pelo menos no início - como estar errado.&lt;/p&gt;
+
+&lt;h2&gt;Equipe de trabalho&lt;/h2&gt;
+&lt;p&gt;A equipe de trabalho falha sob a psicologia do direito &quot;Adquirido&quot; porque as pessoas se preocupam demais em &lt;strong&gt;se proteger&lt;/strong&gt;. Liderar ou treinar as pessoas para trabalhar como equipe é algo que entra por uma orelha e sai por outra, pois as pessoas estão &lt;strong&gt;inseguras&lt;/strong&gt; demais para &lt;strong&gt;contribuir&lt;/strong&gt; para o &lt;strong&gt;bem-estar&lt;/strong&gt; dos &lt;strong&gt;colegas&lt;/strong&gt;, que poderiam acabar bem melhores que eles.&lt;/p&gt;
+&lt;p&gt;Por outro lado, as pessoas que trabalham em um ambiente de &quot;Conquista&quot; são membros de equipe com autoridade - e competidores também. Ninguém quer deixar a equipe cair. Há uma atmosfera de tensão criativa, uma certa mistura de cooperação e competição que leva a um risco criativo, erradica a complacência e assegura melhores decisões.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;Resumo retirado do texto: O Hábito do “Direito Adquirido”: Ele está nos matando por Judith M. Bardwick.&lt;/p&gt;
+&lt;p&gt;Aqui no trabalho estamos constantemente buscando o estado/cultura de conquista.&lt;/p&gt;
+&lt;p&gt;A &lt;a title=&quot;Cultura de Conquista – Parte 2&quot; href=&quot;/cultura-de-conquista-parte-2/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;segunda parte&lt;/strong&gt; deste post&lt;/a&gt; falo mais da busca de uma &lt;strong&gt;organização vitoriosa&lt;/strong&gt; da cultura de conquista, aspectos como: &lt;strong&gt;pressão&lt;/strong&gt;, &lt;strong&gt;desempenho&lt;/strong&gt;, &lt;strong&gt;medo&lt;/strong&gt; e &lt;strong&gt;estilo de liderança&lt;/strong&gt;. Um abraço.&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>Perigo na Zona de Conforto</title>
    <link href="http://leandroadacosta.com/perigo-na-zona-de-conforto/"/>
-   <updated>2011-10-25T00:00:00-02:00</updated>
+   <updated>2011-10-25T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//perigo-na-zona-de-conforto</id>
-   <content type="html">&lt;p&gt;Este post é um resumo - com minhas considerações - do oficial resumo chamado: &lt;em&gt;&lt;strong&gt;O Hábito do &quot;Direito Adquirido&quot;: Ele está nos matando&lt;/strong&gt; por Judith M. Bardwick&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Retrata um &lt;strong&gt;problema&lt;/strong&gt; desconcertante que poucas &lt;strong&gt;organizações&lt;/strong&gt; têm coragem de enfrentar de cabeça erguida. Para entendermos melhor, vamos a nascente do conceito &quot;Direito Adquirido&quot;, descrito pela autora.&lt;/p&gt;&lt;h2&gt;Não tolere trabalho não-produtivo&lt;/h2&gt;&lt;p&gt;Judith explica que o que &lt;strong&gt;deteriorou o caráter&lt;/strong&gt; dos empregados e das organizações americanas foi a prosperidade dos EUA. Graças a prosperidade do após-guerra, quase todos os trabalhadores americanos recebiam &lt;strong&gt;promoções&lt;/strong&gt; e &lt;strong&gt;aumentos&lt;/strong&gt; regulares - &lt;strong&gt;independentemente&lt;/strong&gt; da &lt;strong&gt;qualidade&lt;/strong&gt; do seu &lt;strong&gt;trabalho&lt;/strong&gt;. É a herança arruinada dos tempos de prosperidade posteriores à Segunda Guerra Mundial. E onde não há qualquer senso de urgência, a motivação decai e a vitalidade evapora, deixando atrás de si um resíduo de complacência e apatia. Mesmo os bons perdem o estímulo quando vêem &lt;strong&gt;trabalho não-produtivo tolerado&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;É preciso entender que as &lt;strong&gt;condições&lt;/strong&gt; da rígida economia de hoje &lt;strong&gt;demandam mudança&lt;/strong&gt;. O &lt;strong&gt;desafio&lt;/strong&gt; como executivo deve ser o de &lt;strong&gt;levar&lt;/strong&gt; os &lt;strong&gt;colaboradores&lt;/strong&gt; da psicologia do &quot;Direito Adquirido&quot; para a de &quot;&lt;strong&gt;Conquista&lt;/strong&gt;&quot;.&lt;/p&gt;&lt;blockquote&gt;Eu quero pessoas que desafiem seus chefes todo dia: Por que você me manda fazer essas coisas inúteis? Vai ser normal a pessoa dizer: Droga, não estamos chegando lá. Vamos tratar de fazer isto.&lt;/blockquote&gt;&lt;p&gt;Isto é poder. Eis como Jack Welch, Diretor da General Electric e um campeão de trabalhadores conquistadores os vê como empregados conquistadores.&lt;/p&gt;&lt;h2&gt;Não proteja-os do risco&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Proteja-os do risco&lt;/strong&gt; e estará &lt;strong&gt;destruindo&lt;/strong&gt; sua auto-estima e roubando-lhes a oportunidade de serem &lt;strong&gt;pessoas fortes e competentes&lt;/strong&gt;. A confiança vem do fato de vencer o desafio. Sem confiança, ninguém corre riscos. Sem correr riscos ninguém desenvolve a coragem.&lt;/p&gt;&lt;p&gt;Embora saibamos que a produtividade sofre quando a ansiedade - por causa do risco - é alta, esquecemos de ver o efeito destrutivo da ansiedade muito baixa. Os empregados que recebem mas não produzem, perdem seus parâmetros.&lt;/p&gt;&lt;p&gt;Falando claramente, &lt;strong&gt;tolerância&lt;/strong&gt; demais &lt;strong&gt;cria fraco desempenho&lt;/strong&gt;. As pessoas produzem precariamente quando não são consideradas responsáveis. Elas se tornam &lt;strong&gt;acomodadas&lt;/strong&gt; e &lt;strong&gt;indiferentes&lt;/strong&gt; (&quot;Se o resultado não faz diferença, porque tentar?&quot;).&lt;/p&gt;&lt;h2&gt;Quebre os padrões&lt;/h2&gt;&lt;p&gt;As &lt;strong&gt;organizações&lt;/strong&gt; precisam de &lt;strong&gt;pessoas confiantes&lt;/strong&gt; o suficiente para &lt;strong&gt;enfrentar&lt;/strong&gt; os &lt;strong&gt;problemas&lt;/strong&gt; ecléticos de amanhã, &lt;strong&gt;capazes&lt;/strong&gt; de se &lt;strong&gt;adaptar às mudanças&lt;/strong&gt;, de &lt;strong&gt;ter disciplina&lt;/strong&gt; para &lt;strong&gt;perseverar&lt;/strong&gt; e de ter &lt;strong&gt;coragem&lt;/strong&gt; para iniciar e &lt;strong&gt;inovar&lt;/strong&gt;. Alcançar um estado no qual as pessoas são revigoradas pelo &lt;strong&gt;desafio&lt;/strong&gt; e a conscientização de que seu trabalho será premiado com base no trabalho executado que, por sua vez, implica na apresentação de competências humanas importantes.&lt;/p&gt;&lt;p&gt;Necessário frisar-lhes que não se pode levar os empregados diretamente de um extremo ao outro. Pode-se primeiro induzi-los a uma permanência no estado do medo, o medo do risco, ou seja, o risco da mudança.&lt;/p&gt;&lt;p&gt;É difícil destroçar o conceito do &quot;Direito Adquirido&quot;, por que geralmente está codificado nas regras e políticas da companhia, tornando a mudança para a psicologia da &quot;Conquista&quot; um choque maior na escala Richter da corporação.&lt;/p&gt;&lt;h2&gt;Buscar o estado de &quot;Conquista&quot;&lt;/h2&gt;
-&lt;p&gt;Temos uma dura tarefa pela frente. Deveríamos trocar o nome &amp;#8220;zona de conforto&amp;#8221; para &amp;#8220;zona de perigo&amp;#8221;. No post &lt;a href='/cultura-de-conquista-parte-1/' title='Cultura de Conquista – Parte 1'&gt;Cultura de Conquista&lt;/a&gt; descrevo o posto à cultura do Direito Adquirido.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Este post é um resumo - com minhas considerações - do oficial resumo chamado: &lt;em&gt;&lt;strong&gt;O Hábito do &quot;Direito Adquirido&quot;: Ele está nos matando&lt;/strong&gt; por Judith M. Bardwick&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Retrata um &lt;strong&gt;problema&lt;/strong&gt; desconcertante que poucas &lt;strong&gt;organizações&lt;/strong&gt; têm coragem de enfrentar de cabeça erguida. Para entendermos melhor, vamos a nascente do conceito &quot;Direito Adquirido&quot;, descrito pela autora.&lt;/p&gt;
 
-&lt;p&gt;Espero ter contribuído de alguma forma. Um abraço.&lt;/p&gt;</content>
+&lt;h2&gt;Não tolere trabalho não-produtivo&lt;/h2&gt;
+&lt;p&gt;Judith explica que o que &lt;strong&gt;deteriorou o caráter&lt;/strong&gt; dos empregados e das organizações americanas foi a prosperidade dos EUA. Graças a prosperidade do após-guerra, quase todos os trabalhadores americanos recebiam &lt;strong&gt;promoções&lt;/strong&gt; e &lt;strong&gt;aumentos&lt;/strong&gt; regulares - &lt;strong&gt;independentemente&lt;/strong&gt; da &lt;strong&gt;qualidade&lt;/strong&gt; do seu &lt;strong&gt;trabalho&lt;/strong&gt;. É a herança arruinada dos tempos de prosperidade posteriores à Segunda Guerra Mundial. E onde não há qualquer senso de urgência, a motivação decai e a vitalidade evapora, deixando atrás de si um resíduo de complacência e apatia. Mesmo os bons perdem o estímulo quando vêem &lt;strong&gt;trabalho não-produtivo tolerado&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;É preciso entender que as &lt;strong&gt;condições&lt;/strong&gt; da rígida economia de hoje &lt;strong&gt;demandam mudança&lt;/strong&gt;. O &lt;strong&gt;desafio&lt;/strong&gt; como executivo deve ser o de &lt;strong&gt;levar&lt;/strong&gt; os &lt;strong&gt;colaboradores&lt;/strong&gt; da psicologia do &quot;Direito Adquirido&quot; para a de &quot;&lt;strong&gt;Conquista&lt;/strong&gt;&quot;.&lt;/p&gt;
+
+&lt;blockquote&gt;Eu quero pessoas que desafiem seus chefes todo dia: Por que você me manda fazer essas coisas inúteis? Vai ser normal a pessoa dizer: Droga, não estamos chegando lá. Vamos tratar de fazer isto.&lt;/blockquote&gt;
+&lt;p&gt;Isto é poder. Eis como Jack Welch, Diretor da General Electric e um campeão de trabalhadores conquistadores os vê como empregados conquistadores.&lt;/p&gt;
+
+&lt;h2&gt;Não proteja-os do risco&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Proteja-os do risco&lt;/strong&gt; e estará &lt;strong&gt;destruindo&lt;/strong&gt; sua auto-estima e roubando-lhes a oportunidade de serem &lt;strong&gt;pessoas fortes e competentes&lt;/strong&gt;. A confiança vem do fato de vencer o desafio. Sem confiança, ninguém corre riscos. Sem correr riscos ninguém desenvolve a coragem.&lt;/p&gt;
+&lt;p&gt;Embora saibamos que a produtividade sofre quando a ansiedade - por causa do risco - é alta, esquecemos de ver o efeito destrutivo da ansiedade muito baixa. Os empregados que recebem mas não produzem, perdem seus parâmetros.&lt;/p&gt;
+&lt;p&gt;Falando claramente, &lt;strong&gt;tolerância&lt;/strong&gt; demais &lt;strong&gt;cria fraco desempenho&lt;/strong&gt;. As pessoas produzem precariamente quando não são consideradas responsáveis. Elas se tornam &lt;strong&gt;acomodadas&lt;/strong&gt; e &lt;strong&gt;indiferentes&lt;/strong&gt; (&quot;Se o resultado não faz diferença, porque tentar?&quot;).&lt;/p&gt;
+
+&lt;h2&gt;Quebre os padrões&lt;/h2&gt;
+&lt;p&gt;As &lt;strong&gt;organizações&lt;/strong&gt; precisam de &lt;strong&gt;pessoas confiantes&lt;/strong&gt; o suficiente para &lt;strong&gt;enfrentar&lt;/strong&gt; os &lt;strong&gt;problemas&lt;/strong&gt; ecléticos de amanhã, &lt;strong&gt;capazes&lt;/strong&gt; de se &lt;strong&gt;adaptar às mudanças&lt;/strong&gt;, de &lt;strong&gt;ter disciplina&lt;/strong&gt; para &lt;strong&gt;perseverar&lt;/strong&gt; e de ter &lt;strong&gt;coragem&lt;/strong&gt; para iniciar e &lt;strong&gt;inovar&lt;/strong&gt;. Alcançar um estado no qual as pessoas são revigoradas pelo &lt;strong&gt;desafio&lt;/strong&gt; e a conscientização de que seu trabalho será premiado com base no trabalho executado que, por sua vez, implica na apresentação de competências humanas importantes.&lt;/p&gt;
+&lt;p&gt;Necessário frisar-lhes que não se pode levar os empregados diretamente de um extremo ao outro. Pode-se primeiro induzi-los a uma permanência no estado do medo, o medo do risco, ou seja, o risco da mudança.&lt;/p&gt;
+&lt;p&gt;É difícil destroçar o conceito do &quot;Direito Adquirido&quot;, por que geralmente está codificado nas regras e políticas da companhia, tornando a mudança para a psicologia da &quot;Conquista&quot; um choque maior na escala Richter da corporação.&lt;/p&gt;
+
+&lt;h2&gt;Buscar o estado de &quot;Conquista&quot;&lt;/h2&gt;
+
+&lt;p&gt;Temos uma dura tarefa pela frente. Deveríamos trocar o nome “zona de conforto” para “zona de perigo”.
+No post &lt;a title=&quot;Cultura de Conquista – Parte 1&quot; href=&quot;/cultura-de-conquista-parte-1/&quot;&gt;Cultura de Conquista&lt;/a&gt; descrevo o posto à cultura do Direito Adquirido.&lt;/p&gt;
+
+&lt;p&gt;Espero ter contribuído de alguma forma.
+Um abraço.&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>Prática do Sentimento de Produtividade</title>
    <link href="http://leandroadacosta.com/pratica-do-sentimento-de-produtividade/"/>
-   <updated>2011-10-14T00:00:00-03:00</updated>
+   <updated>2011-10-14T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//pratica-do-sentimento-de-produtividade</id>
-   <content type="html">&lt;h2&gt;Uma questão corriqueira&lt;/h2&gt;&lt;p&gt;Em todas as equipes de desenvolvimento de software conversamos sobre &lt;strong&gt;produtividade&lt;/strong&gt;. Nunca passava despercebida em nosso dia a dia. Ela era, e é, motivo de discussão - sempre saudável - em todas as &lt;a href='http://www.flickr.com/photos/cocento/5404128051/in/set-72157625920297498' target='_blank'&gt;reuniões diárias&lt;/a&gt; e &lt;a href='http://www.flickr.com/photos/cocento/5540468736/in/photostream' target='_blank'&gt;retrospectivas&lt;/a&gt; dos sprints. Sempre algum membro da equipe perguntava como foi a produtividade no dia ou no sprint.&lt;/p&gt;&lt;!--more--&gt;&lt;h2&gt;Uma forma diferente&lt;/h2&gt;&lt;p&gt;Todos sabem a importância de serem produtivos e que a &lt;strong&gt;produtividade não quer dizer trabalhar mais horas&lt;/strong&gt;. Produtividade está muitas vezes relacionada ao foco, entendimento do que é preciso ser feito, ambiente de trabalho e também ao processo da gestão do projeto. Uma prática que vem ajudando bastante à &lt;strong&gt;identificar os pontos&lt;/strong&gt; que influenciam na produtividade é a &lt;strong&gt;reunião diária&lt;/strong&gt; e - com muito mais importância - a &lt;strong&gt;retrospectiva&lt;/strong&gt; do sprint. Havia um problema de que uns influenciavam os outros na hora de falar. Como produtividade é um assunto permanente em nossas reuniões, dentro de mim ecoava um sentimento de que algo poderia ser melhorado neste sentido.&lt;/p&gt;&lt;p&gt;Achei uma &lt;strong&gt;forma diferente&lt;/strong&gt; de falarmos de produtividade quando assisti a &lt;strong&gt;palestra &quot;Melhorando um ambiente ágil.&quot;&lt;/strong&gt; da &lt;a href='http://twitter.com/cecifernandes' target='_blank'&gt;Cecília Fernandez&lt;/a&gt; no evento da &lt;a href='http://www.qcon.com.br/' target='_blank'&gt;QCon São Paulo 2011&lt;/a&gt;. A cultura da &lt;a href='http://www.caelum.com.br' target='_blank'&gt;Caelum&lt;/a&gt; propicia a melhoria contínua e a Cecília apresentou várias práticas diferentes para promover um ambiente agradável de trabalho. Uma delas era relacionada a produtividade, com essa dica em mãos tive a oportunidade de praticar com a nossa equipe. Na retrospectiva de hoje colhemos alguns &lt;strong&gt;feedbacks&lt;/strong&gt; legais, gostaria de compartilhá-los com vocês. Bom, &lt;strong&gt;vamos a prática&lt;/strong&gt;, explicarei de forma simples e objetiva.&lt;/p&gt;&lt;h2&gt;Prática do sentimento de produtividade&lt;/h2&gt;&lt;p&gt;É muito simples! Colamos do lado da porta de saída um quadrinho como este:&lt;/p&gt;&lt;a href='/img/posts/sentimento-produtividade.jpg'&gt;&lt;img alt='Sentimento de Produtividade' src='/img/posts/sentimento-produtividade.jpg' style='max-width:400px' /&gt;&lt;/a&gt;&lt;p&gt;Cada &lt;strong&gt;pessoa&lt;/strong&gt; que saia, riscava - de forma muito &lt;strong&gt;sincera&lt;/strong&gt; - como estava se &lt;strong&gt;sentindo&lt;/strong&gt; em relação a sua &lt;strong&gt;própria produtividade&lt;/strong&gt; (baixa, normal ou alta). Foi bem &lt;strong&gt;interessante a experiência&lt;/strong&gt;, no primeiro e segundo dia achamos &lt;strong&gt;um pouco estranho&lt;/strong&gt;, mas logo no final da semana e começo da segunda semana, &lt;strong&gt;enxergamos alguns benefícios&lt;/strong&gt;. Sentimos mudanças no lado &lt;strong&gt;psicológico&lt;/strong&gt; e no lado &lt;strong&gt;comportamental&lt;/strong&gt;.&lt;/p&gt;&lt;h3&gt;Lado psicológico:&lt;/h3&gt;&lt;ul&gt;
+   <content type="html">&lt;h2&gt;Uma questão corriqueira&lt;/h2&gt;
+&lt;p&gt;Em todas as equipes de desenvolvimento de software conversamos sobre &lt;strong&gt;produtividade&lt;/strong&gt;. Nunca passava despercebida em nosso dia a dia. Ela era, e é, motivo de discussão - sempre saudável - em todas as &lt;a href=&quot;http://www.flickr.com/photos/cocento/5404128051/in/set-72157625920297498&quot; target=&quot;_blank&quot;&gt;reuniões diárias&lt;/a&gt; e &lt;a href=&quot;http://www.flickr.com/photos/cocento/5540468736/in/photostream&quot; target=&quot;_blank&quot;&gt;retrospectivas&lt;/a&gt; dos sprints. Sempre algum membro da equipe perguntava como foi a produtividade no dia ou no sprint.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2&gt;Uma forma diferente&lt;/h2&gt;
+&lt;p&gt;Todos sabem a importância de serem produtivos e que a &lt;strong&gt;produtividade não quer dizer trabalhar mais horas&lt;/strong&gt;. Produtividade está muitas vezes relacionada ao foco, entendimento do que é preciso ser feito, ambiente de trabalho e também ao processo da gestão do projeto. Uma prática que vem ajudando bastante à &lt;strong&gt;identificar os pontos&lt;/strong&gt; que influenciam na produtividade é a &lt;strong&gt;reunião diária&lt;/strong&gt; e - com muito mais importância - a &lt;strong&gt;retrospectiva&lt;/strong&gt; do sprint. Havia um problema de que uns influenciavam os outros na hora de falar. Como produtividade é um assunto permanente em nossas reuniões, dentro de mim ecoava um sentimento de que algo poderia ser melhorado neste sentido.&lt;/p&gt;
+&lt;p&gt;Achei uma &lt;strong&gt;forma diferente&lt;/strong&gt; de falarmos de produtividade quando assisti a &lt;strong&gt;palestra &quot;Melhorando um ambiente ágil.&quot;&lt;/strong&gt; da &lt;a href=&quot;http://twitter.com/cecifernandes&quot; target=&quot;_blank&quot;&gt;Cecília Fernandez&lt;/a&gt; no evento da &lt;a href=&quot;http://www.qcon.com.br/&quot; target=&quot;_blank&quot;&gt;QCon São Paulo 2011&lt;/a&gt;. A cultura da &lt;a href=&quot;http://www.caelum.com.br&quot; target=&quot;_blank&quot;&gt;Caelum&lt;/a&gt; propicia a melhoria contínua e a Cecília apresentou várias práticas diferentes para promover um ambiente agradável de trabalho. Uma delas era relacionada a produtividade, com essa dica em mãos tive a oportunidade de praticar com a nossa equipe. Na retrospectiva de hoje colhemos alguns &lt;strong&gt;feedbacks&lt;/strong&gt; legais, gostaria de compartilhá-los com vocês. Bom, &lt;strong&gt;vamos a prática&lt;/strong&gt;, explicarei de forma simples e objetiva.&lt;/p&gt;
+
+&lt;h2&gt;Prática do sentimento de produtividade&lt;/h2&gt;
+&lt;p&gt;É muito simples! Colamos do lado da porta de saída um quadrinho como este:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/sentimento-produtividade.jpg&quot;&gt;&lt;img src=&quot;/img/posts/sentimento-produtividade.jpg&quot; alt=&quot;Sentimento de Produtividade&quot; style=&quot;max-width:400px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Cada &lt;strong&gt;pessoa&lt;/strong&gt; que saia, riscava - de forma muito &lt;strong&gt;sincera&lt;/strong&gt; - como estava se &lt;strong&gt;sentindo&lt;/strong&gt; em relação a sua &lt;strong&gt;própria produtividade&lt;/strong&gt; (baixa, normal ou alta). Foi bem &lt;strong&gt;interessante a experiência&lt;/strong&gt;, no primeiro e segundo dia achamos &lt;strong&gt;um pouco estranho&lt;/strong&gt;, mas logo no final da semana e começo da segunda semana, &lt;strong&gt;enxergamos alguns benefícios&lt;/strong&gt;. Sentimos mudanças no lado &lt;strong&gt;psicológico&lt;/strong&gt; e no lado &lt;strong&gt;comportamental&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Lado psicológico:&lt;/h3&gt;
+&lt;ul&gt;
 	&lt;li&gt;Bem estar ao sair de um dia produtivo em equipe.&lt;/li&gt;
 	&lt;li&gt;Equipe mais preocupada com o resultado.&lt;/li&gt;
 	&lt;li&gt;Auto análise da produtividade individual e em equipe.&lt;/li&gt;
 	&lt;li&gt;Auto motivação para o próximo dia quando o dia atual - ou anterior - é pouco produtivo.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;Lado comportamental:&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Lado comportamental:&lt;/h3&gt;
+&lt;ul&gt;
 	&lt;li&gt;Aumento do foco.&lt;/li&gt;
 	&lt;li&gt;Aumento da comunicação.&lt;/li&gt;
 	&lt;li&gt;Maior preocupação em fazer o trabalho em equipe.&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;Benefícios&lt;/h2&gt;&lt;ul&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Benefícios&lt;/h2&gt;
+&lt;ul&gt;
 	&lt;li&gt;Conseguimos prezar mais a produtividade do time do que a individual, entendendo o papel produtivo de cada membro para o time.&lt;/li&gt;
 	&lt;li&gt;Melhoramos nosso foco promovendo a produtividade.&lt;/li&gt;
 	&lt;li&gt;Aumentamos nossa cobrança.&lt;/li&gt;
 	&lt;li&gt;Nas retrospectivas não discutimos mais a produtividade em si, e sim, quais foram as barreiras que atrapalhavam a produtividade.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Ainda estamos experimentando esta prática, enquanto tivermos efeitos positivos, continuaremos aprimorando.&lt;/p&gt;
 
-&lt;p&gt;Espero que tenham gostado. E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe? Conte sua experiência :)&lt;/p&gt;</content>
+&lt;p&gt;Espero que tenham gostado.
+E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe? Conte sua experiência :)&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>A arte de ser Mensch</title>
    <link href="http://leandroadacosta.com/a-arte-de-ser-mensch/"/>
-   <updated>2011-10-12T00:00:00-03:00</updated>
+   <updated>2011-10-12T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//a-arte-de-ser-mensch</id>
-   <content type="html">&lt;p&gt;Este post foi embasado no livro &lt;a href='http://www.submarino.com.br/produto/1/1470751/arte+do+comeco:+o+guia+definitivo+para+iniciar+o+seu+projeto,+a' target='_blank'&gt;A arte do começo por Guy Kawazaki&lt;/a&gt;. Como esta mencionado no livro: &lt;em&gt;Mensch&lt;/em&gt; é o termo em &lt;em&gt;&lt;a href='http://pt.wikipedia.org/wiki/L%C3%ADngua_i%C3%ADdiche' target='_blank'&gt;iídiche&lt;/a&gt;&lt;/em&gt; que designa uma pessoa ética, íntegra e admirável. O oposto de um &lt;em&gt;Mensch - ser humano -&lt;/em&gt; é um &lt;em&gt;Unmensch&lt;/em&gt;, que significa uma pessoa absolutamente cruel ou para o mal. A chave para ser um &lt;em&gt;Mensch&lt;/em&gt; é ter caráter, dignidade e um senso do que é certo.&lt;/p&gt;&lt;blockquote&gt;&quot;A verdadeira medida de um homem é a maneira como ele trata alguém que não lhe pode ser útil.&quot; SAMUEL JOHNSON&lt;/blockquote&gt;
-&lt;p&gt;O autor Guy Kawazaki incluiu este tópico no livro por dois motivos: &lt;ol&gt;
+   <content type="html">&lt;p&gt;Este post foi embasado no livro &lt;a href=&quot;http://www.submarino.com.br/produto/1/1470751/arte+do+comeco:+o+guia+definitivo+para+iniciar+o+seu+projeto,+a&quot; target=&quot;_blank&quot;&gt;A arte do começo por Guy Kawazaki&lt;/a&gt;. Como esta mencionado no livro: &lt;em&gt;Mensch&lt;/em&gt; é o termo em &lt;em&gt;&lt;a href=&quot;http://pt.wikipedia.org/wiki/L%C3%ADngua_i%C3%ADdiche&quot; target=&quot;_blank&quot;&gt;iídiche&lt;/a&gt;&lt;/em&gt; que designa uma pessoa ética, íntegra e admirável. O oposto de um &lt;em&gt;Mensch - ser humano -&lt;/em&gt; é um &lt;em&gt;Unmensch&lt;/em&gt;, que significa uma pessoa absolutamente cruel ou para o mal. A chave para ser um &lt;em&gt;Mensch&lt;/em&gt; é ter caráter, dignidade e um senso do que é certo.&lt;/p&gt;
+
+&lt;blockquote&gt;&quot;A verdadeira medida de um homem é a maneira como ele trata alguém que não lhe pode ser útil.&quot; SAMUEL JOHNSON&lt;/blockquote&gt;
+&lt;p&gt;O autor Guy Kawazaki incluiu este tópico no livro por dois motivos:&lt;/p&gt;
+&lt;ol&gt;
 	&lt;li&gt;Agir de modo que beneficie você e sua empresa em detrimento do restante da sociedade não o tornará melhor.&lt;/li&gt;
 	&lt;li&gt;Se você quiser constituir uma empresa grandiosa e duradoura, precisará estabelecer os mais altos padrões éticos e morais para o seus funcionários.&lt;/li&gt;
-&lt;/ol&gt; &lt;p&gt;São &lt;strong&gt;três&lt;/strong&gt; os &lt;strong&gt;fundamentos&lt;/strong&gt; do modo &lt;em&gt;Mensch&lt;/em&gt;:&lt;/p&gt;&lt;/p&gt;
-&lt;strong&gt;AJUDAR MUITA GENTE&lt;/strong&gt;&lt;p&gt;Você precisa somar pontos em seu comportamento durante o tempo que passa neste mundo, e a melhor forma de somar esses pontos é ajudar as pessoas. Não é puro ajudar aquelas pessoas de que você vai precisar um dia. As ajudas que valem mais são: ajudar pessoas em que nunca se sabe se elas possam ajudá-lo um dia; sentir alegria interior em ajudar o próximo; e querer somar pontos cármicos só por via das dúvidas, caso esta teoria esteja correta.&lt;/p&gt;&lt;strong&gt;FAÇA O QUE É CORRETO&lt;/strong&gt;&lt;p&gt;Fazer o que é correto - não o que é fácil, conveniente, que economiza dinheiro ou que o permita sair ileso. Certo é certo, errado é errado. Sem dúvida, existem verdades absolutas na vida, e os &lt;em&gt;Mensches&lt;/em&gt; valorizam e colocam em prática essa verdade.&lt;/p&gt;&lt;strong&gt;RETRIBUIR À SOCIEDADE O QUE ELA LHE DÁ&lt;/strong&gt;&lt;p&gt;Há muitas &quot;moedas&quot; com que se pode pagar à sociedade esses favores. Fazer doações em dinheiro é apenas uma delas - outras incluem doar tempo, conhecimento e apoio emocional. Os &lt;em&gt;Mensches&lt;/em&gt; usam essas moedas para se doar aos outros. O conceito-chave é que o Mensch retribui - ou seja, por algo de bom já recebido -, em vez de estar &quot;pagando adiantado&quot; pelo que espera receber depois.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;O autor recomenda um exercício para reflexão:&lt;/strong&gt; O fim de sua vida chegou. Relacione as três coisas pelas quais você quer que as pessoas se recordem de você.&lt;/p&gt;&lt;p&gt;E você? Se considera um &lt;em&gt;Mensch&lt;/em&gt;? Envie comentários :)&lt;/p&gt;</content>
+&lt;/ol&gt;
+&lt;p&gt;São &lt;strong&gt;três&lt;/strong&gt; os &lt;strong&gt;fundamentos&lt;/strong&gt; do modo &lt;em&gt;Mensch&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AJUDAR MUITA GENTE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Você precisa somar pontos em seu comportamento durante o tempo que passa neste mundo, e a melhor forma de somar esses pontos é ajudar as pessoas. Não é puro ajudar aquelas pessoas de que você vai precisar um dia. As ajudas que valem mais são: ajudar pessoas em que nunca se sabe se elas possam ajudá-lo um dia; sentir alegria interior em ajudar o próximo; e querer somar pontos cármicos só por via das dúvidas, caso esta teoria esteja correta.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FAÇA O QUE É CORRETO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Fazer o que é correto - não o que é fácil, conveniente, que economiza dinheiro ou que o permita sair ileso. Certo é certo, errado é errado. Sem dúvida, existem verdades absolutas na vida, e os &lt;em&gt;Mensches&lt;/em&gt; valorizam e colocam em prática essa verdade.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RETRIBUIR À SOCIEDADE O QUE ELA LHE DÁ&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Há muitas &quot;moedas&quot; com que se pode pagar à sociedade esses favores. Fazer doações em dinheiro é apenas uma delas - outras incluem doar tempo, conhecimento e apoio emocional. Os &lt;em&gt;Mensches&lt;/em&gt; usam essas moedas para se doar aos outros. O conceito-chave é que o Mensch retribui - ou seja, por algo de bom já recebido -, em vez de estar &quot;pagando adiantado&quot; pelo que espera receber depois.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;O autor recomenda um exercício para reflexão:&lt;/strong&gt; O fim de sua vida chegou. Relacione as três coisas pelas quais você quer que as pessoas se recordem de você.&lt;/p&gt;
+&lt;p&gt;E você? Se considera um &lt;em&gt;Mensch&lt;/em&gt;? Envie comentários :)&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>Idéia inovadora, Startup!</title>
    <link href="http://leandroadacosta.com/ideia-inovadora-startup/"/>
-   <updated>2011-10-06T00:00:00-03:00</updated>
+   <updated>2011-10-06T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//ideia-inovadora-startup</id>
    <content type="html">&lt;p&gt;Surgiu uma &lt;strong&gt;idéia inovadora&lt;/strong&gt;, então logo nasce uma &lt;strong&gt;startup&lt;/strong&gt;!&lt;/p&gt;
 
 &lt;p&gt;Para quem não sabe o termo startup se refere as empresas recém-criadas, em fase de desenvolvimento e evolução do modelo de negócio - aquelas que surgem na garagem, no fundo de quintal de casa, no próprio escritório ou através de projetos investidos por grandes empresas ou incubadoras.&lt;/p&gt;
 
-&lt;p&gt;Definição de startup: &amp;#8220;Uma instituição humana desenhada para entregar um novo produto ou serviço sob &lt;strong&gt;condições&lt;/strong&gt; de &lt;strong&gt;extrema incerteza&lt;/strong&gt;&amp;#8221; por &lt;strong&gt;Eric Ries&lt;/strong&gt;.&lt;/p&gt;
-&lt;a href='/img/posts/startup.jpg'&gt;&lt;img alt='Startup a nova tendência.' src='/img/posts/startup.jpg' style='max-width:393px' /&gt;&lt;/a&gt;
+&lt;p&gt;Definição de startup: “Uma instituição humana desenhada para entregar um novo produto ou serviço sob &lt;strong&gt;condições&lt;/strong&gt; de &lt;strong&gt;extrema incerteza&lt;/strong&gt;” por &lt;strong&gt;Eric Ries&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/startup.jpg&quot;&gt;&lt;img src=&quot;/img/posts/startup.jpg&quot; alt=&quot;Startup a nova tendência.&quot; style=&quot;max-width:393px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;São elas as &lt;strong&gt;iniciantes&lt;/strong&gt; neste mercado imenso e competitivo - geralmente formada por &lt;strong&gt;jovens empreendedores&lt;/strong&gt; - que estão em constante busca por inovação e acima de tudo sonham em melhorar o mundo com seus projetos. São elas que lançam produtos e serviços para &lt;strong&gt;solucionar problemas&lt;/strong&gt; e &lt;strong&gt;facilitar a vida das pessoas&lt;/strong&gt;, são elas que aceleram a economia e principalmente ajudam a contribuir com &lt;strong&gt;algo realmente significativo&lt;/strong&gt; para o &lt;strong&gt;mundo&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;A Apple, Microsoft, Google, Facebook, Twitter já foram startups um dia, e hoje são empresas de grande porte que ficaram famosas com seus produtos e serviços. É claro que para ter &lt;strong&gt;sucesso&lt;/strong&gt; não é simplesmente ter uma &lt;strong&gt;idéia inovadora&lt;/strong&gt; e achar que vai &lt;strong&gt;mudar o mundo&lt;/strong&gt;. Começar é fácil, o difícil é continuar e &lt;strong&gt;crescer&lt;/strong&gt;. Achar um &lt;strong&gt;modelo de negócio certo e que seja escalável&lt;/strong&gt; é o fator crítico de sucesso para a maioria das startups, onde muitas falham no meio do caminho.&lt;/p&gt;
@@ -320,31 +508,33 @@ Um abraço.&lt;/p&gt;</content>
 
 &lt;p&gt;Falarei mais sobre Startup e novos conceitos em outros posts.&lt;/p&gt;
 
-&lt;p&gt;E você? Conte um pouco da sua experiência com startups também ;)&lt;/p&gt;</content>
+&lt;p&gt;E você? Conte um pouco da sua experiência com startups também ;)&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
    <title>Jogar Counter-Strike me ajudou a ser um profissional melhor</title>
    <link href="http://leandroadacosta.com/jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor/"/>
-   <updated>2011-03-16T00:00:00-03:00</updated>
+   <updated>2011-03-16T00:00:00+00:00</updated>
    <id>http://leandroadacosta.com//jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor</id>
-   <content type="html">&lt;p&gt;Piada? Não! Pelo contrário, tenho essa fase da minha vida como um &lt;strong&gt;aprendizado incrível que me acrescentou muito, tanto no lado pessoal quanto no profissional.&lt;/strong&gt; Importou tanto para mim que eu cheguei ao ponto de colocar no meu currículo que joguei um tal jogo de computador chamado &lt;a href='http://pt.wikipedia.org/wiki/Counter-Strike' target='_blank'&gt;Counter-Strike&lt;/a&gt;. Este jogo para aqueles que nunca escutaram, é o jogo de tiro em primeira pessoa mais conhecido e disseminado do mundo, até ai, não importa, o que eu quero é mostrar o porque do aprendizado no final dessa história.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Piada? Não! Pelo contrário, tenho essa fase da minha vida como um &lt;strong&gt;aprendizado incrível que me acrescentou muito, tanto no lado pessoal quanto no profissional.&lt;/strong&gt; Importou tanto para mim que eu cheguei ao ponto de colocar no meu currículo que joguei um tal jogo de computador chamado &lt;a href=&quot;http://pt.wikipedia.org/wiki/Counter-Strike&quot; target=&quot;_blank&quot;&gt;Counter-Strike&lt;/a&gt;. Este jogo para aqueles que nunca escutaram, é o jogo de tiro em primeira pessoa mais conhecido e disseminado do mundo, até ai, não importa, o que eu quero é mostrar o porque do aprendizado no final dessa história.&lt;/p&gt;
 
-&lt;p&gt;Muitas qualidades eu adquiri logo cedo, dado que joguei este jogo praticamente 3 anos da minha vida, dos 15 aos 18 anos de idade. Quando comecei a jogar, eu era o chamado &amp;#8220;newbie&amp;#8221; ou seja, principiante. Não queria ser um newbie, acho que ninguém quer ser um newbie no que faz, por isso queria mais, &lt;strong&gt;queria evoluir&lt;/strong&gt;. Chegou um certo momento, depois de muitas horas por dia de dedicação jogando em casa e nas quase &amp;#8220;falecidas&amp;#8221; lanhouses, que peguei jeito na coisa. Isso me fez enxergar &lt;strong&gt;novas possibilidades&lt;/strong&gt; de evolução, consegui quebrar as &lt;strong&gt;crenças limitantes&lt;/strong&gt; do meu potencial, queria sempre mais, foi quando&lt;a href='http://www.livrariasaraiva.com.br/produto/400448/a-aguia-e-a-galinha/' target='_blank'&gt; descobri que não era apenas uma galinha e poderia ser uma águia&lt;/a&gt;, em um encontro numa &lt;em&gt;lanhouse&lt;/em&gt;, vi que existiam times e campeonatos na cidade onde morava - Santos / SP, foi daí que surgiu minha motivação.&lt;/p&gt;
+&lt;p&gt;Muitas qualidades eu adquiri logo cedo, dado que joguei este jogo praticamente 3 anos da minha vida, dos 15 aos 18 anos de idade. Quando comecei a jogar, eu era o chamado “newbie” ou seja, principiante. Não queria ser um newbie, acho que ninguém quer ser um newbie no que faz, por isso queria mais, &lt;strong&gt;queria evoluir&lt;/strong&gt;. Chegou um certo momento, depois de muitas horas por dia de dedicação jogando em casa e nas quase “falecidas” lanhouses, que peguei jeito na coisa. Isso me fez enxergar &lt;strong&gt;novas possibilidades&lt;/strong&gt; de evolução, consegui quebrar as &lt;strong&gt;crenças limitantes&lt;/strong&gt; do meu potencial, queria sempre mais, foi quando&lt;a href=&quot;http://www.livrariasaraiva.com.br/produto/400448/a-aguia-e-a-galinha/&quot; target=&quot;_blank&quot;&gt; descobri que não era apenas uma galinha e poderia ser uma águia&lt;/a&gt;, em um encontro numa &lt;em&gt;lanhouse&lt;/em&gt;, vi que existiam times e campeonatos na cidade onde morava - Santos / SP, foi daí que surgiu minha motivação.&lt;/p&gt;
 
 &lt;p&gt;O jogo permite você jogar em time de 5 pessoas com um Manager opcional, tanto na internet quanto fisicamente numa &lt;em&gt;lanhouse&lt;/em&gt;, existem disputas de campeonatos no Brasil e no mundo todo. Logo tracei o meu &lt;strong&gt;objetivo&lt;/strong&gt;: ter um time pra ser o melhor do Brasil - entre os 3 melhores já estava ótimo, também coloquei uma &lt;strong&gt;meta&lt;/strong&gt; clara: conquistar isso em no máximo 2 anos para parar de jogar e me dedicar as coisas que dão futuro - estudo e trabalho -, heheh.&lt;/p&gt;
 
-&lt;p&gt;Fui atrás disso, montei um time onde eu atuava na linha de frente &amp;#8220;matando&amp;#8221; todo mundo. Jogamos alguns campeonatos até finalmente conseguir ganhar o primeiro na região. A partir dali ficamos conhecidos pela comunidade, conheci novas pessoas e joguei novos campeonatos até conseguir montar um time. Liderei o time e me dediquei com muita &lt;strong&gt;disciplina&lt;/strong&gt; e &lt;strong&gt;comprometimento,&lt;/strong&gt; todos os dias da semana pelo menos 4 horas de jogo por dia, sem contar os fins de semana, que pela manhã eram regrados de treinos e treinos. Em tal momento defini a minha meta: ser um dos melhores do Brasil no CS em 1 ano e meio, sendo que nessa época já éramos o melhor time da Baixada Santista.&lt;/p&gt;
+&lt;p&gt;Fui atrás disso, montei um time onde eu atuava na linha de frente “matando” todo mundo. Jogamos alguns campeonatos até finalmente conseguir ganhar o primeiro na região. A partir dali ficamos conhecidos pela comunidade, conheci novas pessoas e joguei novos campeonatos até conseguir montar um time. Liderei o time e me dediquei com muita &lt;strong&gt;disciplina&lt;/strong&gt; e &lt;strong&gt;comprometimento,&lt;/strong&gt; todos os dias da semana pelo menos 4 horas de jogo por dia, sem contar os fins de semana, que pela manhã eram regrados de treinos e treinos. Em tal momento defini a minha meta: ser um dos melhores do Brasil no CS em 1 ano e meio, sendo que nessa época já éramos o melhor time da Baixada Santista.&lt;/p&gt;
 
-&lt;p&gt;Fizemos uma fusão com outro time para ganhar patrocínio, montamos o The@Game Team, os fracos saíram e os melhores ficaram, nesse eu fiquei como líder e capitão do time. Meu papel foi influênciar todos a seguir rumo a um objetivo compartilhado por todos, ser o melhor time do Brasil. Éramos em cinco no time, treinamos duro, inclusive com vários times de outras cidades e estados. Fomos para o nosso primeiro campeonato brasileiro de Counter-Strike, e de cara ficamos na 16º posição, tal colocação foi desmotivante para alguns que até pensaram em desistir, meu papel foi sempre de &lt;strong&gt;liderar&lt;/strong&gt; e &lt;strong&gt;motivar&lt;/strong&gt; o time. Fomos para o nosso segundo campeonato, este já fomos um pouco melhor, ficamos na 10º posição. No terceiro, ficamos na 8º posição, um desistiu, pois achou que chegamos ao nosso máximo, que não íamos alcançar nem se quer a quinta posição, ai entramos em pane pois teríamos que treinar tudo de novo. Nessa hora que entrou fortemente o meu papel e o da equipe de &lt;strong&gt;se esforçar mais que a média&lt;/strong&gt;. Conseguimos mais um integrante para time, que por coincidência foi &lt;a href='http://twitter.com/brunoadacosta' target='_blank'&gt;meu irmão&lt;/a&gt;, onde resgatamos todo o gás para &lt;strong&gt;alcançar a meta&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Fizemos uma fusão com outro time para ganhar patrocínio, montamos o The@Game Team, os fracos saíram e os melhores ficaram, nesse eu fiquei como líder e capitão do time. Meu papel foi influênciar todos a seguir rumo a um objetivo compartilhado por todos, ser o melhor time do Brasil. Éramos em cinco no time, treinamos duro, inclusive com vários times de outras cidades e estados. Fomos para o nosso primeiro campeonato brasileiro de Counter-Strike, e de cara ficamos na 16º posição, tal colocação foi desmotivante para alguns que até pensaram em desistir, meu papel foi sempre de &lt;strong&gt;liderar&lt;/strong&gt; e &lt;strong&gt;motivar&lt;/strong&gt; o time. Fomos para o nosso segundo campeonato, este já fomos um pouco melhor, ficamos na 10º posição. No terceiro, ficamos na 8º posição, um desistiu, pois achou que chegamos ao nosso máximo, que não íamos alcançar nem se quer a quinta posição, ai entramos em pane pois teríamos que treinar tudo de novo. Nessa hora que entrou fortemente o meu papel e o da equipe de &lt;strong&gt;se esforçar mais que a média&lt;/strong&gt;. Conseguimos mais um integrante para  time, que por coincidência foi &lt;a href=&quot;http://twitter.com/brunoadacosta&quot; target=&quot;_blank&quot;&gt;meu irmão&lt;/a&gt;, onde resgatamos todo o gás para &lt;strong&gt;alcançar a meta&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Fomos para o quarto campeonato, onde obtivemos a melhor colocação da história do time, &lt;strong&gt;ficamos entre os 3 melhores do Brasil&lt;/strong&gt; - pra quem lembra, foi em 2004, os times eram: 1º MiBR, em 2º G3X e a gente em 3º The@Game -, ficamos por um &amp;#8220;round&amp;#8221; ou &amp;#8220;ponto&amp;#8221; de ir pra Dallas no Texas jogar o campeonato mundial - isso ainda está entalado na garganta, mas tudo bem, mérito deles. O que importa é que alcançamos a meta e não queríamos mais jogar CS depois disso. Acabou por ai, conseguimos chegar ao nosso objetivo.&lt;/p&gt;
+&lt;p&gt;Fomos para o quarto campeonato, onde obtivemos a  melhor colocação da história do time, &lt;strong&gt;ficamos entre os 3 melhores do Brasil&lt;/strong&gt; - pra quem lembra, foi em 2004, os times eram: 1º MiBR, em 2º G3X e a gente em 3º The@Game -, ficamos por um “round” ou “ponto” de ir pra Dallas no Texas jogar o campeonato mundial - isso ainda está entalado na garganta, mas tudo bem, mérito deles. O que importa é que alcançamos a meta e não queríamos mais jogar CS depois disso. Acabou por ai, conseguimos chegar ao nosso objetivo.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Conclusão:&lt;/strong&gt; aprendi a ser persistente e não desistir nunca.&lt;/p&gt;
 
 &lt;p&gt;Levo importantíssimos aprendizados que me fizeram e me fazem largar na frente, amadureci rapidamente como pessoa e profissional, consegui &lt;strong&gt;enxergar&lt;/strong&gt; e saber &lt;strong&gt;entender&lt;/strong&gt; o valor de muita coisa numa visão prática, como: &lt;strong&gt;liderança&lt;/strong&gt;; &lt;strong&gt;gestão de pessoas&lt;/strong&gt;; &lt;strong&gt;gestão de conflitos&lt;/strong&gt;; &lt;strong&gt;astúcia&lt;/strong&gt;; &lt;strong&gt;espírito de equipe&lt;/strong&gt;; &lt;strong&gt;motivação&lt;/strong&gt;; &lt;strong&gt;adrenalina&lt;/strong&gt;; &lt;strong&gt;competição&lt;/strong&gt;; &lt;strong&gt;persistência&lt;/strong&gt;; &lt;strong&gt;garra&lt;/strong&gt;; &lt;strong&gt;disciplina&lt;/strong&gt;; &lt;strong&gt;determinação&lt;/strong&gt;; &lt;strong&gt;dedicação&lt;/strong&gt;; &lt;strong&gt;foco&lt;/strong&gt;; &lt;strong&gt;treino&lt;/strong&gt;; &lt;strong&gt;auto-organização&lt;/strong&gt;; &lt;strong&gt;comprometimento&lt;/strong&gt;; e muitas outras qualidades que um esporte de competição proporciona. Resumindo, essas qualidades aprendidas na prática, mesmo de um jogo de computador, levo como &lt;strong&gt;bagagem&lt;/strong&gt; pra minha atuação &lt;strong&gt;profissional&lt;/strong&gt; e &lt;strong&gt;pessoal&lt;/strong&gt; pro resto da vida.&lt;/p&gt;
 
-&lt;p&gt;Alguém já jogou algum jogo que o ajudou ser um profissional melhor? Enviem seus comentários :)&lt;/p&gt;</content>
+&lt;p&gt;Alguém já jogou algum jogo que o ajudou ser um profissional melhor? Enviem seus comentários :)&lt;/p&gt;
+</content>
  </entry>
  
 
