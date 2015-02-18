@@ -38,7 +38,7 @@ meta:
 
 Definimos a rota:
 
-{% code ruby %}
+{% highlight ruby %}
 Example::Application.routes.draw do
 
   scope '/mockups', :constraints => lambda { |e| not Rails.env.production? } do
@@ -46,11 +46,11 @@ Example::Application.routes.draw do
   end
 
 end
-{% endcode %}
+{% endhighlight %}
 
 Criamos o controller:
 
-{% code ruby %}
+{% highlight ruby %}
 class MockupsController < ApplicationController
   def books_list
   end
@@ -58,11 +58,11 @@ class MockupsController < ApplicationController
   def new_book
   end
 end
-{% endcode %}
+{% endhighlight %}
 
 Para cada método do controller implementamos a view em HTML, CSS e JS para simular alguns comportamentos, por fim, linkamos os fluxos entre elas:
 
-{% code text %}
+{% highlight text %}
 |~app/
 | |+assets/
 | |~controllers/
@@ -77,7 +77,7 @@ Para cada método do controller implementamos a view em HTML, CSS e JS para simu
 |   `~mockups/
 |     |-books_list.html.erb
 |     `-new_book.html.erb
-{% endcode %}
+{% endhighlight %}
 
 <h2>Resultado final</h2>
 <p>Tínhamos no final do segundo dia um <strong>protótipo</strong> totalmente <strong>funcional</strong> e <strong>bonito</strong>. Pera aí, como em um dia conseguiram deixar o layout bonito? Vou abrir o segredo com vocês :). Para agilizar o processo, usamos todo um padrão para o front-end do <a title="Twitter Bootstrap" href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>.</p>

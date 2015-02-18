@@ -1,8 +1,5 @@
-auto: true
-server: true
-
 exclude: ["README.md", ".gitignore"]
-pygments: true
+highlighter: pygments
 permalink: /:title/
 production_url: http://leandroadacosta.com
 

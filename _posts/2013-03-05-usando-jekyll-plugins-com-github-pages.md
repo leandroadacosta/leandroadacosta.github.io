@@ -29,7 +29,7 @@ Adicionar no `.gitignore` a pasta `/_site` que é gerada pelo **Jekyll**. Este s
 
 Para acontecer a mágica, é preciso mover os arquivos finais de dentro da pasta `/_site` para a pasta raiz da **branch master** e comitar na master esses arquivos gerados antes de dar push pro **GitHub**. Para entender melhor, veja abaixo:
 
-{% code bash %}
+{% highlight bash %}
 
 git checkout source
 // seja lá qualquer alteração feita
@@ -40,17 +40,17 @@ cp -r _site/* . && rm -rf _site/ && touch .nojekyll
 git status & git add & git commit
 git push -all origin
 
-{% endcode %}
+{% endhighlight %}
 
 Pronto. A parte chata é que você move e comita na **branch master** os códigos gerados pelo **Jekyll**. A parte boa é que você tem a **branch source** pra trabalhar tranquilamente no seu site e, o melhor de tudo, funciona com **Jekyll plugins**.
 
 Pra facilitar a tarefa de copiar, criei um alias no meu bash:
 
-{% code bash %}
+{% highlight bash %}
 
 alias jekyll-copy="cp -r _site/* . && rm -rf _site/ && touch .nojekyll"
 
-{% endcode %}
+{% endhighlight %}
 
 Veja todo o código dessa abordagem de duas branchs no [repositório deste blog](https://github.com/leandroadacosta/leandroadacosta.github.com).
 
