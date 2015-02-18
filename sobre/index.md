@@ -6,12 +6,12 @@ description: Software Developer, Head of Product at BankFacil.
 # Sobre mim
 * Leandro Alvares da Costa
 * Nasci em 1987
-* Sócio & Head of Product [bankFacil](https://www.bankfacil.com.br)
+* Sócio & Head of Product [BankFacil](https://www.bankfacil.com.br)
 
 ## Atividades
 *	Desenvolvedor <em>full-stack</em> de aplicações web.
 * Lider de produto e experiência de usuário.
-* Facilitador de times, que acredita no poder da liderança educadora.
+* Facilitador de times. Acredito nas pessoas e no poder da liderança educadora.
 * Praticante do [desenvolvimento ágil](http://www.agilemanifesto.org/iso/ptbr/).
 
 ## Social
