@@ -1,19 +1,18 @@
 ---
 layout: base
 title: Sobre
-description: Empreendedor e desenvolvedor web com foco no front-end. MBA c/ ênfase Gestão de Pessoas. Praticante do desenvolvimento ágil de software e Lean Startup.
+description: Software Developer, Head of Product at BankFacil.
 ---
 # Sobre mim
 * Leandro Alvares da Costa
 * Nasci em 1987
-* Co-fundador na startup [Hungroo](http://hungroo.com)
-* UX Specialist na startup [bankFacil](http://www.bankfacil.com.br)
+* Sócio & Head of Product [bankFacil](https://www.bankfacil.com.br)
 
 ## Atividades
-*	Especialista em design de <abbr title="User Interface" lang="en-US">UI</abbr> e <abbr title="User Experience" lang="en-US">UX</abbr>
-*	Desenvolvedor front e back-end de aplicações web
-*	Praticante do desenvolvimento ágil
-*	Vivenciando o mundo de Lean Startup
+*	Desenvolvedor <em>full-stack</em> de aplicações web.
+* Lider de produto e experiência de usuário.
+* Facilitador de times, que acredita no poder da liderança educadora.
+* Praticante do [desenvolvimento ágil](http://www.agilemanifesto.org/iso/ptbr/).
 
 ## Social
 * [Twitter](http://twitter.com/leandroadacosta)
