@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: Perigo na Zona de Conforto
 tags:

@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: Usando Jekyll + Plugins com GitHub Pages
 description: Depois de pesquisar um pouco, achei uma abordagem simples e fácil de solucionar isso.

@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: Scrum, 8 erros comuns da reunião diária
 tags:

@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: Novo blog no ar
 description: Principais novidades são design responsivo, desenvolvido com Jekyll + Plugins e hospedado por GitHub Pages.

@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: Cultura de Conquista - Parte 1
 tags:

@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: A arte de ser Mensch
 tags:

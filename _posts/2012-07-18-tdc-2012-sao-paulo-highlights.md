@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: TDC 2012 São Paulo Highlights
 tags:

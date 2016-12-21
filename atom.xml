@@ -4,13 +4,13 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Blog do Leandro A. da Costa</title>
+ <title>Leandro Alvares da Costa</title>
  <link href="{{ site.production_url }}/atom.xml" rel="self"/>
  <link href="{{ site.production_url }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.production_url }}</id>
  <author>
-   <name>Leandro A. da Costa</name>
+   <name>Leandro Alvares da Costa</name>
    <email>leandroadacosta@gmail.com</email>
  </author>
 

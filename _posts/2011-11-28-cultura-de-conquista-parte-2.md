@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: Cultura de Conquista - Parte 2
 tags:
@@ -10,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+class: is-featured
 meta:
   _edit_last: '18856848'
   original_post_id: '528'

@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: Performance. Qual é o seu Ponto Quente?
 tags:

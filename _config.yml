@@ -1,8 +1,7 @@
 exclude: ["README.md", ".gitignore"]
-highlighter: pygments
 permalink: /:title/
 production_url: http://leandroadacosta.com
 
 title: leandroadacosta.com
 author:
-   name: Leandro A. da Costa
+   name: Leandro Alvares da Costa

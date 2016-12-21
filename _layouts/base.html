@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br" dir="ltr"> <!--<![endif]-->
+<html class="no-js" lang="{{ page.lang }}" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}{% if page.type != 'home' %} | Leandro Alvares da Costa{% endif %}</title>
     <meta name="description" content="{{ page.description | escape }}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    
+
     <link rel="canonical" href="{{ site.production_url }}{{ page.url }}">
-    
+
     <meta property="og:image" content="{{ site.production_url }}/img/leandro-alvares-da-costa.jpg">
     {% if page.type == 'post' %}
       <meta property="og:url" content="{{ site.production_url }}{{ page.url }}">
@@ -20,24 +16,24 @@
 
     <link rel="icon" href="{{ site.url }}/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/favicon-apple-touch-icon-57.png">
-    
+
     <link rel="stylesheet" href="{{ site.url }}/css/normalize.css">
     <link rel="stylesheet" href="{{ site.url }}/css/base.css">
     <link rel="stylesheet" href="{{ site.url }}/css/styles.css">
     <link rel="stylesheet" href="{{ site.url }}/css/header.css">
     <link rel="stylesheet" href="{{ site.url }}/css/states.css">
     <link rel="stylesheet" href="{{ site.url }}/css/code.css">
-    
+
     <!-- feed -->
-    <link rel="alternate" type="application/atom+xml" title="Blog do Leandro A. da Costa" href="{{ site.production_url }}/atom.xml">
+    <link rel="alternate" type="application/atom+xml" title="Leandro Alvares da Costa" href="{{ site.production_url }}/atom.xml">
   </head>
   <body>
     <div class="container">
       <header class="header">
         <a href="{{ site.url }}/"><img src="{{ site.url }}/img/leandro-alvares-da-costa.jpg" alt="Leandro Alvares da Costa" class="header__avatar"></a>
         <div class="header__box">
-          <h1 class="header__title">BLOG <a href="{{ site.url }}/" class="header__blog-name">LEANDRO COSTA</a></h1>
-          <p class="header__desc">Software Developer, Head of Product at BankFacil</p>
+          <h1 class="header__title"><a href="{{ site.url }}/" class="header__blog-name">Leandro "Ladc"</a></h1>
+          <p class="header__desc">Agile software developer, manager, and entrepreneur</p>
         </div>
       </header>
       <main class="main" role="main">

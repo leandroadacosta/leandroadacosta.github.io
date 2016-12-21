@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: Criação dos pais como parte da minha cultura
 tags:

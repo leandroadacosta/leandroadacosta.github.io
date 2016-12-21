@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: Jogar Counter-Strike me ajudou a ser um profissional melhor
 tags:

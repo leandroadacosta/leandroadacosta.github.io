@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: Idéia inovadora, Startup!
 tags:

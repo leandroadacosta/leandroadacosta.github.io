@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: CSS modular e escalável
 description: xxx

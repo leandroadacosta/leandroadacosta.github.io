@@ -1,4 +1,5 @@
 ---
+lang: pt-br
 layout: post
 title: O que os líderes empreendedores devem fazer - Parte 1
 tags:
