@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Blog do Leandro A. da Costa</title>
+ <title>Leandro Alvares da Costa</title>
  <link href="http://leandroadacosta.com/atom.xml" rel="self"/>
  <link href="http://leandroadacosta.com"/>
- <updated>2015-02-18T21:30:43+00:00</updated>
+ <updated>2016-12-21T21:05:50-02:00</updated>
  <id>http://leandroadacosta.com</id>
  <author>
-   <name>Leandro A. da Costa</name>
+   <name>Leandro Alvares da Costa</name>
    <email>leandroadacosta@gmail.com</email>
  </author>
 
@@ -15,50 +15,50 @@
  <entry>
    <title>Usando Jekyll + Plugins com GitHub Pages</title>
    <link href="http://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/"/>
-   <updated>2013-03-05T00:00:00+00:00</updated>
+   <updated>2013-03-05T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//usando-jekyll-plugins-com-github-pages</id>
    <content type="html">&lt;p&gt;Usar &lt;strong&gt;Jekyll&lt;/strong&gt; com &lt;strong&gt;GitHub Pages&lt;/strong&gt;, funciona muito bem, mas se for adicionar algum &lt;strong&gt;plugin do Jekyll&lt;/strong&gt;, não funciona, o &lt;strong&gt;GitHub Pages&lt;/strong&gt; não dá suporte. Depois de pesquisar um pouco, achei uma &lt;strong&gt;abordagem simples&lt;/strong&gt; e fácil de solucionar isso. Como eu quis usar plugins - no seu caso isso pode ser opcional - aqui neste meu &lt;a href=&quot;/novo-blog-no-ar&quot;&gt;novo blog&lt;/a&gt; eu desenvolvi usando &lt;strong&gt;Jekyll + Plugins&lt;/strong&gt; e hospedadei no &lt;strong&gt;GitHub Pages&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;breve-introduo&quot;&gt;Breve introdução&lt;/h2&gt;
+&lt;h2 id=&quot;breve-introdução&quot;&gt;Breve introdução&lt;/h2&gt;
 &lt;p&gt;Leia caso não saiba do que se trata.&lt;/p&gt;
 
-&lt;h3 id=&quot;o-que--github-pages&quot;&gt;O que é GitHub Pages&lt;/h3&gt;
+&lt;h3 id=&quot;o-que-é-github-pages&quot;&gt;O que é GitHub Pages&lt;/h3&gt;
 
 &lt;p&gt;É um caminho fácil, simples e de graça para &lt;strong&gt;hospedar o site&lt;/strong&gt; do seu projeto ou por exemplo seu blog pessoal. No site do &lt;a href=&quot;http://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt; explica tudo como funciona.&lt;/p&gt;
 
-&lt;h3 id=&quot;o-que--jekyll&quot;&gt;O que é Jekyll&lt;/h3&gt;
+&lt;h3 id=&quot;o-que-é-jekyll&quot;&gt;O que é Jekyll&lt;/h3&gt;
 
 &lt;p&gt;É uma forma simples de &lt;strong&gt;gerar sites estáticos&lt;/strong&gt; em &lt;strong&gt;Ruby&lt;/strong&gt;. Tem várias vantagens. O mais legal é que o &lt;strong&gt;GitHub Pages&lt;/strong&gt; oferece &lt;strong&gt;suporte&lt;/strong&gt; para usar &lt;strong&gt;Jekyll&lt;/strong&gt;. As coisas funcionam como mágica :). Só acessar o repositório do &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; no &lt;strong&gt;GitHub&lt;/strong&gt; e ler a documentação para colocar seu primeiro site no ar.&lt;/p&gt;
 
-&lt;h3 id=&quot;o-que--jekyll-plugin&quot;&gt;O que é Jekyll plugin&lt;/h3&gt;
+&lt;h3 id=&quot;o-que-é-jekyll-plugin&quot;&gt;O que é Jekyll plugin&lt;/h3&gt;
 &lt;p&gt;O &lt;strong&gt;Jekyll plugin&lt;/strong&gt; permite criar &lt;strong&gt;conteúdos específicos&lt;/strong&gt; e &lt;strong&gt;customizados&lt;/strong&gt; no site. Por exemplo, neste blog eu usei um plugin que dei o nome de &lt;a href=&quot;https://github.com/leandroadacosta/leandroadacosta.github.com/blob/source/_plugins/code_tag.rb&quot;&gt;code_tag.rb&lt;/a&gt; para facilitar a leitura de trechos de código que escrevo nos posts ao usuário. Basicamente o plugin faz o &lt;em&gt;highlight&lt;/em&gt; automático do texto - gerando HTML e CSS - de acordo com o tipo de linguagem que desejar, seja Ruby, HTML, CSS, etc.&lt;/p&gt;
 
-&lt;h2 id=&quot;soluo&quot;&gt;Solução&lt;/h2&gt;
+&lt;h2 id=&quot;solução&quot;&gt;Solução&lt;/h2&gt;
 &lt;p&gt;Para usar &lt;strong&gt;plugins customizados + GitHub Pages&lt;/strong&gt; é preciso de começo separar em duas branchs:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;branch source&lt;/code&gt; onde está o &lt;strong&gt;código fonte&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;branch master&lt;/code&gt; onde está o &lt;strong&gt;código final gerado pelo   Jekyll&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;branch source&lt;/code&gt; onde está o &lt;strong&gt;código fonte&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;branch master&lt;/code&gt; onde está o &lt;strong&gt;código final gerado pelo   Jekyll&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Adicionar no &lt;code&gt;.gitignore&lt;/code&gt; a pasta &lt;code&gt;/_site&lt;/code&gt; que é gerada pelo &lt;strong&gt;Jekyll&lt;/strong&gt;. Este simples detalhe permite trocar da &lt;strong&gt;branch source&lt;/strong&gt; para &lt;strong&gt;master&lt;/strong&gt; e ainda manter os arquivos gerados na pasta &lt;code&gt;/_site&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Adicionar no &lt;code class=&quot;highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; a pasta &lt;code class=&quot;highlighter-rouge&quot;&gt;/_site&lt;/code&gt; que é gerada pelo &lt;strong&gt;Jekyll&lt;/strong&gt;. Este simples detalhe permite trocar da &lt;strong&gt;branch source&lt;/strong&gt; para &lt;strong&gt;master&lt;/strong&gt; e ainda manter os arquivos gerados na pasta &lt;code class=&quot;highlighter-rouge&quot;&gt;/_site&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Para acontecer a mágica, é preciso mover os arquivos finais de dentro da pasta &lt;code&gt;/_site&lt;/code&gt; para a pasta raiz da &lt;strong&gt;branch master&lt;/strong&gt; e comitar na master esses arquivos gerados antes de dar push pro &lt;strong&gt;GitHub&lt;/strong&gt;. Para entender melhor, veja abaixo:&lt;/p&gt;
+&lt;p&gt;Para acontecer a mágica, é preciso mover os arquivos finais de dentro da pasta &lt;code class=&quot;highlighter-rouge&quot;&gt;/_site&lt;/code&gt; para a pasta raiz da &lt;strong&gt;branch master&lt;/strong&gt; e comitar na master esses arquivos gerados antes de dar push pro &lt;strong&gt;GitHub&lt;/strong&gt;. Para entender melhor, veja abaixo:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git checkout &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git checkout &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt;
 // seja lá qualquer alteração feita
-git status &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; git add &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; git commit
+git status &amp;amp; git add &amp;amp; git commit
 jekyll
 git checkout master
-cp -r _site/* . &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; rm -rf _site/ &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; touch .nojekyll
-git status &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; git add &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; git commit
-git push -all origin&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+cp -r _site/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; . &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; rm -rf _site/ &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; touch .nojekyll
+git status &amp;amp; git add &amp;amp; git commit
+git push -all origin&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Pronto. A parte chata é que você move e comita na &lt;strong&gt;branch master&lt;/strong&gt; os códigos gerados pelo &lt;strong&gt;Jekyll&lt;/strong&gt;. A parte boa é que você tem a &lt;strong&gt;branch source&lt;/strong&gt; pra trabalhar tranquilamente no seu site e, o melhor de tudo, funciona com &lt;strong&gt;Jekyll plugins&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Pra facilitar a tarefa de copiar, criei um alias no meu bash:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;jekyll-copy&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;cp -r _site/* . &amp;amp;&amp;amp; rm -rf _site/ &amp;amp;&amp;amp; touch .nojekyll&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;jekyll-copy&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;cp -r _site/* . &amp;amp;&amp;amp; rm -rf _site/ &amp;amp;&amp;amp; touch .nojekyll&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Veja todo o código dessa abordagem de duas branchs no &lt;a href=&quot;https://github.com/leandroadacosta/leandroadacosta.github.com&quot;&gt;repositório deste blog&lt;/a&gt;.&lt;/p&gt;
 
@@ -69,7 +69,7 @@ git push -all origin&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
  <entry>
    <title>Novo blog no ar</title>
    <link href="http://leandroadacosta.com/novo-blog-no-ar/"/>
-   <updated>2013-01-28T00:00:00+00:00</updated>
+   <updated>2013-01-28T00:00:00-02:00</updated>
    <id>http://leandroadacosta.com//novo-blog-no-ar</id>
    <content type="html">&lt;p&gt;Olá pessoal, meu novo blog está no ar depois de algum tempo com o antigo blog em WordPress e sem postar novidades.&lt;/p&gt;
 
@@ -94,7 +94,7 @@ Grande abraço.&lt;/p&gt;
  <entry>
    <title>TDC 2012 São Paulo Highlights</title>
    <link href="http://leandroadacosta.com/tdc-2012-sao-paulo-highlights/"/>
-   <updated>2012-07-18T00:00:00+00:00</updated>
+   <updated>2012-07-18T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//tdc-2012-sao-paulo-highlights</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg&quot;&gt;&lt;img src=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg&quot; alt=&quot;TDC 2012 São Paulo&quot; style=&quot;max-width:640px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -121,7 +121,7 @@ Grande abraço.&lt;/p&gt;
 	&lt;li&gt;Ao codificar tenha em mente a clareza ao invés de não concisão. Como assim? É quando você acha que é o expert por escrever seu código de um jeito bonitinho, por exemplo, deixando o código com tudo inline só porque no Ruby é legal. Na verdade isso pode ser ruim, pois bonito é muitas vezes diferente de um código com &lt;a href=&quot;http://blog.caelum.com.br/codigo-conciso-claro-e-breve/&quot; target=&quot;_blank&quot;&gt;clareza e concisão&lt;/a&gt;, cuidado.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://blog.qmx.me&quot; target=&quot;_blank&quot;&gt;Douglas &#39;qmx&#39; Campos&lt;/a&gt; palestrou sobre &quot;&lt;strong&gt;Ruby é lento?&lt;/strong&gt;&quot;, ele abordou alguns pontos fortes e fracos da linguagem e a comparou com outras linguagens também, foi bem interessante. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.qmx.me&quot; target=&quot;_blank&quot;&gt;Douglas 'qmx' Campos&lt;/a&gt; palestrou sobre &quot;&lt;strong&gt;Ruby é lento?&lt;/strong&gt;&quot;, ele abordou alguns pontos fortes e fracos da linguagem e a comparou com outras linguagens também, foi bem interessante. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;Ruby não é lento, mas pode ser lento, tudo depende de como foi usado. Ruby foi feito para deixar o programador feliz, quero dizer que tem muitas formas legais de programar as coisas e justamente por causa disso pode ser que fique lento. O desenvolvedor tem que saber que quanto mais poder e flexibilidade ele tem em mãos com a linguagem, maior é a responsabilidade dele em não fazer cagada com a performance.&lt;/li&gt;
@@ -141,14 +141,14 @@ Um abraço.&lt;/p&gt;
  <entry>
    <title>O que os líderes empreendedores devem fazer - Parte 1</title>
    <link href="http://leandroadacosta.com/o-que-os-lideres-empreendedores-devem-fazer-parte-1/"/>
-   <updated>2012-03-13T00:00:00+00:00</updated>
+   <updated>2012-03-13T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//o-que-os-lideres-empreendedores-devem-fazer-parte-1</id>
    <content type="html">&lt;p&gt;Compartilho com vocês um texto retirado do livro da série &lt;strong&gt;Harvard Business Essentials&lt;/strong&gt; de 2005 chamado &lt;strong&gt;Ferramentas para empreendedores&lt;/strong&gt; escrito por Richard Luecke.&lt;/p&gt;
 &lt;h2&gt;Conselhos práticos&lt;/h2&gt;
 &lt;p&gt;Felizmente, o sucesso e o crescimento são compatíveis com o espírito empreendedor. Mas o que a liderança pode fazer para garantir a vitalidade contínua desse espírito quando o negócio começa a se estabelecer e crescer? Este é o primeiro post de outros que farei contendo conselhos práticos para permanecer agressivo, inovador e com capacidade de resposta às condições de mercado. Vamos ao primeiro:&lt;/p&gt;
 &lt;h2&gt;Preserve uma cultura favorável à inovação&lt;/h2&gt;
 &lt;p&gt;Compreende-se bem o impacto da cultura organizacional na criatividade e na geração de idéias. Na ausência de uma cultura que dê este apoio, a criatividade e a inovação não germinarão nem crescerão.&lt;/p&gt;
-&lt;p&gt;Um exemplo de cultura infértil é uma cultura caracterizada por um foco para dentro, procedimentos extensos para resolver questões por consenso e &#39;rejeição&#39;, arrogância criada pelo sucesso anterior e um senso de direito, por parte de alguns funcionários, a ter os cargos garantidos sem uma contrapartida. Se a cultura de sua empresa está assumindo estas características, então é pouco provável que a criatividade e a inovação floresçam. Pior ainda, as pessoas mais inventivas ficarão desestimuladas e deprimidas, e procurarão trabalho em outro lugar.&lt;/p&gt;
+&lt;p&gt;Um exemplo de cultura infértil é uma cultura caracterizada por um foco para dentro, procedimentos extensos para resolver questões por consenso e 'rejeição', arrogância criada pelo sucesso anterior e um senso de direito, por parte de alguns funcionários, a ter os cargos garantidos sem uma contrapartida. Se a cultura de sua empresa está assumindo estas características, então é pouco provável que a criatividade e a inovação floresçam. Pior ainda, as pessoas mais inventivas ficarão desestimuladas e deprimidas, e procurarão trabalho em outro lugar.&lt;/p&gt;
 &lt;p&gt;Estas perguntas o ajudarão a determinar se sua empresa está perdendo o espírito criativo:&lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;Nosso sucesso está nos deixando convencidos e complacentes?&lt;/li&gt;
@@ -168,11 +168,11 @@ Um grande abraço!&lt;/p&gt;
  <entry>
    <title>Scrum, 8 erros comuns da reunião diária</title>
    <link href="http://leandroadacosta.com/scrum-8-erros-comuns-da-reuniao-diaria/"/>
-   <updated>2012-01-17T00:00:00+00:00</updated>
+   <updated>2012-01-17T00:00:00-02:00</updated>
    <id>http://leandroadacosta.com//scrum-8-erros-comuns-da-reuniao-diaria</id>
    <content type="html">&lt;p&gt;Texto retirado e resumido do original publicado na revista &lt;a href=&quot;http://www.mundoj.com.br/&quot; target=&quot;_blank&quot;&gt;MundoJ&lt;/a&gt; por Dairton Bassi (&lt;a title=&quot;Twitter de Dairton Bassi&quot; href=&quot;http://twitter.com/dbassi&quot; target=&quot;_blank&quot;&gt;@dbassi&lt;/a&gt;): &quot;Você é Ágil Mesmo? Erros Comuns de Equipes que Pensam ser Ágeis. Detalhes que podem fazer a diferença para a sua equipe&quot;.&lt;/p&gt;
 
-&lt;h2 id=&quot;reunies-dirias&quot;&gt;Reuniões diárias&lt;/h2&gt;
+&lt;h2 id=&quot;reuniões-diárias&quot;&gt;Reuniões diárias&lt;/h2&gt;
 
 &lt;p&gt;As reuniões diárias, em Scrum chamadas de daily scrum, e em XP, de stand up meetings, devem acontecer em pé e diariamente, em local e horário determinados pela equipe, com duração máxima de 15 minutos. Essa prática é fundamental para equipes ágeis, pois é ela quem demarca um ciclo diário de trabalho. A reunião serve para manter todos sincronizados sobre novidades, dificuldades e avanços recentes no projeto e também para fazer um planejamento do dia.&lt;/p&gt;
 
@@ -196,7 +196,7 @@ Um grande abraço!&lt;/p&gt;
  <entry>
    <title>Significância leva às pessoas ao sucesso</title>
    <link href="http://leandroadacosta.com/significancia-leva-as-pessoas-ao-sucesso/"/>
-   <updated>2012-01-06T00:00:00+00:00</updated>
+   <updated>2012-01-06T00:00:00-02:00</updated>
    <id>http://leandroadacosta.com//significancia-leva-as-pessoas-ao-sucesso</id>
    <content type="html">&lt;p&gt;Compartilho com vocês um texto escrito por &lt;a href=&quot;http://www.judithmbardwick.com/&quot; target=&quot;_blank&quot;&gt;Judith M. Dardwick&lt;/a&gt;, a autora aborda o lado humano da gestão de pessoas, onde a significância leva às pessoas ao sucesso.&lt;/p&gt;
 
@@ -245,7 +245,7 @@ Espero ter ajudado. Um abraço.&lt;/p&gt;
  <entry>
    <title>Cultura de Conquista - Parte 2</title>
    <link href="http://leandroadacosta.com/cultura-de-conquista-parte-2/"/>
-   <updated>2011-11-28T00:00:00+00:00</updated>
+   <updated>2011-11-28T00:00:00-02:00</updated>
    <id>http://leandroadacosta.com//cultura-de-conquista-parte-2</id>
    <content type="html">&lt;p&gt;Na &lt;a title=&quot;Cultura de Conquista – Parte 1&quot; href=&quot;/cultura-de-conquista-parte-1/&quot; target=&quot;_blank&quot;&gt;primeira parte deste post&lt;/a&gt; foram abordados aspectos relacionados ao estado de conquista, são eles: terras altas da “Conquista”, produtividade, criatividade, violação das normas estabelecidas e equipes de trabalho. Daremos continuidade a &lt;strong&gt;segunda e última parte&lt;/strong&gt; da cultura de conquista.&lt;/p&gt;
 
@@ -280,7 +280,7 @@ Espero ter ajudado. Um abraço.&lt;/p&gt;
  <entry>
    <title>Validando a solução junto ao cliente com Mockups</title>
    <link href="http://leandroadacosta.com/validando-a-solucao-junto-ao-cliente-com-mockups/"/>
-   <updated>2011-11-17T00:00:00+00:00</updated>
+   <updated>2011-11-17T00:00:00-02:00</updated>
    <id>http://leandroadacosta.com//validando-a-solucao-junto-ao-cliente-com-mockups</id>
    <content type="html">&lt;p&gt;Compartilho com vocês uma experiência na prática que tivemos recentemente em um cliente, sobre como nos ajudou, e muito, iniciar o desenvolvimento do software &lt;strong&gt;centrado na usabilidade do usuário&lt;/strong&gt;.&lt;/p&gt;
 
@@ -302,27 +302,27 @@ Espero ter ajudado. Um abraço.&lt;/p&gt;
 
 &lt;p&gt;Definimos a rota:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Application&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;draw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Application&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;draw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
 
-  &lt;span class=&quot;n&quot;&gt;scope&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/mockups&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:constraints&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;production?&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/:action&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:controller&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;mockups&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:actions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/[^/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]+/&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;scope&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'/mockups'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:constraints&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;production?&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'/:action'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:controller&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'mockups'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:actions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/[^/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/
+  end
 
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Criamos o controller:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MockupsController&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ApplicationController&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MockupsController&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ApplicationController&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;books_list&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
   &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;new_book&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Para cada método do controller implementamos a view em HTML, CSS e JS para simular alguns comportamentos, por fim, linkamos os fluxos entre elas:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;|~app/
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;|~app/
 | |+assets/
 | |~controllers/
 | | |-application_controller.rb
@@ -335,7 +335,7 @@ Espero ter ajudado. Um abraço.&lt;/p&gt;
 |   | `-application.html.erb
 |   `~mockups/
 |     |-books_list.html.erb
-|     `-new_book.html.erb&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+|     `-new_book.html.erb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2&gt;Resultado final&lt;/h2&gt;
 &lt;p&gt;Tínhamos no final do segundo dia um &lt;strong&gt;protótipo&lt;/strong&gt; totalmente &lt;strong&gt;funcional&lt;/strong&gt; e &lt;strong&gt;bonito&lt;/strong&gt;. Pera aí, como em um dia conseguiram deixar o layout bonito? Vou abrir o segredo com vocês :). Para agilizar o processo, usamos todo um padrão para o front-end do &lt;a title=&quot;Twitter Bootstrap&quot; href=&quot;http://twitter.github.com/bootstrap/&quot; target=&quot;_blank&quot;&gt;Twitter Bootstrap&lt;/a&gt;.&lt;/p&gt;
@@ -349,7 +349,7 @@ Um abraço.&lt;/p&gt;
  <entry>
    <title>Cultura de Conquista - Parte 1</title>
    <link href="http://leandroadacosta.com/cultura-de-conquista-parte-1/"/>
-   <updated>2011-11-12T00:00:00+00:00</updated>
+   <updated>2011-11-12T00:00:00-02:00</updated>
    <id>http://leandroadacosta.com//cultura-de-conquista-parte-1</id>
    <content type="html">&lt;p&gt;Dando sequência ao post anterior, sobre o &lt;a title=&quot;Perigo na Zona de Conforto&quot; href=&quot;/perigo-na-zona-de-conforto&quot; target=&quot;_blank&quot;&gt;Perigo na Zona de Conforto&lt;/a&gt; do hábito do &lt;strong&gt;Direito Adquirido&lt;/strong&gt;. Falaremos da &lt;strong&gt;cultura de conquista&lt;/strong&gt;. A conquista tem seu fator psicológico, poderíamos dizer que seria o estado de conquista em vez de cultura.&lt;/p&gt;
 
@@ -377,7 +377,7 @@ Um abraço.&lt;/p&gt;
  <entry>
    <title>Perigo na Zona de Conforto</title>
    <link href="http://leandroadacosta.com/perigo-na-zona-de-conforto/"/>
-   <updated>2011-10-25T00:00:00+00:00</updated>
+   <updated>2011-10-25T00:00:00-02:00</updated>
    <id>http://leandroadacosta.com//perigo-na-zona-de-conforto</id>
    <content type="html">&lt;p&gt;Este post é um resumo - com minhas considerações - do oficial resumo chamado: &lt;em&gt;&lt;strong&gt;O Hábito do &quot;Direito Adquirido&quot;: Ele está nos matando&lt;/strong&gt; por Judith M. Bardwick&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Retrata um &lt;strong&gt;problema&lt;/strong&gt; desconcertante que poucas &lt;strong&gt;organizações&lt;/strong&gt; têm coragem de enfrentar de cabeça erguida. Para entendermos melhor, vamos a nascente do conceito &quot;Direito Adquirido&quot;, descrito pela autora.&lt;/p&gt;
@@ -412,7 +412,7 @@ Um abraço.&lt;/p&gt;
  <entry>
    <title>Prática do Sentimento de Produtividade</title>
    <link href="http://leandroadacosta.com/pratica-do-sentimento-de-produtividade/"/>
-   <updated>2011-10-14T00:00:00+00:00</updated>
+   <updated>2011-10-14T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//pratica-do-sentimento-de-produtividade</id>
    <content type="html">&lt;h2&gt;Uma questão corriqueira&lt;/h2&gt;
 &lt;p&gt;Em todas as equipes de desenvolvimento de software conversamos sobre &lt;strong&gt;produtividade&lt;/strong&gt;. Nunca passava despercebida em nosso dia a dia. Ela era, e é, motivo de discussão - sempre saudável - em todas as &lt;a href=&quot;http://www.flickr.com/photos/cocento/5404128051/in/set-72157625920297498&quot; target=&quot;_blank&quot;&gt;reuniões diárias&lt;/a&gt; e &lt;a href=&quot;http://www.flickr.com/photos/cocento/5540468736/in/photostream&quot; target=&quot;_blank&quot;&gt;retrospectivas&lt;/a&gt; dos sprints. Sempre algum membro da equipe perguntava como foi a produtividade no dia ou no sprint.&lt;/p&gt;
@@ -461,7 +461,7 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
  <entry>
    <title>A arte de ser Mensch</title>
    <link href="http://leandroadacosta.com/a-arte-de-ser-mensch/"/>
-   <updated>2011-10-12T00:00:00+00:00</updated>
+   <updated>2011-10-12T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//a-arte-de-ser-mensch</id>
    <content type="html">&lt;p&gt;Este post foi embasado no livro &lt;a href=&quot;http://www.submarino.com.br/produto/1/1470751/arte+do+comeco:+o+guia+definitivo+para+iniciar+o+seu+projeto,+a&quot; target=&quot;_blank&quot;&gt;A arte do começo por Guy Kawazaki&lt;/a&gt;. Como esta mencionado no livro: &lt;em&gt;Mensch&lt;/em&gt; é o termo em &lt;em&gt;&lt;a href=&quot;http://pt.wikipedia.org/wiki/L%C3%ADngua_i%C3%ADdiche&quot; target=&quot;_blank&quot;&gt;iídiche&lt;/a&gt;&lt;/em&gt; que designa uma pessoa ética, íntegra e admirável. O oposto de um &lt;em&gt;Mensch - ser humano -&lt;/em&gt; é um &lt;em&gt;Unmensch&lt;/em&gt;, que significa uma pessoa absolutamente cruel ou para o mal. A chave para ser um &lt;em&gt;Mensch&lt;/em&gt; é ter caráter, dignidade e um senso do que é certo.&lt;/p&gt;
 
@@ -488,7 +488,7 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
  <entry>
    <title>Idéia inovadora, Startup!</title>
    <link href="http://leandroadacosta.com/ideia-inovadora-startup/"/>
-   <updated>2011-10-06T00:00:00+00:00</updated>
+   <updated>2011-10-06T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//ideia-inovadora-startup</id>
    <content type="html">&lt;p&gt;Surgiu uma &lt;strong&gt;idéia inovadora&lt;/strong&gt;, então logo nasce uma &lt;strong&gt;startup&lt;/strong&gt;!&lt;/p&gt;
 
@@ -515,7 +515,7 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
  <entry>
    <title>Jogar Counter-Strike me ajudou a ser um profissional melhor</title>
    <link href="http://leandroadacosta.com/jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor/"/>
-   <updated>2011-03-16T00:00:00+00:00</updated>
+   <updated>2011-03-16T00:00:00-03:00</updated>
    <id>http://leandroadacosta.com//jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor</id>
    <content type="html">&lt;p&gt;Piada? Não! Pelo contrário, tenho essa fase da minha vida como um &lt;strong&gt;aprendizado incrível que me acrescentou muito, tanto no lado pessoal quanto no profissional.&lt;/strong&gt; Importou tanto para mim que eu cheguei ao ponto de colocar no meu currículo que joguei um tal jogo de computador chamado &lt;a href=&quot;http://pt.wikipedia.org/wiki/Counter-Strike&quot; target=&quot;_blank&quot;&gt;Counter-Strike&lt;/a&gt;. Este jogo para aqueles que nunca escutaram, é o jogo de tiro em primeira pessoa mais conhecido e disseminado do mundo, até ai, não importa, o que eu quero é mostrar o porque do aprendizado no final dessa história.&lt;/p&gt;
 
