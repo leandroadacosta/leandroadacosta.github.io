@@ -45,5 +45,6 @@ description: Software developer, manager, and entrepreneur.
 * Responsive design
 * Developed with [Jekyll](https://jekyllrb.com){:target="_blank"}
 * Hosted by [GitHub Pages](http://pages.github.com){:target="_blank"}
+* CDN by [Cloudflare](https://www.cloudflare.com){:target="_blank"}
 * [Source code](https://github.com/leandroadacosta/leandroadacosta.github.com/tree/source){:target="_blank"} at GitHub
-* [Feed RSS]({{ site.url }}/atom.xml)
+* [Feed RSS]({{ site.url }}/atom.xml){:target="_blank"}
