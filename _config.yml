@@ -1,6 +1,6 @@
 exclude: ["README.md", ".gitignore"]
 permalink: /:title/
-production_url: http://leandroadacosta.com
+production_url: https://leandroadacosta.com
 
 title: leandroadacosta.com
 author:

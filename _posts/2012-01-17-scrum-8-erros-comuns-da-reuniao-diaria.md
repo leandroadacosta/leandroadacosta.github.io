@@ -16,7 +16,7 @@ meta:
   original_post_id: '784'
   _wp_old_slug: '784'
 ---
-<p>Texto retirado e resumido do original publicado na revista <a href="http://www.mundoj.com.br/" target="_blank">MundoJ</a> por Dairton Bassi (<a title="Twitter de Dairton Bassi" href="http://twitter.com/dbassi" target="_blank">@dbassi</a>): "Você é Ágil Mesmo? Erros Comuns de Equipes que Pensam ser Ágeis. Detalhes que podem fazer a diferença para a sua equipe".</p>
+<p>Texto retirado e resumido do original publicado na revista <a href="https://www.mundoj.com.br/" target="_blank">MundoJ</a> por Dairton Bassi (<a title="Twitter de Dairton Bassi" href="https://twitter.com/dbassi" target="_blank">@dbassi</a>): "Você é Ágil Mesmo? Erros Comuns de Equipes que Pensam ser Ágeis. Detalhes que podem fazer a diferença para a sua equipe".</p>
 
 ## Reuniões diárias
 

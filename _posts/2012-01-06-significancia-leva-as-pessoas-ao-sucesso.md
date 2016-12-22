@@ -14,7 +14,7 @@ meta:
   original_post_id: '768'
   _wp_old_slug: '768'
 ---
-Compartilho com vocês um texto escrito por <a href="http://www.judithmbardwick.com/" target="_blank">Judith M. Dardwick</a>, a autora aborda o lado humano da gestão de pessoas, onde a significância leva às pessoas ao sucesso.
+Compartilho com vocês um texto escrito por <a href="https://www.judithmbardwick.com/" target="_blank">Judith M. Dardwick</a>, a autora aborda o lado humano da gestão de pessoas, onde a significância leva às pessoas ao sucesso.
 
 Veja como Dardwick comenta o caminho para o sucesso das pessoas, onde eu concordo plenamente.
 

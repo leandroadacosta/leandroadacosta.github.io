@@ -16,7 +16,7 @@ meta:
   original_post_id: '409'
   _wp_old_slug: '409'
 ---
-<p>Este post foi embasado no livro <a href="http://www.submarino.com.br/produto/1/1470751/arte+do+comeco:+o+guia+definitivo+para+iniciar+o+seu+projeto,+a" target="_blank">A arte do começo por Guy Kawazaki</a>. Como esta mencionado no livro: <em>Mensch</em> é o termo em <em><a href="http://pt.wikipedia.org/wiki/L%C3%ADngua_i%C3%ADdiche" target="_blank">iídiche</a></em> que designa uma pessoa ética, íntegra e admirável. O oposto de um <em>Mensch - ser humano -</em> é um <em>Unmensch</em>, que significa uma pessoa absolutamente cruel ou para o mal. A chave para ser um <em>Mensch</em> é ter caráter, dignidade e um senso do que é certo.</p>
+<p>Este post foi embasado no livro <a href="https://www.submarino.com.br/produto/1/1470751/arte+do+comeco:+o+guia+definitivo+para+iniciar+o+seu+projeto,+a" target="_blank">A arte do começo por Guy Kawazaki</a>. Como esta mencionado no livro: <em>Mensch</em> é o termo em <em><a href="https://pt.wikipedia.org/wiki/L%C3%ADngua_i%C3%ADdiche" target="_blank">iídiche</a></em> que designa uma pessoa ética, íntegra e admirável. O oposto de um <em>Mensch - ser humano -</em> é um <em>Unmensch</em>, que significa uma pessoa absolutamente cruel ou para o mal. A chave para ser um <em>Mensch</em> é ter caráter, dignidade e um senso do que é certo.</p>
 
 <blockquote>"A verdadeira medida de um homem é a maneira como ele trata alguém que não lhe pode ser útil." SAMUEL JOHNSON</blockquote>
 O autor Guy Kawazaki incluiu este tópico no livro por dois motivos:

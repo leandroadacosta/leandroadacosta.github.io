@@ -11,7 +11,7 @@ Leia caso não saiba do que se trata.
 
 ### O que é GitHub Pages
 
-É um caminho fácil, simples e de graça para **hospedar o site** do seu projeto ou por exemplo seu blog pessoal. No site do [GitHub Pages](http://pages.github.com) explica tudo como funciona.
+É um caminho fácil, simples e de graça para **hospedar o site** do seu projeto ou por exemplo seu blog pessoal. No site do [GitHub Pages](https://pages.github.com) explica tudo como funciona.
 
 ### O que é Jekyll
 

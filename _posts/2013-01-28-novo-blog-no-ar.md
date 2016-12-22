@@ -10,7 +10,7 @@ Além de posts novos, as principais novidades são:
 
 * Design responsivo
 * Desenvolvido com [Jekyll](https://github.com/mojombo/jekyll) em vez de WordPress.
-* Hospedado por [GitHub Pages](http://pages.github.com)
+* Hospedado por [GitHub Pages](https://pages.github.com)
 * [Código fonte disponível](https://github.com/leandroadacosta/leandroadacosta.github.com) no **GitHub**. Pull requests são bem-vindos também :)
 * [Feed RSS]({{ site.url }}/atom.xml)
 
