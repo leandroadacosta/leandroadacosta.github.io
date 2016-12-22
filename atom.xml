@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
  <title>Leandro Alvares da Costa</title>
- <link href="http://leandroadacosta.com/atom.xml" rel="self"/>
- <link href="http://leandroadacosta.com"/>
- <updated>2016-12-21T21:05:50-02:00</updated>
- <id>http://leandroadacosta.com</id>
+ <link href="https://leandroadacosta.com/atom.xml" rel="self"/>
+ <link href="https://leandroadacosta.com"/>
+ <updated>2016-12-21T22:54:08-02:00</updated>
+ <id>https://leandroadacosta.com</id>
  <author>
    <name>Leandro Alvares da Costa</name>
    <email>leandroadacosta@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Usando Jekyll + Plugins com GitHub Pages</title>
-   <link href="http://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/"/>
+   <link href="https://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/"/>
    <updated>2013-03-05T00:00:00-03:00</updated>
-   <id>http://leandroadacosta.com//usando-jekyll-plugins-com-github-pages</id>
+   <id>https://leandroadacosta.com//usando-jekyll-plugins-com-github-pages</id>
    <content type="html">&lt;p&gt;Usar &lt;strong&gt;Jekyll&lt;/strong&gt; com &lt;strong&gt;GitHub Pages&lt;/strong&gt;, funciona muito bem, mas se for adicionar algum &lt;strong&gt;plugin do Jekyll&lt;/strong&gt;, não funciona, o &lt;strong&gt;GitHub Pages&lt;/strong&gt; não dá suporte. Depois de pesquisar um pouco, achei uma &lt;strong&gt;abordagem simples&lt;/strong&gt; e fácil de solucionar isso. Como eu quis usar plugins - no seu caso isso pode ser opcional - aqui neste meu &lt;a href=&quot;/novo-blog-no-ar&quot;&gt;novo blog&lt;/a&gt; eu desenvolvi usando &lt;strong&gt;Jekyll + Plugins&lt;/strong&gt; e hospedadei no &lt;strong&gt;GitHub Pages&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;breve-introdução&quot;&gt;Breve introdução&lt;/h2&gt;
@@ -24,7 +24,7 @@
 
 &lt;h3 id=&quot;o-que-é-github-pages&quot;&gt;O que é GitHub Pages&lt;/h3&gt;
 
-&lt;p&gt;É um caminho fácil, simples e de graça para &lt;strong&gt;hospedar o site&lt;/strong&gt; do seu projeto ou por exemplo seu blog pessoal. No site do &lt;a href=&quot;http://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt; explica tudo como funciona.&lt;/p&gt;
+&lt;p&gt;É um caminho fácil, simples e de graça para &lt;strong&gt;hospedar o site&lt;/strong&gt; do seu projeto ou por exemplo seu blog pessoal. No site do &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt; explica tudo como funciona.&lt;/p&gt;
 
 &lt;h3 id=&quot;o-que-é-jekyll&quot;&gt;O que é Jekyll&lt;/h3&gt;
 
@@ -68,9 +68,9 @@ git push -all origin&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
  
  <entry>
    <title>Novo blog no ar</title>
-   <link href="http://leandroadacosta.com/novo-blog-no-ar/"/>
+   <link href="https://leandroadacosta.com/novo-blog-no-ar/"/>
    <updated>2013-01-28T00:00:00-02:00</updated>
-   <id>http://leandroadacosta.com//novo-blog-no-ar</id>
+   <id>https://leandroadacosta.com//novo-blog-no-ar</id>
    <content type="html">&lt;p&gt;Olá pessoal, meu novo blog está no ar depois de algum tempo com o antigo blog em WordPress e sem postar novidades.&lt;/p&gt;
 
 &lt;p&gt;Além de posts novos, as principais novidades são:&lt;/p&gt;
@@ -78,7 +78,7 @@ git push -all origin&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;ul&gt;
   &lt;li&gt;Design responsivo&lt;/li&gt;
   &lt;li&gt;Desenvolvido com &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; em vez de WordPress.&lt;/li&gt;
-  &lt;li&gt;Hospedado por &lt;a href=&quot;http://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Hospedado por &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/leandroadacosta/leandroadacosta.github.com&quot;&gt;Código fonte disponível&lt;/a&gt; no &lt;strong&gt;GitHub&lt;/strong&gt;. Pull requests são bem-vindos também :)&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/atom.xml&quot;&gt;Feed RSS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -93,44 +93,44 @@ Grande abraço.&lt;/p&gt;
  
  <entry>
    <title>TDC 2012 São Paulo Highlights</title>
-   <link href="http://leandroadacosta.com/tdc-2012-sao-paulo-highlights/"/>
+   <link href="https://leandroadacosta.com/tdc-2012-sao-paulo-highlights/"/>
    <updated>2012-07-18T00:00:00-03:00</updated>
-   <id>http://leandroadacosta.com//tdc-2012-sao-paulo-highlights</id>
+   <id>https://leandroadacosta.com//tdc-2012-sao-paulo-highlights</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg&quot;&gt;&lt;img src=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg&quot; alt=&quot;TDC 2012 São Paulo&quot; style=&quot;max-width:640px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Sábado 07/07/2012 participei da conferência de desenvolvedores de software (&lt;a href=&quot;http://www.thedevelopersconference.com.br/tdc/2012/index.html&quot; target=&quot;_blank&quot;&gt;TDC 2012 São Paulo&lt;/a&gt;) na Universidade Anhembi Morumbi. Antes de falar sobre as palestras deixo um recado: ir a eventos é sempre muito bom, além do networking ser importante, vejo a troca de experiências como o maior benefício. O profissional de TI que não tem o senso de comunidade, está deixando de lado algo muito valioso.&lt;/p&gt;
+&lt;p&gt;Sábado 07/07/2012 participei da conferência de desenvolvedores de software (&lt;a href=&quot;https://www.thedevelopersconference.com.br/tdc/2012/index.html&quot; target=&quot;_blank&quot;&gt;TDC 2012 São Paulo&lt;/a&gt;) na Universidade Anhembi Morumbi. Antes de falar sobre as palestras deixo um recado: ir a eventos é sempre muito bom, além do networking ser importante, vejo a troca de experiências como o maior benefício. O profissional de TI que não tem o senso de comunidade, está deixando de lado algo muito valioso.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg&quot;&gt;&lt;img src=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-4.jpg&quot; alt=&quot;TDC 2012 São Paulo&quot; style=&quot;max-width:640px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;O evento aconteceu de 4 a 8 de Julho. Consegui ir somente no Sábado (dia 07) na &lt;a href=&quot;http://www.thedevelopersconference.com.br/tdc/2012/saopaulo/trilha-ruby#programacao&quot; target=&quot;_blank&quot;&gt;trilha de Ruby&lt;/a&gt; - sim, somente a linguagem Ruby, sem falar do framework &lt;a href=&quot;http://rubyonrails.com.br/&quot; target=&quot;_blank&quot;&gt;Rails&lt;/a&gt;. Das palestras, que por sinal foram muito boas, consegui tirar alguns pontos importantes que gostaria de compartilhá-los.&lt;/p&gt;
+&lt;p&gt;O evento aconteceu de 4 a 8 de Julho. Consegui ir somente no Sábado (dia 07) na &lt;a href=&quot;https://www.thedevelopersconference.com.br/tdc/2012/saopaulo/trilha-ruby#programacao&quot; target=&quot;_blank&quot;&gt;trilha de Ruby&lt;/a&gt; - sim, somente a linguagem Ruby, sem falar do framework &lt;a href=&quot;https://rubyonrails.com.br/&quot; target=&quot;_blank&quot;&gt;Rails&lt;/a&gt;. Das palestras, que por sinal foram muito boas, consegui tirar alguns pontos importantes que gostaria de compartilhá-los.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg&quot;&gt;&lt;img src=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-3.jpg&quot; alt=&quot;Ricardo Valeriano - TDC 2012 São Paulo&quot; style=&quot;max-width:640px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;O dia começou com a palestra do grande &lt;a href=&quot;http://blog.ricardovaleriano.com/&quot; target=&quot;_blank&quot;&gt;Ricardo Valeriano&lt;/a&gt; sobre &quot;&lt;strong&gt;A ferramenta ideal: uma questão de perspectiva.&lt;/strong&gt;&quot; e, como sempre, deu um show de dinamismo, descontraindo bastante a galera com seus slides cheios de &lt;em&gt;memes&lt;/em&gt;, gostei bastante. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;O dia começou com a palestra do grande &lt;a href=&quot;https://blog.ricardovaleriano.com/&quot; target=&quot;_blank&quot;&gt;Ricardo Valeriano&lt;/a&gt; sobre &quot;&lt;strong&gt;A ferramenta ideal: uma questão de perspectiva.&lt;/strong&gt;&quot; e, como sempre, deu um show de dinamismo, descontraindo bastante a galera com seus slides cheios de &lt;em&gt;memes&lt;/em&gt;, gostei bastante. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;Desenvolver software é muito complexo, em sua maioria criasse um legado a longo prazo que não é sustentável. No começo e durante o desenvolvimento os profissionais tomam decisões sobre quais ferramentas vão usar - seja lá qual for, seja uma api específica, um framework, a linguagem a utilizar, ou etc. - sem entender completamente o porque, sem saber criticar as suas escolhas. Se preocupar sempre com o legado é essencial, no futuro pode ser outra pessoa ou equipe que vai encontrar um monstro ou um projeto bem estruturado, pense nisso. O projeto tem que se manter sustentável ao longo do tempo. Tenha em mente e entenda sempre as desvantagens da decisão tomada, assim você conseguirá evoluir o software com qualidade.&lt;/li&gt;
 	&lt;li&gt;Domine a linguagem ao ponto de criticar os pontos negativos. Não existe tecnologia ruim, a decisão depende do contexto, depende da pessoa e do momento.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://cassiomarques.wordpress.com/&quot; target=&quot;_blank&quot;&gt;Cassio Marques&lt;/a&gt; foi o único que falou de Rails além de Ruby. Cassio palestrou sobre &quot;&lt;strong&gt;Porque você não deve usar os callbacks do ActiveRecord&lt;/strong&gt;&quot; (&lt;a title=&quot;Porque você não deve usar os callbacks do ActiveRecord&quot; href=&quot;https://speakerdeck.com/u/cassiomarques/p/porque-voce-nao-deve-usar-os-callbacks-do-activerecord&quot; target=&quot;_blank&quot;&gt;slides da palestra&lt;/a&gt;), achei muito interessante os pontos abordados. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cassiomarques.wordpress.com/&quot; target=&quot;_blank&quot;&gt;Cassio Marques&lt;/a&gt; foi o único que falou de Rails além de Ruby. Cassio palestrou sobre &quot;&lt;strong&gt;Porque você não deve usar os callbacks do ActiveRecord&lt;/strong&gt;&quot; (&lt;a title=&quot;Porque você não deve usar os callbacks do ActiveRecord&quot; href=&quot;https://speakerdeck.com/u/cassiomarques/p/porque-voce-nao-deve-usar-os-callbacks-do-activerecord&quot; target=&quot;_blank&quot;&gt;slides da palestra&lt;/a&gt;), achei muito interessante os pontos abordados. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;O teste está lento? Não sabe porque? Cuidado! Lembre-se que os callbacks do ActiveRecord nos seus modelos são executados quando você persiste objetos durante a execução dos testes.&lt;/li&gt;
 	&lt;li&gt;Não coloque regras de negócio nos callbacks pois será difícil de manter. Sendo assim, não tenha medo de isolar essa lógica criando outras classes se você está desenvolvendo orientado a objetos. Lembre-se que cada objeto deve fazer o mínimo possível e tem que fazer isso bem. Cuidado com convenções, elas são boas para criar um framework, mas não necessariamente para o contexto necessário para seu código.&lt;/li&gt;
-	&lt;li&gt;Ao codificar tenha em mente a clareza ao invés de não concisão. Como assim? É quando você acha que é o expert por escrever seu código de um jeito bonitinho, por exemplo, deixando o código com tudo inline só porque no Ruby é legal. Na verdade isso pode ser ruim, pois bonito é muitas vezes diferente de um código com &lt;a href=&quot;http://blog.caelum.com.br/codigo-conciso-claro-e-breve/&quot; target=&quot;_blank&quot;&gt;clareza e concisão&lt;/a&gt;, cuidado.&lt;/li&gt;
+	&lt;li&gt;Ao codificar tenha em mente a clareza ao invés de não concisão. Como assim? É quando você acha que é o expert por escrever seu código de um jeito bonitinho, por exemplo, deixando o código com tudo inline só porque no Ruby é legal. Na verdade isso pode ser ruim, pois bonito é muitas vezes diferente de um código com &lt;a href=&quot;https://blog.caelum.com.br/codigo-conciso-claro-e-breve/&quot; target=&quot;_blank&quot;&gt;clareza e concisão&lt;/a&gt;, cuidado.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://blog.qmx.me&quot; target=&quot;_blank&quot;&gt;Douglas 'qmx' Campos&lt;/a&gt; palestrou sobre &quot;&lt;strong&gt;Ruby é lento?&lt;/strong&gt;&quot;, ele abordou alguns pontos fortes e fracos da linguagem e a comparou com outras linguagens também, foi bem interessante. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.qmx.me&quot; target=&quot;_blank&quot;&gt;Douglas 'qmx' Campos&lt;/a&gt; palestrou sobre &quot;&lt;strong&gt;Ruby é lento?&lt;/strong&gt;&quot;, ele abordou alguns pontos fortes e fracos da linguagem e a comparou com outras linguagens também, foi bem interessante. Seguem os &lt;em&gt;highlights&lt;/em&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;Ruby não é lento, mas pode ser lento, tudo depende de como foi usado. Ruby foi feito para deixar o programador feliz, quero dizer que tem muitas formas legais de programar as coisas e justamente por causa disso pode ser que fique lento. O desenvolvedor tem que saber que quanto mais poder e flexibilidade ele tem em mãos com a linguagem, maior é a responsabilidade dele em não fazer cagada com a performance.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;E por fim uma dica, essa foi dada por &lt;a href=&quot;http://nandovieira.com.br&quot; target=&quot;_blank&quot;&gt;Nando Vieira&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;E por fim uma dica, essa foi dada por &lt;a href=&quot;https://nandovieira.com.br&quot; target=&quot;_blank&quot;&gt;Nando Vieira&lt;/a&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-	&lt;li&gt;Você perde muito tempo configurando ambientes desde o zero para o desenvolvedor novo na equipe ou empresa? Dê uma olhada nisso: &lt;a href=&quot;http://vagrantup.com/&quot; target=&quot;_blank&quot;&gt;http://vagrantup.com&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;Você perde muito tempo configurando ambientes desde o zero para o desenvolvedor novo na equipe ou empresa? Dê uma olhada nisso: &lt;a href=&quot;https://vagrantup.com/&quot; target=&quot;_blank&quot;&gt;https://vagrantup.com&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Bom, foi o que consegui resumir das palestras. Espero ter ajudado.
@@ -140,9 +140,9 @@ Um abraço.&lt;/p&gt;
  
  <entry>
    <title>O que os líderes empreendedores devem fazer - Parte 1</title>
-   <link href="http://leandroadacosta.com/o-que-os-lideres-empreendedores-devem-fazer-parte-1/"/>
+   <link href="https://leandroadacosta.com/o-que-os-lideres-empreendedores-devem-fazer-parte-1/"/>
    <updated>2012-03-13T00:00:00-03:00</updated>
-   <id>http://leandroadacosta.com//o-que-os-lideres-empreendedores-devem-fazer-parte-1</id>
+   <id>https://leandroadacosta.com//o-que-os-lideres-empreendedores-devem-fazer-parte-1</id>
    <content type="html">&lt;p&gt;Compartilho com vocês um texto retirado do livro da série &lt;strong&gt;Harvard Business Essentials&lt;/strong&gt; de 2005 chamado &lt;strong&gt;Ferramentas para empreendedores&lt;/strong&gt; escrito por Richard Luecke.&lt;/p&gt;
 &lt;h2&gt;Conselhos práticos&lt;/h2&gt;
 &lt;p&gt;Felizmente, o sucesso e o crescimento são compatíveis com o espírito empreendedor. Mas o que a liderança pode fazer para garantir a vitalidade contínua desse espírito quando o negócio começa a se estabelecer e crescer? Este é o primeiro post de outros que farei contendo conselhos práticos para permanecer agressivo, inovador e com capacidade de resposta às condições de mercado. Vamos ao primeiro:&lt;/p&gt;
@@ -167,10 +167,10 @@ Um grande abraço!&lt;/p&gt;
  
  <entry>
    <title>Scrum, 8 erros comuns da reunião diária</title>
-   <link href="http://leandroadacosta.com/scrum-8-erros-comuns-da-reuniao-diaria/"/>
+   <link href="https://leandroadacosta.com/scrum-8-erros-comuns-da-reuniao-diaria/"/>
    <updated>2012-01-17T00:00:00-02:00</updated>
-   <id>http://leandroadacosta.com//scrum-8-erros-comuns-da-reuniao-diaria</id>
-   <content type="html">&lt;p&gt;Texto retirado e resumido do original publicado na revista &lt;a href=&quot;http://www.mundoj.com.br/&quot; target=&quot;_blank&quot;&gt;MundoJ&lt;/a&gt; por Dairton Bassi (&lt;a title=&quot;Twitter de Dairton Bassi&quot; href=&quot;http://twitter.com/dbassi&quot; target=&quot;_blank&quot;&gt;@dbassi&lt;/a&gt;): &quot;Você é Ágil Mesmo? Erros Comuns de Equipes que Pensam ser Ágeis. Detalhes que podem fazer a diferença para a sua equipe&quot;.&lt;/p&gt;
+   <id>https://leandroadacosta.com//scrum-8-erros-comuns-da-reuniao-diaria</id>
+   <content type="html">&lt;p&gt;Texto retirado e resumido do original publicado na revista &lt;a href=&quot;https://www.mundoj.com.br/&quot; target=&quot;_blank&quot;&gt;MundoJ&lt;/a&gt; por Dairton Bassi (&lt;a title=&quot;Twitter de Dairton Bassi&quot; href=&quot;https://twitter.com/dbassi&quot; target=&quot;_blank&quot;&gt;@dbassi&lt;/a&gt;): &quot;Você é Ágil Mesmo? Erros Comuns de Equipes que Pensam ser Ágeis. Detalhes que podem fazer a diferença para a sua equipe&quot;.&lt;/p&gt;
 
 &lt;h2 id=&quot;reuniões-diárias&quot;&gt;Reuniões diárias&lt;/h2&gt;
 
@@ -195,10 +195,10 @@ Um grande abraço!&lt;/p&gt;
  
  <entry>
    <title>Significância leva às pessoas ao sucesso</title>
-   <link href="http://leandroadacosta.com/significancia-leva-as-pessoas-ao-sucesso/"/>
+   <link href="https://leandroadacosta.com/significancia-leva-as-pessoas-ao-sucesso/"/>
    <updated>2012-01-06T00:00:00-02:00</updated>
-   <id>http://leandroadacosta.com//significancia-leva-as-pessoas-ao-sucesso</id>
-   <content type="html">&lt;p&gt;Compartilho com vocês um texto escrito por &lt;a href=&quot;http://www.judithmbardwick.com/&quot; target=&quot;_blank&quot;&gt;Judith M. Dardwick&lt;/a&gt;, a autora aborda o lado humano da gestão de pessoas, onde a significância leva às pessoas ao sucesso.&lt;/p&gt;
+   <id>https://leandroadacosta.com//significancia-leva-as-pessoas-ao-sucesso</id>
+   <content type="html">&lt;p&gt;Compartilho com vocês um texto escrito por &lt;a href=&quot;https://www.judithmbardwick.com/&quot; target=&quot;_blank&quot;&gt;Judith M. Dardwick&lt;/a&gt;, a autora aborda o lado humano da gestão de pessoas, onde a significância leva às pessoas ao sucesso.&lt;/p&gt;
 
 &lt;p&gt;Veja como Dardwick comenta o caminho para o sucesso das pessoas, onde eu concordo plenamente.&lt;/p&gt;
 
@@ -244,9 +244,9 @@ Espero ter ajudado. Um abraço.&lt;/p&gt;
  
  <entry>
    <title>Cultura de Conquista - Parte 2</title>
-   <link href="http://leandroadacosta.com/cultura-de-conquista-parte-2/"/>
+   <link href="https://leandroadacosta.com/cultura-de-conquista-parte-2/"/>
    <updated>2011-11-28T00:00:00-02:00</updated>
-   <id>http://leandroadacosta.com//cultura-de-conquista-parte-2</id>
+   <id>https://leandroadacosta.com//cultura-de-conquista-parte-2</id>
    <content type="html">&lt;p&gt;Na &lt;a title=&quot;Cultura de Conquista – Parte 1&quot; href=&quot;/cultura-de-conquista-parte-1/&quot; target=&quot;_blank&quot;&gt;primeira parte deste post&lt;/a&gt; foram abordados aspectos relacionados ao estado de conquista, são eles: terras altas da “Conquista”, produtividade, criatividade, violação das normas estabelecidas e equipes de trabalho. Daremos continuidade a &lt;strong&gt;segunda e última parte&lt;/strong&gt; da cultura de conquista.&lt;/p&gt;
 
 &lt;h2&gt;Por que é tão difícil?&lt;/h2&gt;
@@ -255,11 +255,11 @@ Espero ter ajudado. Um abraço.&lt;/p&gt;
 &lt;p&gt;Você vai precisar de &lt;strong&gt;coragem&lt;/strong&gt; e força para manter a &lt;strong&gt;pressão&lt;/strong&gt; por tempo o suficiente para convencer as pessoas que a festa finalmente acabou. Durante esse tempo, o moral vai declinar. Haverá protestos, atrasos e resistências. Medidas drásticas podem ser imprescindíveis. A visão, somente, não vai levar as pessoas até a &quot;Conquista&quot; - &lt;em&gt;você vai precisar de uma vara mais do que de uma cenoura&lt;/em&gt;. Todavia, a pressão é apenas a metade da prescrição. &lt;em&gt;A outra metade é o apoio&lt;/em&gt;. Enquanto estiver fazendo pressão você deve também fornecer informação, conselho e as ferramentas para judar as pessoas a alcançar os níveis requeridos de realização sob este novo regime. Simultaneamente, &lt;em&gt;não aplique tanta pressão que as pessoas passem do medo ao pânico&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Crie oportunidades para desafio e risco&lt;/h2&gt;
-&lt;p&gt;Para aumentar a pressão, você tem de, primeiro, &lt;strong&gt;identificar&lt;/strong&gt; o que constitui &lt;strong&gt;trabalho real&lt;/strong&gt;, decidir como &lt;strong&gt;avaliá-lo&lt;/strong&gt; e, então, reforçar suas avaliações encorajando riscos e tentando pagar pelo &lt;strong&gt;desempenho&lt;/strong&gt; das &lt;strong&gt;competências&lt;/strong&gt;. Avalie o desempenho real das competências apresentadas (&lt;strong&gt;conheça nosso produto&lt;/strong&gt; para &lt;a title=&quot;CHA Master&quot; href=&quot;http://www.chamaster.com/&quot; target=&quot;_blank&quot;&gt;Avaliação de Desempenho por Competência&lt;/a&gt;). Crie oportunidades para desafio e risco, liberando as pessoas para fazer tarefas específicas e rotação de tarefas - &lt;em&gt;job rotation&lt;/em&gt;. A cada ano, 25% da tarefa de uma pessoa deve ser novidade. E não puna quem corre riscos. Inove. Faça!&lt;/p&gt;
+&lt;p&gt;Para aumentar a pressão, você tem de, primeiro, &lt;strong&gt;identificar&lt;/strong&gt; o que constitui &lt;strong&gt;trabalho real&lt;/strong&gt;, decidir como &lt;strong&gt;avaliá-lo&lt;/strong&gt; e, então, reforçar suas avaliações encorajando riscos e tentando pagar pelo &lt;strong&gt;desempenho&lt;/strong&gt; das &lt;strong&gt;competências&lt;/strong&gt;. Avalie o desempenho real das competências apresentadas (&lt;strong&gt;conheça nosso produto&lt;/strong&gt; para &lt;a title=&quot;CHA Master&quot; href=&quot;https://www.chamaster.com/&quot; target=&quot;_blank&quot;&gt;Avaliação de Desempenho por Competência&lt;/a&gt;). Crie oportunidades para desafio e risco, liberando as pessoas para fazer tarefas específicas e rotação de tarefas - &lt;em&gt;job rotation&lt;/em&gt;. A cada ano, 25% da tarefa de uma pessoa deve ser novidade. E não puna quem corre riscos. Inove. Faça!&lt;/p&gt;
 
 &lt;h2&gt;Diminua a hierarquia e aumente a visibilidade dos colegas&lt;/h2&gt;
 &lt;p&gt;Você pode aumentar a visibilidade do empregado diminuindo a hierarquia. &lt;strong&gt;Organizações&lt;/strong&gt; mais &lt;strong&gt;enxutas&lt;/strong&gt;, mais estáveis, oferecem poucos nichos onde as pessoas possam se esconder.&lt;/p&gt;
-&lt;p&gt;Muito interessante, a &lt;a title=&quot;Nissan&quot; href=&quot;http://www.nissan.com.br/&quot; target=&quot;_blank&quot;&gt;Nissan&lt;/a&gt; - uma empresa japonesa fabricante de automóveis -, não usando relógios de ponto, se gaba de ter o melhor nível de comparecimento ao trabalho dos Estados Unidos. Pelo menos duas coisas provocam isso:&lt;/p&gt;
+&lt;p&gt;Muito interessante, a &lt;a title=&quot;Nissan&quot; href=&quot;https://www.nissan.com.br/&quot; target=&quot;_blank&quot;&gt;Nissan&lt;/a&gt; - uma empresa japonesa fabricante de automóveis -, não usando relógios de ponto, se gaba de ter o melhor nível de comparecimento ao trabalho dos Estados Unidos. Pelo menos duas coisas provocam isso:&lt;/p&gt;
 
 &lt;ol&gt;
 	&lt;li&gt;As pessoas trabalham em equipes de mais ou menos vinte membros, assim os ausentes são realmente notados.&lt;/li&gt;
@@ -279,9 +279,9 @@ Espero ter ajudado. Um abraço.&lt;/p&gt;
  
  <entry>
    <title>Validando a solução junto ao cliente com Mockups</title>
-   <link href="http://leandroadacosta.com/validando-a-solucao-junto-ao-cliente-com-mockups/"/>
+   <link href="https://leandroadacosta.com/validando-a-solucao-junto-ao-cliente-com-mockups/"/>
    <updated>2011-11-17T00:00:00-02:00</updated>
-   <id>http://leandroadacosta.com//validando-a-solucao-junto-ao-cliente-com-mockups</id>
+   <id>https://leandroadacosta.com//validando-a-solucao-junto-ao-cliente-com-mockups</id>
    <content type="html">&lt;p&gt;Compartilho com vocês uma experiência na prática que tivemos recentemente em um cliente, sobre como nos ajudou, e muito, iniciar o desenvolvimento do software &lt;strong&gt;centrado na usabilidade do usuário&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Primeira reunião&lt;/h2&gt;
@@ -293,8 +293,8 @@ Espero ter ajudado. Um abraço.&lt;/p&gt;
 &lt;p&gt;Ao final do dia, tínhamos em mãos toda uma visão da solução - centrada no usuário. Veja, fizemos tudo isso, em apenas um dia. Há, espera aí, você está me dizendo que desenho em lousa e papel é solução? E ainda tem mais, como já é solução se nem foi validada junto ao cliente. Direi como agimos para resolver esses fatos.&lt;/p&gt;
 
 &lt;h2&gt;Validando junto ao cliente&lt;/h2&gt;
-&lt;p&gt;No outro dia, logo cedo, estávamos conversando sobre a forma menos burocrática possível e &lt;strong&gt;ágil&lt;/strong&gt; de validar a solução junto ao cliente. A forma que fazíamos em outros projetos era marcar outra reunião para levar todos os protótipos em papel e demonstrar ao cliente. Sempre foi muito ágil e produtivo. Neste caso, em praticamente 2 dias conseguiríamos validar toda uma visão de proposta de solução. Mas! Como sempre, queria &lt;a title=&quot;Perigo na Zona de Conforto&quot; href=&quot;http://leandroadacosta.com/2011/10/25/perigo-na-zona-de-conforto/&quot; target=&quot;_blank&quot;&gt;conquistar&lt;/a&gt; algo diferente. Tinha na manga &lt;strong&gt;um jeito novo&lt;/strong&gt; para testar.&lt;/p&gt;
-&lt;p&gt;Fui ao evento &lt;a title=&quot;RubyConf 2011 &quot; href=&quot;http://rubyconf2011.akitaonrails.com/&quot; target=&quot;_blank&quot;&gt;Ruby Conf 2011&lt;/a&gt; nos dias 03 e 04 de novembro e assisti a palestra &lt;strong&gt;&lt;a title=&quot;Melhores Softwares através da Interface&quot; href=&quot;http://www.eventials.com/rubyconfbr/recorded/M2UzZTJkMzY2MzdiNTg2NTUxNWM1MzI3NWY1YjRhMzYjIzQwMw_3D_3D&quot; target=&quot;_blank&quot;&gt;&quot;Melhores Softwares através da Interface&quot;&lt;/a&gt;&lt;/strong&gt; do &lt;strong&gt;&lt;a href=&quot;http://twitter.com/danielvlopes&quot; target=&quot;_blank&quot;&gt;Daniel Lopes&lt;/a&gt;&lt;/strong&gt;. Por sinal, &lt;strong&gt;excelente palestra&lt;/strong&gt;. Ele enfatizou a importância do Designer de Interface saber programar, dos benefícios de começar o software pela interface, e uma forma diferente de validar propostas de solução - protótipos - junto ao cliente.&lt;/p&gt;
+&lt;p&gt;No outro dia, logo cedo, estávamos conversando sobre a forma menos burocrática possível e &lt;strong&gt;ágil&lt;/strong&gt; de validar a solução junto ao cliente. A forma que fazíamos em outros projetos era marcar outra reunião para levar todos os protótipos em papel e demonstrar ao cliente. Sempre foi muito ágil e produtivo. Neste caso, em praticamente 2 dias conseguiríamos validar toda uma visão de proposta de solução. Mas! Como sempre, queria &lt;a title=&quot;Perigo na Zona de Conforto&quot; href=&quot;https://leandroadacosta.com/2011/10/25/perigo-na-zona-de-conforto/&quot; target=&quot;_blank&quot;&gt;conquistar&lt;/a&gt; algo diferente. Tinha na manga &lt;strong&gt;um jeito novo&lt;/strong&gt; para testar.&lt;/p&gt;
+&lt;p&gt;Fui ao evento &lt;a title=&quot;RubyConf 2011 &quot; href=&quot;https://rubyconf2011.akitaonrails.com/&quot; target=&quot;_blank&quot;&gt;Ruby Conf 2011&lt;/a&gt; nos dias 03 e 04 de novembro e assisti a palestra &lt;strong&gt;&lt;a title=&quot;Melhores Softwares através da Interface&quot; href=&quot;https://www.eventials.com/rubyconfbr/recorded/M2UzZTJkMzY2MzdiNTg2NTUxNWM1MzI3NWY1YjRhMzYjIzQwMw_3D_3D&quot; target=&quot;_blank&quot;&gt;&quot;Melhores Softwares através da Interface&quot;&lt;/a&gt;&lt;/strong&gt; do &lt;strong&gt;&lt;a href=&quot;https://twitter.com/danielvlopes&quot; target=&quot;_blank&quot;&gt;Daniel Lopes&lt;/a&gt;&lt;/strong&gt;. Por sinal, &lt;strong&gt;excelente palestra&lt;/strong&gt;. Ele enfatizou a importância do Designer de Interface saber programar, dos benefícios de começar o software pela interface, e uma forma diferente de validar propostas de solução - protótipos - junto ao cliente.&lt;/p&gt;
 &lt;p&gt;O que o Daniel passou de diferente do que já trabalhamos aqui na Cocento Tecnologia - e que achei muito legal - foi o &lt;strong&gt;jeito pragmático de validar junto ao cliente&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Validando a proposta de solução com Mockups&lt;/h2&gt;
@@ -338,7 +338,7 @@ end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 |     `-new_book.html.erb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2&gt;Resultado final&lt;/h2&gt;
-&lt;p&gt;Tínhamos no final do segundo dia um &lt;strong&gt;protótipo&lt;/strong&gt; totalmente &lt;strong&gt;funcional&lt;/strong&gt; e &lt;strong&gt;bonito&lt;/strong&gt;. Pera aí, como em um dia conseguiram deixar o layout bonito? Vou abrir o segredo com vocês :). Para agilizar o processo, usamos todo um padrão para o front-end do &lt;a title=&quot;Twitter Bootstrap&quot; href=&quot;http://twitter.github.com/bootstrap/&quot; target=&quot;_blank&quot;&gt;Twitter Bootstrap&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tínhamos no final do segundo dia um &lt;strong&gt;protótipo&lt;/strong&gt; totalmente &lt;strong&gt;funcional&lt;/strong&gt; e &lt;strong&gt;bonito&lt;/strong&gt;. Pera aí, como em um dia conseguiram deixar o layout bonito? Vou abrir o segredo com vocês :). Para agilizar o processo, usamos todo um padrão para o front-end do &lt;a title=&quot;Twitter Bootstrap&quot; href=&quot;https://twitter.github.com/bootstrap/&quot; target=&quot;_blank&quot;&gt;Twitter Bootstrap&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Fizemos a reunião no terceiro dia e o &lt;strong&gt;feedback&lt;/strong&gt; foi &lt;strong&gt;excelente&lt;/strong&gt;. &lt;strong&gt;Cliente&lt;/strong&gt; muitíssimo &lt;strong&gt;satisfeito&lt;/strong&gt; e a nossa equipe também. O importante é frisar que fizemos a primeira reunião de entendimento da necessidade até a codificação e validação em apenas 3 dias.&lt;/p&gt;
 &lt;p&gt;--&lt;/p&gt;
 &lt;p&gt;E você? Como faz para agilizar, diminuir os riscos e ser produtivo nas validações de proposta de solução junto ao cliente lá na sua empresa e/ou equipe?
@@ -348,9 +348,9 @@ Um abraço.&lt;/p&gt;
  
  <entry>
    <title>Cultura de Conquista - Parte 1</title>
-   <link href="http://leandroadacosta.com/cultura-de-conquista-parte-1/"/>
+   <link href="https://leandroadacosta.com/cultura-de-conquista-parte-1/"/>
    <updated>2011-11-12T00:00:00-02:00</updated>
-   <id>http://leandroadacosta.com//cultura-de-conquista-parte-1</id>
+   <id>https://leandroadacosta.com//cultura-de-conquista-parte-1</id>
    <content type="html">&lt;p&gt;Dando sequência ao post anterior, sobre o &lt;a title=&quot;Perigo na Zona de Conforto&quot; href=&quot;/perigo-na-zona-de-conforto&quot; target=&quot;_blank&quot;&gt;Perigo na Zona de Conforto&lt;/a&gt; do hábito do &lt;strong&gt;Direito Adquirido&lt;/strong&gt;. Falaremos da &lt;strong&gt;cultura de conquista&lt;/strong&gt;. A conquista tem seu fator psicológico, poderíamos dizer que seria o estado de conquista em vez de cultura.&lt;/p&gt;
 
 &lt;h2&gt;Terras altas da &quot;Conquista&quot;&lt;/h2&gt;
@@ -376,9 +376,9 @@ Um abraço.&lt;/p&gt;
  
  <entry>
    <title>Perigo na Zona de Conforto</title>
-   <link href="http://leandroadacosta.com/perigo-na-zona-de-conforto/"/>
+   <link href="https://leandroadacosta.com/perigo-na-zona-de-conforto/"/>
    <updated>2011-10-25T00:00:00-02:00</updated>
-   <id>http://leandroadacosta.com//perigo-na-zona-de-conforto</id>
+   <id>https://leandroadacosta.com//perigo-na-zona-de-conforto</id>
    <content type="html">&lt;p&gt;Este post é um resumo - com minhas considerações - do oficial resumo chamado: &lt;em&gt;&lt;strong&gt;O Hábito do &quot;Direito Adquirido&quot;: Ele está nos matando&lt;/strong&gt; por Judith M. Bardwick&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Retrata um &lt;strong&gt;problema&lt;/strong&gt; desconcertante que poucas &lt;strong&gt;organizações&lt;/strong&gt; têm coragem de enfrentar de cabeça erguida. Para entendermos melhor, vamos a nascente do conceito &quot;Direito Adquirido&quot;, descrito pela autora.&lt;/p&gt;
 
@@ -411,15 +411,15 @@ Um abraço.&lt;/p&gt;
  
  <entry>
    <title>Prática do Sentimento de Produtividade</title>
-   <link href="http://leandroadacosta.com/pratica-do-sentimento-de-produtividade/"/>
+   <link href="https://leandroadacosta.com/pratica-do-sentimento-de-produtividade/"/>
    <updated>2011-10-14T00:00:00-03:00</updated>
-   <id>http://leandroadacosta.com//pratica-do-sentimento-de-produtividade</id>
+   <id>https://leandroadacosta.com//pratica-do-sentimento-de-produtividade</id>
    <content type="html">&lt;h2&gt;Uma questão corriqueira&lt;/h2&gt;
-&lt;p&gt;Em todas as equipes de desenvolvimento de software conversamos sobre &lt;strong&gt;produtividade&lt;/strong&gt;. Nunca passava despercebida em nosso dia a dia. Ela era, e é, motivo de discussão - sempre saudável - em todas as &lt;a href=&quot;http://www.flickr.com/photos/cocento/5404128051/in/set-72157625920297498&quot; target=&quot;_blank&quot;&gt;reuniões diárias&lt;/a&gt; e &lt;a href=&quot;http://www.flickr.com/photos/cocento/5540468736/in/photostream&quot; target=&quot;_blank&quot;&gt;retrospectivas&lt;/a&gt; dos sprints. Sempre algum membro da equipe perguntava como foi a produtividade no dia ou no sprint.&lt;/p&gt;
+&lt;p&gt;Em todas as equipes de desenvolvimento de software conversamos sobre &lt;strong&gt;produtividade&lt;/strong&gt;. Nunca passava despercebida em nosso dia a dia. Ela era, e é, motivo de discussão - sempre saudável - em todas as &lt;a href=&quot;https://www.flickr.com/photos/cocento/5404128051/in/set-72157625920297498&quot; target=&quot;_blank&quot;&gt;reuniões diárias&lt;/a&gt; e &lt;a href=&quot;https://www.flickr.com/photos/cocento/5540468736/in/photostream&quot; target=&quot;_blank&quot;&gt;retrospectivas&lt;/a&gt; dos sprints. Sempre algum membro da equipe perguntava como foi a produtividade no dia ou no sprint.&lt;/p&gt;
 &lt;!--more--&gt;
 &lt;h2&gt;Uma forma diferente&lt;/h2&gt;
 &lt;p&gt;Todos sabem a importância de serem produtivos e que a &lt;strong&gt;produtividade não quer dizer trabalhar mais horas&lt;/strong&gt;. Produtividade está muitas vezes relacionada ao foco, entendimento do que é preciso ser feito, ambiente de trabalho e também ao processo da gestão do projeto. Uma prática que vem ajudando bastante à &lt;strong&gt;identificar os pontos&lt;/strong&gt; que influenciam na produtividade é a &lt;strong&gt;reunião diária&lt;/strong&gt; e - com muito mais importância - a &lt;strong&gt;retrospectiva&lt;/strong&gt; do sprint. Havia um problema de que uns influenciavam os outros na hora de falar. Como produtividade é um assunto permanente em nossas reuniões, dentro de mim ecoava um sentimento de que algo poderia ser melhorado neste sentido.&lt;/p&gt;
-&lt;p&gt;Achei uma &lt;strong&gt;forma diferente&lt;/strong&gt; de falarmos de produtividade quando assisti a &lt;strong&gt;palestra &quot;Melhorando um ambiente ágil.&quot;&lt;/strong&gt; da &lt;a href=&quot;http://twitter.com/cecifernandes&quot; target=&quot;_blank&quot;&gt;Cecília Fernandez&lt;/a&gt; no evento da &lt;a href=&quot;http://www.qcon.com.br/&quot; target=&quot;_blank&quot;&gt;QCon São Paulo 2011&lt;/a&gt;. A cultura da &lt;a href=&quot;http://www.caelum.com.br&quot; target=&quot;_blank&quot;&gt;Caelum&lt;/a&gt; propicia a melhoria contínua e a Cecília apresentou várias práticas diferentes para promover um ambiente agradável de trabalho. Uma delas era relacionada a produtividade, com essa dica em mãos tive a oportunidade de praticar com a nossa equipe. Na retrospectiva de hoje colhemos alguns &lt;strong&gt;feedbacks&lt;/strong&gt; legais, gostaria de compartilhá-los com vocês. Bom, &lt;strong&gt;vamos a prática&lt;/strong&gt;, explicarei de forma simples e objetiva.&lt;/p&gt;
+&lt;p&gt;Achei uma &lt;strong&gt;forma diferente&lt;/strong&gt; de falarmos de produtividade quando assisti a &lt;strong&gt;palestra &quot;Melhorando um ambiente ágil.&quot;&lt;/strong&gt; da &lt;a href=&quot;https://twitter.com/cecifernandes&quot; target=&quot;_blank&quot;&gt;Cecília Fernandez&lt;/a&gt; no evento da &lt;a href=&quot;https://www.qcon.com.br/&quot; target=&quot;_blank&quot;&gt;QCon São Paulo 2011&lt;/a&gt;. A cultura da &lt;a href=&quot;https://www.caelum.com.br&quot; target=&quot;_blank&quot;&gt;Caelum&lt;/a&gt; propicia a melhoria contínua e a Cecília apresentou várias práticas diferentes para promover um ambiente agradável de trabalho. Uma delas era relacionada a produtividade, com essa dica em mãos tive a oportunidade de praticar com a nossa equipe. Na retrospectiva de hoje colhemos alguns &lt;strong&gt;feedbacks&lt;/strong&gt; legais, gostaria de compartilhá-los com vocês. Bom, &lt;strong&gt;vamos a prática&lt;/strong&gt;, explicarei de forma simples e objetiva.&lt;/p&gt;
 
 &lt;h2&gt;Prática do sentimento de produtividade&lt;/h2&gt;
 &lt;p&gt;É muito simples! Colamos do lado da porta de saída um quadrinho como este:&lt;/p&gt;
@@ -460,10 +460,10 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
  
  <entry>
    <title>A arte de ser Mensch</title>
-   <link href="http://leandroadacosta.com/a-arte-de-ser-mensch/"/>
+   <link href="https://leandroadacosta.com/a-arte-de-ser-mensch/"/>
    <updated>2011-10-12T00:00:00-03:00</updated>
-   <id>http://leandroadacosta.com//a-arte-de-ser-mensch</id>
-   <content type="html">&lt;p&gt;Este post foi embasado no livro &lt;a href=&quot;http://www.submarino.com.br/produto/1/1470751/arte+do+comeco:+o+guia+definitivo+para+iniciar+o+seu+projeto,+a&quot; target=&quot;_blank&quot;&gt;A arte do começo por Guy Kawazaki&lt;/a&gt;. Como esta mencionado no livro: &lt;em&gt;Mensch&lt;/em&gt; é o termo em &lt;em&gt;&lt;a href=&quot;http://pt.wikipedia.org/wiki/L%C3%ADngua_i%C3%ADdiche&quot; target=&quot;_blank&quot;&gt;iídiche&lt;/a&gt;&lt;/em&gt; que designa uma pessoa ética, íntegra e admirável. O oposto de um &lt;em&gt;Mensch - ser humano -&lt;/em&gt; é um &lt;em&gt;Unmensch&lt;/em&gt;, que significa uma pessoa absolutamente cruel ou para o mal. A chave para ser um &lt;em&gt;Mensch&lt;/em&gt; é ter caráter, dignidade e um senso do que é certo.&lt;/p&gt;
+   <id>https://leandroadacosta.com//a-arte-de-ser-mensch</id>
+   <content type="html">&lt;p&gt;Este post foi embasado no livro &lt;a href=&quot;https://www.submarino.com.br/produto/1/1470751/arte+do+comeco:+o+guia+definitivo+para+iniciar+o+seu+projeto,+a&quot; target=&quot;_blank&quot;&gt;A arte do começo por Guy Kawazaki&lt;/a&gt;. Como esta mencionado no livro: &lt;em&gt;Mensch&lt;/em&gt; é o termo em &lt;em&gt;&lt;a href=&quot;https://pt.wikipedia.org/wiki/L%C3%ADngua_i%C3%ADdiche&quot; target=&quot;_blank&quot;&gt;iídiche&lt;/a&gt;&lt;/em&gt; que designa uma pessoa ética, íntegra e admirável. O oposto de um &lt;em&gt;Mensch - ser humano -&lt;/em&gt; é um &lt;em&gt;Unmensch&lt;/em&gt;, que significa uma pessoa absolutamente cruel ou para o mal. A chave para ser um &lt;em&gt;Mensch&lt;/em&gt; é ter caráter, dignidade e um senso do que é certo.&lt;/p&gt;
 
 &lt;blockquote&gt;&quot;A verdadeira medida de um homem é a maneira como ele trata alguém que não lhe pode ser útil.&quot; SAMUEL JOHNSON&lt;/blockquote&gt;
 &lt;p&gt;O autor Guy Kawazaki incluiu este tópico no livro por dois motivos:&lt;/p&gt;
@@ -487,9 +487,9 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
  
  <entry>
    <title>Idéia inovadora, Startup!</title>
-   <link href="http://leandroadacosta.com/ideia-inovadora-startup/"/>
+   <link href="https://leandroadacosta.com/ideia-inovadora-startup/"/>
    <updated>2011-10-06T00:00:00-03:00</updated>
-   <id>http://leandroadacosta.com//ideia-inovadora-startup</id>
+   <id>https://leandroadacosta.com//ideia-inovadora-startup</id>
    <content type="html">&lt;p&gt;Surgiu uma &lt;strong&gt;idéia inovadora&lt;/strong&gt;, então logo nasce uma &lt;strong&gt;startup&lt;/strong&gt;!&lt;/p&gt;
 
 &lt;p&gt;Para quem não sabe o termo startup se refere as empresas recém-criadas, em fase de desenvolvimento e evolução do modelo de negócio - aquelas que surgem na garagem, no fundo de quintal de casa, no próprio escritório ou através de projetos investidos por grandes empresas ou incubadoras.&lt;/p&gt;
@@ -514,18 +514,18 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
  
  <entry>
    <title>Jogar Counter-Strike me ajudou a ser um profissional melhor</title>
-   <link href="http://leandroadacosta.com/jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor/"/>
+   <link href="https://leandroadacosta.com/jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor/"/>
    <updated>2011-03-16T00:00:00-03:00</updated>
-   <id>http://leandroadacosta.com//jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor</id>
-   <content type="html">&lt;p&gt;Piada? Não! Pelo contrário, tenho essa fase da minha vida como um &lt;strong&gt;aprendizado incrível que me acrescentou muito, tanto no lado pessoal quanto no profissional.&lt;/strong&gt; Importou tanto para mim que eu cheguei ao ponto de colocar no meu currículo que joguei um tal jogo de computador chamado &lt;a href=&quot;http://pt.wikipedia.org/wiki/Counter-Strike&quot; target=&quot;_blank&quot;&gt;Counter-Strike&lt;/a&gt;. Este jogo para aqueles que nunca escutaram, é o jogo de tiro em primeira pessoa mais conhecido e disseminado do mundo, até ai, não importa, o que eu quero é mostrar o porque do aprendizado no final dessa história.&lt;/p&gt;
+   <id>https://leandroadacosta.com//jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor</id>
+   <content type="html">&lt;p&gt;Piada? Não! Pelo contrário, tenho essa fase da minha vida como um &lt;strong&gt;aprendizado incrível que me acrescentou muito, tanto no lado pessoal quanto no profissional.&lt;/strong&gt; Importou tanto para mim que eu cheguei ao ponto de colocar no meu currículo que joguei um tal jogo de computador chamado &lt;a href=&quot;https://pt.wikipedia.org/wiki/Counter-Strike&quot; target=&quot;_blank&quot;&gt;Counter-Strike&lt;/a&gt;. Este jogo para aqueles que nunca escutaram, é o jogo de tiro em primeira pessoa mais conhecido e disseminado do mundo, até ai, não importa, o que eu quero é mostrar o porque do aprendizado no final dessa história.&lt;/p&gt;
 
-&lt;p&gt;Muitas qualidades eu adquiri logo cedo, dado que joguei este jogo praticamente 3 anos da minha vida, dos 15 aos 18 anos de idade. Quando comecei a jogar, eu era o chamado “newbie” ou seja, principiante. Não queria ser um newbie, acho que ninguém quer ser um newbie no que faz, por isso queria mais, &lt;strong&gt;queria evoluir&lt;/strong&gt;. Chegou um certo momento, depois de muitas horas por dia de dedicação jogando em casa e nas quase “falecidas” lanhouses, que peguei jeito na coisa. Isso me fez enxergar &lt;strong&gt;novas possibilidades&lt;/strong&gt; de evolução, consegui quebrar as &lt;strong&gt;crenças limitantes&lt;/strong&gt; do meu potencial, queria sempre mais, foi quando&lt;a href=&quot;http://www.livrariasaraiva.com.br/produto/400448/a-aguia-e-a-galinha/&quot; target=&quot;_blank&quot;&gt; descobri que não era apenas uma galinha e poderia ser uma águia&lt;/a&gt;, em um encontro numa &lt;em&gt;lanhouse&lt;/em&gt;, vi que existiam times e campeonatos na cidade onde morava - Santos / SP, foi daí que surgiu minha motivação.&lt;/p&gt;
+&lt;p&gt;Muitas qualidades eu adquiri logo cedo, dado que joguei este jogo praticamente 3 anos da minha vida, dos 15 aos 18 anos de idade. Quando comecei a jogar, eu era o chamado “newbie” ou seja, principiante. Não queria ser um newbie, acho que ninguém quer ser um newbie no que faz, por isso queria mais, &lt;strong&gt;queria evoluir&lt;/strong&gt;. Chegou um certo momento, depois de muitas horas por dia de dedicação jogando em casa e nas quase “falecidas” lanhouses, que peguei jeito na coisa. Isso me fez enxergar &lt;strong&gt;novas possibilidades&lt;/strong&gt; de evolução, consegui quebrar as &lt;strong&gt;crenças limitantes&lt;/strong&gt; do meu potencial, queria sempre mais, foi quando&lt;a href=&quot;https://www.livrariasaraiva.com.br/produto/400448/a-aguia-e-a-galinha/&quot; target=&quot;_blank&quot;&gt; descobri que não era apenas uma galinha e poderia ser uma águia&lt;/a&gt;, em um encontro numa &lt;em&gt;lanhouse&lt;/em&gt;, vi que existiam times e campeonatos na cidade onde morava - Santos / SP, foi daí que surgiu minha motivação.&lt;/p&gt;
 
 &lt;p&gt;O jogo permite você jogar em time de 5 pessoas com um Manager opcional, tanto na internet quanto fisicamente numa &lt;em&gt;lanhouse&lt;/em&gt;, existem disputas de campeonatos no Brasil e no mundo todo. Logo tracei o meu &lt;strong&gt;objetivo&lt;/strong&gt;: ter um time pra ser o melhor do Brasil - entre os 3 melhores já estava ótimo, também coloquei uma &lt;strong&gt;meta&lt;/strong&gt; clara: conquistar isso em no máximo 2 anos para parar de jogar e me dedicar as coisas que dão futuro - estudo e trabalho -, heheh.&lt;/p&gt;
 
 &lt;p&gt;Fui atrás disso, montei um time onde eu atuava na linha de frente “matando” todo mundo. Jogamos alguns campeonatos até finalmente conseguir ganhar o primeiro na região. A partir dali ficamos conhecidos pela comunidade, conheci novas pessoas e joguei novos campeonatos até conseguir montar um time. Liderei o time e me dediquei com muita &lt;strong&gt;disciplina&lt;/strong&gt; e &lt;strong&gt;comprometimento,&lt;/strong&gt; todos os dias da semana pelo menos 4 horas de jogo por dia, sem contar os fins de semana, que pela manhã eram regrados de treinos e treinos. Em tal momento defini a minha meta: ser um dos melhores do Brasil no CS em 1 ano e meio, sendo que nessa época já éramos o melhor time da Baixada Santista.&lt;/p&gt;
 
-&lt;p&gt;Fizemos uma fusão com outro time para ganhar patrocínio, montamos o The@Game Team, os fracos saíram e os melhores ficaram, nesse eu fiquei como líder e capitão do time. Meu papel foi influênciar todos a seguir rumo a um objetivo compartilhado por todos, ser o melhor time do Brasil. Éramos em cinco no time, treinamos duro, inclusive com vários times de outras cidades e estados. Fomos para o nosso primeiro campeonato brasileiro de Counter-Strike, e de cara ficamos na 16º posição, tal colocação foi desmotivante para alguns que até pensaram em desistir, meu papel foi sempre de &lt;strong&gt;liderar&lt;/strong&gt; e &lt;strong&gt;motivar&lt;/strong&gt; o time. Fomos para o nosso segundo campeonato, este já fomos um pouco melhor, ficamos na 10º posição. No terceiro, ficamos na 8º posição, um desistiu, pois achou que chegamos ao nosso máximo, que não íamos alcançar nem se quer a quinta posição, ai entramos em pane pois teríamos que treinar tudo de novo. Nessa hora que entrou fortemente o meu papel e o da equipe de &lt;strong&gt;se esforçar mais que a média&lt;/strong&gt;. Conseguimos mais um integrante para  time, que por coincidência foi &lt;a href=&quot;http://twitter.com/brunoadacosta&quot; target=&quot;_blank&quot;&gt;meu irmão&lt;/a&gt;, onde resgatamos todo o gás para &lt;strong&gt;alcançar a meta&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Fizemos uma fusão com outro time para ganhar patrocínio, montamos o The@Game Team, os fracos saíram e os melhores ficaram, nesse eu fiquei como líder e capitão do time. Meu papel foi influênciar todos a seguir rumo a um objetivo compartilhado por todos, ser o melhor time do Brasil. Éramos em cinco no time, treinamos duro, inclusive com vários times de outras cidades e estados. Fomos para o nosso primeiro campeonato brasileiro de Counter-Strike, e de cara ficamos na 16º posição, tal colocação foi desmotivante para alguns que até pensaram em desistir, meu papel foi sempre de &lt;strong&gt;liderar&lt;/strong&gt; e &lt;strong&gt;motivar&lt;/strong&gt; o time. Fomos para o nosso segundo campeonato, este já fomos um pouco melhor, ficamos na 10º posição. No terceiro, ficamos na 8º posição, um desistiu, pois achou que chegamos ao nosso máximo, que não íamos alcançar nem se quer a quinta posição, ai entramos em pane pois teríamos que treinar tudo de novo. Nessa hora que entrou fortemente o meu papel e o da equipe de &lt;strong&gt;se esforçar mais que a média&lt;/strong&gt;. Conseguimos mais um integrante para  time, que por coincidência foi &lt;a href=&quot;https://twitter.com/brunoadacosta&quot; target=&quot;_blank&quot;&gt;meu irmão&lt;/a&gt;, onde resgatamos todo o gás para &lt;strong&gt;alcançar a meta&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Fomos para o quarto campeonato, onde obtivemos a  melhor colocação da história do time, &lt;strong&gt;ficamos entre os 3 melhores do Brasil&lt;/strong&gt; - pra quem lembra, foi em 2004, os times eram: 1º MiBR, em 2º G3X e a gente em 3º The@Game -, ficamos por um “round” ou “ponto” de ir pra Dallas no Texas jogar o campeonato mundial - isso ainda está entalado na garganta, mas tudo bem, mérito deles. O que importa é que alcançamos a meta e não queríamos mais jogar CS depois disso. Acabou por ai, conseguimos chegar ao nosso objetivo.&lt;/p&gt;
 
