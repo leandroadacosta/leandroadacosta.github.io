@@ -1,7 +1,7 @@
 
 https://leandroadacosta.com/atom.xml
 https://leandroadacosta.com/
-https://leandroadacosta.com/about/
+https://leandroadacosta.com/about-me/
 https://leandroadacosta.com/sitemap.txt
 
 https://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/
