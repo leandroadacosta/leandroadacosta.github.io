@@ -1,12 +1,12 @@
 ---
 lang: en
 layout: post
-title: Hiring developers in a Series-A start-up stage
-description: About hiring the right software developers to grow your technical team in a Series-A start-up stage strongly.
+title: Hiring developers in a Series-A startup stage
+description: About hiring the right software developers to grow your technical team in a Series-A startup stage strongly.
 ---
-After some time with this blog switched off, I'd like to switch it on again and write about hiring the right software developers to grow your technical team in a Series-A start-up stage strongly. I want to share it through on my experience.
+After some time with this blog switched off, I'd like to switch it on again and write about hiring the right software developers to grow your technical team in a Series-A startup stage strongly. I want to share it through on my experience.
 
-In my last executive position, I had the opportunity of co-founding a successful start-up in Brazil. We built a digital lending platform called BankFacil since 2012 - now named as [Creditas](https://www.creditas.com.br). We grew up from five to over a hundred people in almost five years. Between 2015 and 2016, after we got a Series-A of investment, we scaled the company by nearly three times of size, from ~40 to ~100 in the whole start-up and the product/technical team from ~10 to ~30. When you set up a business, you wear a lot of hats, and at that moment as CTO I spent way too much time hiring than another moment before. This year of 2017, [Creditas got a Series-B round](https://www.crunchbase.com/organization/bankfacil), and they are again growing and hiring.
+In my last executive position, I had the opportunity of co-founding a successful startup in Brazil. We built a digital lending platform called BankFacil since 2012 - now named as [Creditas](https://www.creditas.com.br). We grew up from five to over a hundred people in almost five years. Between 2015 and 2016, after we got a Series-A of investment, we scaled the company by nearly three times of size, from ~40 to ~100 in the whole startup and the product/technical team from ~10 to ~30. When you set up a business, you wear a lot of hats, and at that moment as CTO I spent way too much time hiring than another moment before. This year of 2017, [Creditas got a Series-B round](https://www.crunchbase.com/organization/bankfacil), and they are again growing and hiring.
 
 I'm living in Melbourne / Australia, and I have been as tech advisor and angel investor at [Rapidoo](https://www.rapidoo.com.br) since I left Creditas in August 2016. Rapidoo is a digital invoice factoring in Brazil and recently has been growing and hiring developers too.
 
