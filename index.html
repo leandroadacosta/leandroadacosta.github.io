@@ -20,7 +20,7 @@ description: Agile software development, management and entrepreneurship.
     	<li>
     	  <span class="is-smooth-text is-small-text">{{ post.date | date_to_string }}</span>
     	  <br>
-        <a href="{{ post.url }}" class="{{ post.class }}">{{ post.title }}</a>
+        <a lang="{{ post.lang }}" href="{{ post.url }}" class="{{ post.class }}">{{ post.title }}</a>
       </li>
     {% endif %}
   {% endfor %}

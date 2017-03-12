@@ -3,6 +3,7 @@ lang: en
 layout: base
 title: About me
 description: Software developer, manager, and entrepreneur.
+class: is-featured
 ---
 # About me
 * Leandro "<strong>Ladc</strong>" Alvares da Costa
@@ -18,7 +19,7 @@ description: Software developer, manager, and entrepreneur.
 ## Last experiences
 * <small class="is-smooth-text">2016 - Present</small>
   <br>
-  Technology Advisor at [Rapidoo](https://www.rapidoo.com.br){:target="_blank"}
+  Technology Advisor and Angel Investor at [Rapidoo](https://www.rapidoo.com.br){:target="_blank"}
 * <small class="is-smooth-text">2012 - 2016</small>
   <br>
   Co-founder & CTO at [BankFacil](https://www.bankfacil.com.br){:target="_blank"}
