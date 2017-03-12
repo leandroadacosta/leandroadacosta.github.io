@@ -4,6 +4,7 @@ https://leandroadacosta.com/
 https://leandroadacosta.com/about-me/
 https://leandroadacosta.com/sitemap.txt
 
+https://leandroadacosta.com/hiring-developers-in-a-series-a-startup-stage/
 https://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/
 https://leandroadacosta.com/novo-blog-no-ar/
 https://leandroadacosta.com/tdc-2012-sao-paulo-highlights/
