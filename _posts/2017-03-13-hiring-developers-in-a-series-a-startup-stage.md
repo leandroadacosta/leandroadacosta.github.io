@@ -6,7 +6,7 @@ description: About hiring the right software developers to grow your technical t
 ---
 After some time with this blog switched off, I decided to switch it on again and write about how to hire right software developers to strongly grow your technical team in a Series-A startup stage. I want to share it through my experience.
 
-In my last executive position, I had the opportunity to co-found a successful startup in Brazil in 2012. We have built a digital lending platform called BankFacil - now named [Creditas](https://www.creditas.com.br). We grew up from five to over a hundred people in almost five years. Between 2015 and 2016, after we got a Series-A investment, we scaled the company up by nearly three times, from around 40 to 100 in the whole startup and the product/technical team from approximately 10 to 30. When you set up a business, you wear a lot of hats, and at that time as CTO I spent far more time hiring than another time before. This year (2017), [Creditas got a Series-B round](https://www.crunchbase.com/organization/bankfacil), and they are again growing and hiring.
+In my last executive position, I had the opportunity to co-found a successful startup in Brazil in 2012. We have built a digital lending platform called BankFacil - now named [Creditas](https://www.creditas.com.br). We grew up from five to over a hundred people in almost five years. Between 2015 and 2016, after we got a Series-A investment, we scaled the company up by nearly three times, from around 30 to 100 in the whole startup and the product/technical team from approximately 10 to 30. When you set up a business, you wear a lot of hats, and at that time as CTO I spent far more time hiring than another time before. This year (2017), [Creditas got a Series-B round](https://www.crunchbase.com/organization/bankfacil), and they are again growing and hiring.
 
 I'm living in Melbourne, Australia at present, and I have been working as tech advisor at [Rapidoo](https://www.rapidoo.com.br) since I left Creditas in August 2016. Rapidoo is a digital invoice factoring in Brazil and recently has been growing and hiring developers too.
 
@@ -50,6 +50,6 @@ In some cases depending on the seniority and position, the candidate was invited
 
 ## Which were my learnings?
 
-We had great benchmarks in our team to compare the new hires with, and we were able to aim to hire a variety of people to create winning teams. I prefer working with a professional who has more action then talent. To be intelligent is fundamental.
+We had great benchmarks in our team to compare the new hires with, and we were able to aim to hire a variety of people to create winning teams. I prefer working with a professional who has more action than talent. To be intelligent is fundamental.
 
 Following those steps was crucial for us to find the best professionals for our context, size, and culture.
