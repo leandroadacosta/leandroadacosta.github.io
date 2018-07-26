@@ -4,7 +4,7 @@
  <title>Leandro Alvares da Costa</title>
  <link href="https://leandroadacosta.com/atom.xml" rel="self"/>
  <link href="https://leandroadacosta.com"/>
- <updated>2017-03-31T19:04:54+11:00</updated>
+ <updated>2018-07-26T16:25:08-03:00</updated>
  <id>https://leandroadacosta.com</id>
  <author>
    <name>Leandro Alvares da Costa</name>
@@ -15,11 +15,11 @@
  <entry>
    <title>Hiring developers in a Series-A startup stage</title>
    <link href="https://leandroadacosta.com/hiring-developers-in-a-series-a-startup-stage/"/>
-   <updated>2017-03-13T00:00:00+11:00</updated>
+   <updated>2017-03-13T00:00:00-03:00</updated>
    <id>https://leandroadacosta.com//hiring-developers-in-a-series-a-startup-stage</id>
    <content type="html">&lt;p&gt;After some time with this blog switched off, I decided to switch it on again and write about how to hire right software developers to strongly grow your technical team in a Series-A startup stage. I want to share it through my experience.&lt;/p&gt;
 
-&lt;p&gt;In my last executive position, I had the opportunity to co-found a successful startup in Brazil in 2012. We have built a digital lending platform called BankFacil - now named &lt;a href=&quot;https://www.creditas.com.br&quot;&gt;Creditas&lt;/a&gt;. We grew up from five to over a hundred people in almost five years. Between 2015 and 2016, after we got a Series-A investment, we scaled the company up by nearly three times, from around 40 to 100 in the whole startup and the product/technical team from approximately 10 to 30. When you set up a business, you wear a lot of hats, and at that time as CTO I spent far more time hiring than another time before. This year (2017), &lt;a href=&quot;https://www.crunchbase.com/organization/bankfacil&quot;&gt;Creditas got a Series-B round&lt;/a&gt;, and they are again growing and hiring.&lt;/p&gt;
+&lt;p&gt;In my last executive position, I had the opportunity to co-found a successful startup in Brazil in 2012. We have built a digital lending platform called BankFacil - now named &lt;a href=&quot;https://www.creditas.com.br&quot;&gt;Creditas&lt;/a&gt;. We grew up from five to over a hundred people in almost five years. Between 2015 and 2016, after we got a Series-A investment, we scaled the company up by nearly three times, from around 30 to 100 in the whole startup and the product/technical team from approximately 10 to 30. When you set up a business, you wear a lot of hats, and at that time as CTO I spent far more time hiring than another time before. This year (2017), &lt;a href=&quot;https://www.crunchbase.com/organization/bankfacil&quot;&gt;Creditas got a Series-B round&lt;/a&gt;, and they are again growing and hiring.&lt;/p&gt;
 
 &lt;p&gt;I’m living in Melbourne, Australia at present, and I have been working as tech advisor at &lt;a href=&quot;https://www.rapidoo.com.br&quot;&gt;Rapidoo&lt;/a&gt; since I left Creditas in August 2016. Rapidoo is a digital invoice factoring in Brazil and recently has been growing and hiring developers too.&lt;/p&gt;
 
@@ -63,7 +63,7 @@
 
 &lt;h2 id=&quot;which-were-my-learnings&quot;&gt;Which were my learnings?&lt;/h2&gt;
 
-&lt;p&gt;We had great benchmarks in our team to compare the new hires with, and we were able to aim to hire a variety of people to create winning teams. I prefer working with a professional who has more action then talent. To be intelligent is fundamental.&lt;/p&gt;
+&lt;p&gt;We had great benchmarks in our team to compare the new hires with, and we were able to aim to hire a variety of people to create winning teams. I prefer working with a professional who has more action than talent. To be intelligent is fundamental.&lt;/p&gt;
 
 &lt;p&gt;Following those steps was crucial for us to find the best professionals for our context, size, and culture.&lt;/p&gt;
 </content>
@@ -72,7 +72,7 @@
  <entry>
    <title>Usando Jekyll + Plugins com GitHub Pages</title>
    <link href="https://leandroadacosta.com/usando-jekyll-plugins-com-github-pages/"/>
-   <updated>2013-03-05T00:00:00+11:00</updated>
+   <updated>2013-03-05T00:00:00-03:00</updated>
    <id>https://leandroadacosta.com//usando-jekyll-plugins-com-github-pages</id>
    <content type="html">&lt;p&gt;Usar &lt;strong&gt;Jekyll&lt;/strong&gt; com &lt;strong&gt;GitHub Pages&lt;/strong&gt;, funciona muito bem, mas se for adicionar algum &lt;strong&gt;plugin do Jekyll&lt;/strong&gt;, não funciona, o &lt;strong&gt;GitHub Pages&lt;/strong&gt; não dá suporte. Depois de pesquisar um pouco, achei uma &lt;strong&gt;abordagem simples&lt;/strong&gt; e fácil de solucionar isso. Como eu quis usar plugins - no seu caso isso pode ser opcional - aqui neste meu &lt;a href=&quot;/novo-blog-no-ar&quot;&gt;novo blog&lt;/a&gt; eu desenvolvi usando &lt;strong&gt;Jekyll + Plugins&lt;/strong&gt; e hospedadei no &lt;strong&gt;GitHub Pages&lt;/strong&gt;.&lt;/p&gt;
 
@@ -126,7 +126,7 @@ git push -all origin&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
  <entry>
    <title>Novo blog no ar</title>
    <link href="https://leandroadacosta.com/novo-blog-no-ar/"/>
-   <updated>2013-01-28T00:00:00+11:00</updated>
+   <updated>2013-01-28T00:00:00-02:00</updated>
    <id>https://leandroadacosta.com//novo-blog-no-ar</id>
    <content type="html">&lt;p&gt;Olá pessoal, meu novo blog está no ar depois de algum tempo com o antigo blog em WordPress e sem postar novidades.&lt;/p&gt;
 
@@ -151,7 +151,7 @@ Grande abraço.&lt;/p&gt;
  <entry>
    <title>TDC 2012 São Paulo Highlights</title>
    <link href="https://leandroadacosta.com/tdc-2012-sao-paulo-highlights/"/>
-   <updated>2012-07-18T00:00:00+10:00</updated>
+   <updated>2012-07-18T00:00:00-03:00</updated>
    <id>https://leandroadacosta.com//tdc-2012-sao-paulo-highlights</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg&quot;&gt;&lt;img src=&quot;/img/posts/tdc-2012/tdc-2012-sao-paulo-1.jpg&quot; alt=&quot;TDC 2012 São Paulo&quot; style=&quot;max-width:640px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -198,7 +198,7 @@ Um abraço.&lt;/p&gt;
  <entry>
    <title>O que os líderes empreendedores devem fazer - Parte 1</title>
    <link href="https://leandroadacosta.com/o-que-os-lideres-empreendedores-devem-fazer-parte-1/"/>
-   <updated>2012-03-13T00:00:00+11:00</updated>
+   <updated>2012-03-13T00:00:00-03:00</updated>
    <id>https://leandroadacosta.com//o-que-os-lideres-empreendedores-devem-fazer-parte-1</id>
    <content type="html">&lt;p&gt;Compartilho com vocês um texto retirado do livro da série &lt;strong&gt;Harvard Business Essentials&lt;/strong&gt; de 2005 chamado &lt;strong&gt;Ferramentas para empreendedores&lt;/strong&gt; escrito por Richard Luecke.&lt;/p&gt;
 &lt;h2&gt;Conselhos práticos&lt;/h2&gt;
@@ -225,7 +225,7 @@ Um grande abraço!&lt;/p&gt;
  <entry>
    <title>Scrum, 8 erros comuns da reunião diária</title>
    <link href="https://leandroadacosta.com/scrum-8-erros-comuns-da-reuniao-diaria/"/>
-   <updated>2012-01-17T00:00:00+11:00</updated>
+   <updated>2012-01-17T00:00:00-02:00</updated>
    <id>https://leandroadacosta.com//scrum-8-erros-comuns-da-reuniao-diaria</id>
    <content type="html">&lt;p&gt;Texto retirado e resumido do original publicado na revista &lt;a href=&quot;https://www.mundoj.com.br/&quot; target=&quot;_blank&quot;&gt;MundoJ&lt;/a&gt; por Dairton Bassi (&lt;a title=&quot;Twitter de Dairton Bassi&quot; href=&quot;https://twitter.com/dbassi&quot; target=&quot;_blank&quot;&gt;@dbassi&lt;/a&gt;): &quot;Você é Ágil Mesmo? Erros Comuns de Equipes que Pensam ser Ágeis. Detalhes que podem fazer a diferença para a sua equipe&quot;.&lt;/p&gt;
 
@@ -253,7 +253,7 @@ Um grande abraço!&lt;/p&gt;
  <entry>
    <title>Significância leva às pessoas ao sucesso</title>
    <link href="https://leandroadacosta.com/significancia-leva-as-pessoas-ao-sucesso/"/>
-   <updated>2012-01-06T00:00:00+11:00</updated>
+   <updated>2012-01-06T00:00:00-02:00</updated>
    <id>https://leandroadacosta.com//significancia-leva-as-pessoas-ao-sucesso</id>
    <content type="html">&lt;p&gt;Compartilho com vocês um texto escrito por &lt;a href=&quot;https://www.judithmbardwick.com/&quot; target=&quot;_blank&quot;&gt;Judith M. Dardwick&lt;/a&gt;, a autora aborda o lado humano da gestão de pessoas, onde a significância leva às pessoas ao sucesso.&lt;/p&gt;
 
@@ -302,7 +302,7 @@ Espero ter ajudado. Um abraço.&lt;/p&gt;
  <entry>
    <title>Cultura de Conquista - Parte 2</title>
    <link href="https://leandroadacosta.com/cultura-de-conquista-parte-2/"/>
-   <updated>2011-11-28T00:00:00+11:00</updated>
+   <updated>2011-11-28T00:00:00-02:00</updated>
    <id>https://leandroadacosta.com//cultura-de-conquista-parte-2</id>
    <content type="html">&lt;p&gt;Na &lt;a title=&quot;Cultura de Conquista – Parte 1&quot; href=&quot;/cultura-de-conquista-parte-1/&quot; target=&quot;_blank&quot;&gt;primeira parte deste post&lt;/a&gt; foram abordados aspectos relacionados ao estado de conquista, são eles: terras altas da “Conquista”, produtividade, criatividade, violação das normas estabelecidas e equipes de trabalho. Daremos continuidade a &lt;strong&gt;segunda e última parte&lt;/strong&gt; da cultura de conquista.&lt;/p&gt;
 
@@ -337,7 +337,7 @@ Espero ter ajudado. Um abraço.&lt;/p&gt;
  <entry>
    <title>Validando a solução junto ao cliente com Mockups</title>
    <link href="https://leandroadacosta.com/validando-a-solucao-junto-ao-cliente-com-mockups/"/>
-   <updated>2011-11-17T00:00:00+11:00</updated>
+   <updated>2011-11-17T00:00:00-02:00</updated>
    <id>https://leandroadacosta.com//validando-a-solucao-junto-ao-cliente-com-mockups</id>
    <content type="html">&lt;p&gt;Compartilho com vocês uma experiência na prática que tivemos recentemente em um cliente, sobre como nos ajudou, e muito, iniciar o desenvolvimento do software &lt;strong&gt;centrado na usabilidade do usuário&lt;/strong&gt;.&lt;/p&gt;
 
@@ -406,7 +406,7 @@ Um abraço.&lt;/p&gt;
  <entry>
    <title>Cultura de Conquista - Parte 1</title>
    <link href="https://leandroadacosta.com/cultura-de-conquista-parte-1/"/>
-   <updated>2011-11-12T00:00:00+11:00</updated>
+   <updated>2011-11-12T00:00:00-02:00</updated>
    <id>https://leandroadacosta.com//cultura-de-conquista-parte-1</id>
    <content type="html">&lt;p&gt;Dando sequência ao post anterior, sobre o &lt;a title=&quot;Perigo na Zona de Conforto&quot; href=&quot;/perigo-na-zona-de-conforto&quot; target=&quot;_blank&quot;&gt;Perigo na Zona de Conforto&lt;/a&gt; do hábito do &lt;strong&gt;Direito Adquirido&lt;/strong&gt;. Falaremos da &lt;strong&gt;cultura de conquista&lt;/strong&gt;. A conquista tem seu fator psicológico, poderíamos dizer que seria o estado de conquista em vez de cultura.&lt;/p&gt;
 
@@ -434,7 +434,7 @@ Um abraço.&lt;/p&gt;
  <entry>
    <title>Perigo na Zona de Conforto</title>
    <link href="https://leandroadacosta.com/perigo-na-zona-de-conforto/"/>
-   <updated>2011-10-25T00:00:00+11:00</updated>
+   <updated>2011-10-25T00:00:00-02:00</updated>
    <id>https://leandroadacosta.com//perigo-na-zona-de-conforto</id>
    <content type="html">&lt;p&gt;Este post é um resumo - com minhas considerações - do oficial resumo chamado: &lt;em&gt;&lt;strong&gt;O Hábito do &quot;Direito Adquirido&quot;: Ele está nos matando&lt;/strong&gt; por Judith M. Bardwick&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Retrata um &lt;strong&gt;problema&lt;/strong&gt; desconcertante que poucas &lt;strong&gt;organizações&lt;/strong&gt; têm coragem de enfrentar de cabeça erguida. Para entendermos melhor, vamos a nascente do conceito &quot;Direito Adquirido&quot;, descrito pela autora.&lt;/p&gt;
@@ -469,7 +469,7 @@ Um abraço.&lt;/p&gt;
  <entry>
    <title>Prática do Sentimento de Produtividade</title>
    <link href="https://leandroadacosta.com/pratica-do-sentimento-de-produtividade/"/>
-   <updated>2011-10-14T00:00:00+11:00</updated>
+   <updated>2011-10-14T00:00:00-03:00</updated>
    <id>https://leandroadacosta.com//pratica-do-sentimento-de-produtividade</id>
    <content type="html">&lt;h2&gt;Uma questão corriqueira&lt;/h2&gt;
 &lt;p&gt;Em todas as equipes de desenvolvimento de software conversamos sobre &lt;strong&gt;produtividade&lt;/strong&gt;. Nunca passava despercebida em nosso dia a dia. Ela era, e é, motivo de discussão - sempre saudável - em todas as &lt;a href=&quot;https://www.flickr.com/photos/cocento/5404128051/in/set-72157625920297498&quot; target=&quot;_blank&quot;&gt;reuniões diárias&lt;/a&gt; e &lt;a href=&quot;https://www.flickr.com/photos/cocento/5540468736/in/photostream&quot; target=&quot;_blank&quot;&gt;retrospectivas&lt;/a&gt; dos sprints. Sempre algum membro da equipe perguntava como foi a produtividade no dia ou no sprint.&lt;/p&gt;
@@ -518,7 +518,7 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
  <entry>
    <title>A arte de ser Mensch</title>
    <link href="https://leandroadacosta.com/a-arte-de-ser-mensch/"/>
-   <updated>2011-10-12T00:00:00+11:00</updated>
+   <updated>2011-10-12T00:00:00-03:00</updated>
    <id>https://leandroadacosta.com//a-arte-de-ser-mensch</id>
    <content type="html">&lt;p&gt;Este post foi embasado no livro &lt;a href=&quot;https://www.submarino.com.br/produto/1/1470751/arte+do+comeco:+o+guia+definitivo+para+iniciar+o+seu+projeto,+a&quot; target=&quot;_blank&quot;&gt;A arte do começo por Guy Kawazaki&lt;/a&gt;. Como esta mencionado no livro: &lt;em&gt;Mensch&lt;/em&gt; é o termo em &lt;em&gt;&lt;a href=&quot;https://pt.wikipedia.org/wiki/L%C3%ADngua_i%C3%ADdiche&quot; target=&quot;_blank&quot;&gt;iídiche&lt;/a&gt;&lt;/em&gt; que designa uma pessoa ética, íntegra e admirável. O oposto de um &lt;em&gt;Mensch - ser humano -&lt;/em&gt; é um &lt;em&gt;Unmensch&lt;/em&gt;, que significa uma pessoa absolutamente cruel ou para o mal. A chave para ser um &lt;em&gt;Mensch&lt;/em&gt; é ter caráter, dignidade e um senso do que é certo.&lt;/p&gt;
 
@@ -545,7 +545,7 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
  <entry>
    <title>Idéia inovadora, Startup!</title>
    <link href="https://leandroadacosta.com/ideia-inovadora-startup/"/>
-   <updated>2011-10-06T00:00:00+11:00</updated>
+   <updated>2011-10-06T00:00:00-03:00</updated>
    <id>https://leandroadacosta.com//ideia-inovadora-startup</id>
    <content type="html">&lt;p&gt;Surgiu uma &lt;strong&gt;idéia inovadora&lt;/strong&gt;, então logo nasce uma &lt;strong&gt;startup&lt;/strong&gt;!&lt;/p&gt;
 
@@ -572,7 +572,7 @@ E você? Topa fazer um quadrinho de sentimento de produtividade para sua equipe?
  <entry>
    <title>Jogar Counter-Strike me ajudou a ser um profissional melhor</title>
    <link href="https://leandroadacosta.com/jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor/"/>
-   <updated>2011-03-16T00:00:00+11:00</updated>
+   <updated>2011-03-16T00:00:00-03:00</updated>
    <id>https://leandroadacosta.com//jogar-counter-strike-me-ajudou-a-ser-um-profissional-melhor</id>
    <content type="html">&lt;p&gt;Piada? Não! Pelo contrário, tenho essa fase da minha vida como um &lt;strong&gt;aprendizado incrível que me acrescentou muito, tanto no lado pessoal quanto no profissional.&lt;/strong&gt; Importou tanto para mim que eu cheguei ao ponto de colocar no meu currículo que joguei um tal jogo de computador chamado &lt;a href=&quot;https://pt.wikipedia.org/wiki/Counter-Strike&quot; target=&quot;_blank&quot;&gt;Counter-Strike&lt;/a&gt;. Este jogo para aqueles que nunca escutaram, é o jogo de tiro em primeira pessoa mais conhecido e disseminado do mundo, até ai, não importa, o que eu quero é mostrar o porque do aprendizado no final dessa história.&lt;/p&gt;
 
